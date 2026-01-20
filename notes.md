@@ -28,14 +28,17 @@ Bmaj7, D7, Gmaj7, Bb7, Ebmaj7, A-7, D7-in various iterations
 
 3rd pass to try out inversions-should be possible to emphasise the melodic notes and also not emphasise-3rd inversion of Bmaj7 starts on the F# of the melody; Maybe D#-B is harsh around that shrug.
 
+Bmaj7   D7
+Gmaj7   Bb7
+Ebmaj7
 
-A-7     A-C-E-G
-Bb7     B♭-D-F-A♭
+A-7     A-C-E-G / C-E-G-A / E-G-A-C / G-A-C-E
+Bb7     B♭-D-F-A♭ / D-F-A♭-B♭ / F-A♭-B♭-D / A♭-B♭-D-F
 Bmaj7   B-D♯-F♯-A♯ / D#-F#-A#-B / F#-A#-B#-D# / A#-B-D#-F#
-C#-7    C♯-E-G♯-B
-D-7     D-F-A-C
-D7      D-F♯-A-C
-Ebmaj7  E♭-G-B♭-D
-F#7     F♯-A♯-C♯-E
-F-7     F-A♭-C-E♭
-Gmaj7   G-B-D-F♯
+C#-7    C♯-E-G♯-B / E-G♯-B-C♯ / G♯-B-C♯-E / B-C♯-E-G♯
+D-7     D-F-A-C / F-A-C-D / A-C-D-F / C-D-F-A
+D7      D-F♯-A-C / F♯-A-C-D / A-C-D-F♯ / C-D-F♯-A
+Ebmaj7  E♭-G-B♭-D / G-B♭-D-E♭ / B♭-D-E♭-G / D-E♭-G-B♭
+F#7     F♯-A♯-C♯-E / A♯-C♯-E-F♯ / C♯-E-F♯-A♯ / E-F♯-A♯-C♯
+F-7     F-A♭-C-E♭ / A♭-C-E♭-F / C-E♭-F-A♭ / E♭-F-A♭-C
+Gmaj7   G-B-D-F♯ / B-D-F♯-G / D-F♯-G-B / F♯-G-B-D
