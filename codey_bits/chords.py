@@ -1,4 +1,10 @@
-from codey_bits.types import Accidental, ChordInfo, ChordType, Notes
+from codey_bits.types import (
+    Accidental,
+    ChordInfo,
+    ChordType,
+    Notes,
+    reference_tones,
+)
 
 CHORDS: list[ChordInfo] = [
     {
@@ -287,6 +293,37 @@ CHORDS: list[ChordInfo] = [
         "inversions": (
             (
                 {"note": Notes.F, "accidental": Accidental.natural},
+                {"note": Notes.A, "accidental": Accidental.natural},
+                {"note": Notes.C, "accidental": Accidental.natural},
+                {"note": Notes.E, "accidental": Accidental.flat},
+            ),
+            (
+                {"note": Notes.A, "accidental": Accidental.flat},
+                {"note": Notes.C, "accidental": Accidental.natural},
+                {"note": Notes.E, "accidental": Accidental.flat},
+                {"note": Notes.F, "accidental": Accidental.natural},
+            ),
+            (
+                {"note": Notes.C, "accidental": Accidental.natural},
+                {"note": Notes.E, "accidental": Accidental.flat},
+                {"note": Notes.F, "accidental": Accidental.natural},
+                {"note": Notes.A, "accidental": Accidental.flat},
+            ),
+            (
+                {"note": Notes.E, "accidental": Accidental.flat},
+                {"note": Notes.F, "accidental": Accidental.natural},
+                {"note": Notes.A, "accidental": Accidental.flat},
+                {"note": Notes.C, "accidental": Accidental.natural},
+            ),
+        ),
+    },
+    {
+        "key": Notes.F,
+        "accidental": Accidental.natural,
+        "chord_type": ChordType.MINOR_SEVEN,
+        "inversions": (
+            (
+                {"note": Notes.F, "accidental": Accidental.natural},
                 {"note": Notes.A, "accidental": Accidental.flat},
                 {"note": Notes.C, "accidental": Accidental.natural},
                 {"note": Notes.E, "accidental": Accidental.flat},
@@ -308,6 +345,37 @@ CHORDS: list[ChordInfo] = [
                 {"note": Notes.F, "accidental": Accidental.natural},
                 {"note": Notes.A, "accidental": Accidental.flat},
                 {"note": Notes.C, "accidental": Accidental.natural},
+            ),
+        ),
+    },
+    {
+        "key": Notes.B,
+        "accidental": Accidental.flat,
+        "chord_type": ChordType.MAJ_SEVEN,
+        "inversions": (
+            (
+                {"note": Notes.B, "accidental": Accidental.flat},
+                {"note": Notes.D, "accidental": Accidental.natural},
+                {"note": Notes.F, "accidental": Accidental.natural},
+                {"note": Notes.A, "accidental": Accidental.natural},
+            ),
+            (
+                {"note": Notes.D, "accidental": Accidental.natural},
+                {"note": Notes.F, "accidental": Accidental.natural},
+                {"note": Notes.A, "accidental": Accidental.natural},
+                {"note": Notes.B, "accidental": Accidental.flat},
+            ),
+            (
+                {"note": Notes.F, "accidental": Accidental.natural},
+                {"note": Notes.A, "accidental": Accidental.natural},
+                {"note": Notes.B, "accidental": Accidental.flat},
+                {"note": Notes.D, "accidental": Accidental.natural},
+            ),
+            (
+                {"note": Notes.A, "accidental": Accidental.natural},
+                {"note": Notes.B, "accidental": Accidental.flat},
+                {"note": Notes.D, "accidental": Accidental.natural},
+                {"note": Notes.F, "accidental": Accidental.natural},
             ),
         ),
     },
@@ -344,7 +412,8 @@ CHORD_SEQUENCE = [
     (Notes.F, Accidental.sharp, ChordType.SEVEN),
 ]
 
-if __name__ == "__main__":
+
+def chord_details():
     full_names = []
     for chord in CHORD_SEQUENCE:
         key, accidental, chord_type = chord
@@ -359,6 +428,21 @@ if __name__ == "__main__":
             ),
             None,
         )
-        full_names.append(chord_name)
+        if chord_name:
+            full_names.append(chord_name)
+        else:
+            print(f"Chord not found: {key}{accidental}{chord_type}")
 
-    print(full_names)
+    return full_names
+
+
+details = chord_details()
+
+for detail in details:
+    thing = f"{detail['key'].value}{detail['accidental'].value}"
+
+    x = reference_tones.get(thing)
+    print(x)
+    """
+    A 440 * (3 / 2) = 660.0 (JI perfect fifth)
+    """

@@ -1,11 +1,24 @@
 from enum import Enum
-from typing import Literal, Tuple, TypedDict
+from typing import Dict, Literal, Tuple, TypedDict
 
 
 class Accidental(Enum):
     natural = "♮"
     sharp = "♯"
     flat = "♭"
+
+
+reference_tones: Dict[str, float] = {
+    "A♮": 440,
+    "B♭": 466.16,
+    "B♮": 493.88,
+    "C♯": 554.37,
+    "D♮": 587.33,
+    "E♭": 622.25,
+    "F♮": 698.46,
+    "F♯": 739.99,
+    "G♮": 783.99,
+}
 
 
 class Notes(Enum):

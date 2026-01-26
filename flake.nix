@@ -9,14 +9,9 @@
     let
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
-      
-      # Define your Python environment with dependencies
+
       pythonEnv = pkgs.python312.withPackages (ps: with ps; [
-        # Add your dependencies here, for example:
-        requests
-        flask
-        numpy
-        # etc.
+          pyaudio
       ]);
     in {
       devShells.${system}.default = pkgs.mkShell {
