@@ -403,8 +403,6 @@ CHORD_SEQUENCE = [
     (Notes.F, Accidental.sharp, ChordType.SEVEN),
     (Notes.B, Accidental.natural, ChordType.MAJ_SEVEN),
     (Notes.F, Accidental.natural, ChordType.MINOR_SEVEN),
-    (Notes.B, Accidental.flat, ChordType.MAJ_SEVEN),
-    (Notes.F, Accidental.natural, ChordType.MINOR_SEVEN),
     (Notes.B, Accidental.flat, ChordType.SEVEN),
     (Notes.E, Accidental.flat, ChordType.MAJ_SEVEN),
     (Notes.C, Accidental.sharp, ChordType.MINOR_SEVEN),

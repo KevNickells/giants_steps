@@ -51,6 +51,7 @@ for detail in details:
     print(
         f"1st: {key} 3rd: {third["name"]} + 5th: {fifth["name"]} + 7th: {seventh["name"]}"
     )
+    print(f"{key}{detail["chord_type"].name}")
     print("---------------------")
 
     play_samples(samples)
