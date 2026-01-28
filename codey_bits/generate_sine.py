@@ -6,7 +6,7 @@ import pyaudio
 
 class Sine:
     volume = 0.5
-    sampling_rate = 44100
+    sampling_rate = 48000
 
     def __init__(self, frequency, duration):
         self.frequency = frequency
@@ -32,7 +32,7 @@ def mix_samples(sample_lists):
     return mixed
 
 
-def play_samples(samples, sampling_rate=44100):
+def play_samples(samples, sampling_rate=48000):
     audio_object = pyaudio.PyAudio()
     output_bytes = array.array("f", samples).tobytes()
     stream = audio_object.open(

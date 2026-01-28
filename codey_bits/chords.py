@@ -3,7 +3,6 @@ from codey_bits.types import (
     ChordInfo,
     ChordType,
     Notes,
-    reference_tones,
 )
 
 CHORDS: list[ChordInfo] = [
@@ -437,12 +436,3 @@ def chord_details():
 
 
 details = chord_details()
-
-for detail in details:
-    thing = f"{detail['key'].value}{detail['accidental'].value}"
-
-    x = reference_tones.get(thing)
-    print(x)
-    """
-    A 440 * (3 / 2) = 660.0 (JI perfect fifth)
-    """
