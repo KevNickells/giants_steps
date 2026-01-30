@@ -1,4 +1,3 @@
-import random
 from itertools import product
 from time import sleep
 
@@ -17,10 +16,188 @@ all_combinations = list(
 root = 440
 duration = 12.0
 a = Sine(frequency=root, duration=duration)
-random.shuffle(all_combinations)
+# random.shuffle(all_combinations)
+
+ignore = [
+    (
+        "vicesimotertial neutral third",
+        "vengeance subfifth",
+        "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    ),
+    (
+        "vicesimotertial neutral third",
+        "vengeance subfifth",
+        "harmonic/just minor seventh meantone",
+    ),
+    (
+        "vicesimotertial neutral third",
+        "undevicesimal meantone fifth",
+        "harmonic/just minor seventh meantone",
+    ),
+    (
+        "vicesimotertial neutral third",
+        "Kirnberger's fifth",
+        "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    ),
+    (
+        "vicesimotertial neutral third",
+        "just perfect fifth",
+        "harmonic/just minor seventh meantone",
+    ),
+    (
+        "vicesimotertial neutral third",
+        "just perfect fifth",
+        "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    ),
+    (
+        "vicesimotertial neutral third",
+        "wide biyatismic fifth",
+        "harmonic/just minor seventh meantone",
+    ),
+    (
+        "vicesimotertial neutral third",
+        "undevicesimal acute fifth",
+        "harmonic/just minor seventh meantone",
+    ),
+    (
+        "vicesimotertial neutral third",
+        "undevicesimal acute fifth",
+        "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    ),
+    (
+        "witchcraft major third",
+        "vengeance subfifth",
+        "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    ),
+    (
+        "witchcraft major third",
+        "undevicesimal meantone fifth",
+        "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    ),
+    (
+        "witchcraft major third",
+        "Kirnberger's fifth",
+        "harmonic/just minor seventh meantone",
+    ),
+    (
+        "witchcraft major third",
+        "just perfect fifth",
+        "harmonic/just minor seventh meantone",
+    ),
+    (
+        "witchcraft major third",
+        "just perfect fifth",
+        "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    ),
+    (
+        "witchcraft major third",
+        "wide biyatismic fifth",
+        "harmonic/just minor seventh meantone",
+    ),
+    (
+        "witchcraft major third",
+        "wide biyatismic fifth",
+        "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    ),
+    (
+        "witchcraft major third",
+        "undevicesimal acute fifth",
+        "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    ),
+    (
+        "just/Pythagorean major third meantone",
+        "vengeance subfifth",
+        "harmonic/just minor seventh meantone",
+    ),
+    (
+        "just/Pythagorean major third meantone",
+        "undevicesimal meantone fifth",
+        "harmonic/just minor seventh meantone",
+    ),
+    (
+        "just/Pythagorean major third meantone",
+        "Kirnberger's fifth",
+        "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    ),
+    (
+        "just/Pythagorean major third meantone",
+        "just perfect fifth",
+        "harmonic/just minor seventh meantone",
+    ),
+    (
+        "just/Pythagorean major third meantone",
+        "just perfect fifth",
+        "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    ),
+    (
+        "just/Pythagorean major third meantone",
+        "wide biyatismic fifth",
+        "harmonic/just minor seventh meantone",
+    ),
+    (
+        "just/Pythagorean major third meantone",
+        "wide biyatismic fifth",
+        "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    ),
+    (
+        "5/7-kleismic major third",
+        "vengeance subfifth",
+        "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    ),
+    (
+        "5/7-kleismic major third",
+        "vengeance subfifth",
+        "harmonic/just minor seventh meantone",
+    ),
+    (
+        "5/7-kleismic major third",
+        "vengeance subfifth",
+        "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    ),
+    (
+        "5/7-kleismic major third",
+        "undevicesimal meantone fifth",
+        "harmonic/just minor seventh meantone",
+    ),
+    (
+        "5/7-kleismic major third",
+        "Kirnberger's fifth",
+        "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    ),
+    (
+        "5/7-kleismic major third",
+        "Kirnberger's fifth",
+        "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    ),
+    (
+        "5/7-kleismic major third",
+        "just perfect fifth",
+        "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    ),
+    (
+        "5/7-kleismic major third",
+        "wide biyatismic fifth",
+        "harmonic/just minor seventh meantone",
+    ),
+    (
+        "5/7-kleismic major third",
+        "wide biyatismic fifth",
+        "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    ),
+    (
+        "5/7-kleismic major third",
+        "undevicesimal acute fifth",
+        "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    ),
+]
+
 
 for tup in all_combinations:
     three, five, seven = tup
+
+    if (three["name"], five["name"], seven["name"]) in ignore:
+        print("ignoring")
+        continue
 
     third = Sine(frequency=root * three["ratio"], duration=duration)
     fifth = Sine(frequency=root * five["ratio"], duration=duration)
