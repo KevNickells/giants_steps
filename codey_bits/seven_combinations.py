@@ -189,9 +189,109 @@ ignore = [
         "undevicesimal acute fifth",
         "quasi-tempered minor seventh, octave-reduced 57th harmonic",
     ),
+    (
+        "vicesimotertial neutral third",
+        "vengeance subfifth",
+        "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    ),
+    (
+        "vicesimotertial neutral third",
+        "undevicesimal meantone fifth",
+        "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    ),
+    (
+        "vicesimotertial neutral third",
+        "Kirnberger's fifth",
+        "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    ),
+    (
+        "vicesimotertial neutral third",
+        "wide biyatismic fifth",
+        "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    ),
+    (
+        "witchcraft major third",
+        "vengeance subfifth",
+        "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    ),
+    (
+        "witchcraft major third",
+        "vengeance subfifth",
+        "harmonic/just minor seventh meantone",
+    ),
+    (
+        "witchcraft major third",
+        "Kirnberger's fifth",
+        "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    ),
+    (
+        "witchcraft major third",
+        "undevicesimal acute fifth",
+        "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    ),
+    (
+        "just/Pythagorean major third meantone",
+        "vengeance subfifth",
+        "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    ),
+    (
+        "just/Pythagorean major third meantone",
+        "vengeance subfifth",
+        "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    ),
+    (
+        "just/Pythagorean major third meantone",
+        "Kirnberger's fifth",
+        "harmonic/just minor seventh meantone",
+    ),
+    (
+        "just/Pythagorean major third meantone",
+        "wide biyatismic fifth",
+        "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    ),
+    (
+        "just/Pythagorean major third meantone",
+        "undevicesimal acute fifth",
+        "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    ),
+    (
+        "5/7-kleismic major third",
+        "undevicesimal meantone fifth",
+        "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    ),
+    (
+        "5/7-kleismic major third",
+        "undevicesimal meantone fifth",
+        "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    ),
+    (
+        "5/7-kleismic major third",
+        "just perfect fifth",
+        "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    ),
+    (
+        "5/7-kleismic major third",
+        "undevicesimal acute fifth",
+        "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    ),
+    (
+        "vicesimotertial neutral third",
+        "undevicesimal meantone fifth",
+        "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    ),
+    (
+        "vicesimotertial neutral third",
+        "just perfect fifth",
+        "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    ),
+    (
+        "witchcraft major third",
+        "undevicesimal meantone fifth",
+        "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    ),
 ]
 
-
+final = []
 for tup in all_combinations:
     three, five, seven = tup
 
