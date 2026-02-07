@@ -2,10 +2,10 @@ import itertools
 import math
 from typing import Iterable, Tuple
 
-from codey_bits.chords import CHORD_SEQUENCE
-from codey_bits.maj_7_final_list import maj_7_final_list
-from codey_bits.min_7_final_list import min_7_final_list
-from codey_bits.seven_final_list import seven_final_list
+from sequence_generation.chords import CHORD_SEQUENCE
+from sequence_generation.maj_7_final_list import maj_7_final_list
+from sequence_generation.min_7_final_list import min_7_final_list
+from sequence_generation.seven_final_list import seven_final_list
 
 
 def critical_bandwidth(f: float) -> float:

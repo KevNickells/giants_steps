@@ -2,7 +2,7 @@
 
 
 #
-from codey_bits.final_sequence import with_inversions
+from sequence_generation.final_sequence import with_inversions
 
 #
 duration = 9.375
@@ -15,7 +15,9 @@ all_samples = []
 
 
 for index, chord_detail in enumerate(with_inversions):
-    print(f"{index + 1}. Chord: {chord_detail['chord']}; {chord_detail["intervals"]} ")
+    print(
+        f"{index + 1}. Chord: {chord_detail['chord']}; {chord_detail["intervals"]}; {chord_detail['frequencies']}"
+    )
 #    sines = [
 #        Sine(
 #            frequency=freq,

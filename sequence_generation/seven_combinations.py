@@ -1,12 +1,12 @@
 from itertools import product
 from time import sleep
 
-from codey_bits.final_intervals import (
+from sequence_generation.final_intervals import (
     preferred_fifths,
     preferred_minor_sevenths,
     preferred_natural_thirds,
 )
-from codey_bits.generate_sine import Sine, mix_samples, play_samples
+from sequence_generation.generate_sine import Sine, mix_samples, play_samples
 
 all_combinations = list(
     product(preferred_natural_thirds, preferred_fifths, preferred_minor_sevenths)

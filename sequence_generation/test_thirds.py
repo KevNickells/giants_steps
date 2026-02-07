@@ -1,7 +1,7 @@
 from time import sleep
 
-from codey_bits.final_intervals import preferred_major_sevenths
-from codey_bits.generate_sine import Sine, mix_samples, play_samples
+from sequence_generation.final_intervals import preferred_major_sevenths
+from sequence_generation.generate_sine import Sine, mix_samples, play_samples
 
 root = 440
 duration = 5.0

@@ -5,10 +5,10 @@ from typing import List
 
 import numpy as np
 
-from codey_bits.maj_7_final_list import maj_7_final_list as maj7
-from codey_bits.min_7_final_list import min_7_final_list as min7
-from codey_bits.seven_final_list import seven_final_list as dom7
-from codey_bits.types import reference_tones
+from sequence_generation.maj_7_final_list import maj_7_final_list as maj7
+from sequence_generation.min_7_final_list import min_7_final_list as min7
+from sequence_generation.seven_final_list import seven_final_list as dom7
+from sequence_generation.types import reference_tones
 
 
 class Rank(Enum):

@@ -1,11 +1,11 @@
 from itertools import product
 
-from codey_bits.final_intervals import (
+from sequence_generation.final_intervals import (
     preferred_fifths,
     preferred_minor_sevenths,
     preferred_minor_thirds,
 )
-from codey_bits.generate_sine import Sine
+from sequence_generation.generate_sine import Sine
 
 all_combinations = list(
     product(preferred_minor_thirds, preferred_fifths, preferred_minor_sevenths)

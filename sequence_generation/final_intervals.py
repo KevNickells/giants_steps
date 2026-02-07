@@ -1,6 +1,6 @@
 from typing import List
 
-from codey_bits.intervals import Interval
+from sequence_generation.intervals import Interval
 
 preferred_minor_thirds: List[Interval] = [
     {"ratio": 45 / 38, "name": "Eratosthenes' minor third"},

@@ -7,7 +7,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "B♮ MAJ_SEVEN",
-        "root_freq": 493.88,
+        "root_freq": 123.47,
     },
     {
         "chord_details": (
@@ -17,7 +17,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "D♮ SEVEN",
-        "root_freq": 587.33,
+        "root_freq": 146.83,
     },
     {
         "chord_details": (
@@ -30,7 +30,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "G♮ MAJ_SEVEN",
-        "root_freq": 783.99,
+        "root_freq": 97.99,
     },
     {
         "chord_details": (
@@ -43,7 +43,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "B♭ SEVEN",
-        "root_freq": 466.16,
+        "root_freq": 116.54,
     },
     {
         "chord_details": (
@@ -53,7 +53,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -63,7 +63,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -78,7 +78,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "A♮ MINOR_SEVEN",
-        "root_freq": 440,
+        "root_freq": 110,
     },
     {
         "chord_details": (
@@ -91,7 +91,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "D♮ SEVEN",
-        "root_freq": 587.33,
+        "root_freq": 146.83,
     },
     {
         "chord_details": (
@@ -101,7 +101,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "G♮ MAJ_SEVEN",
-        "root_freq": 783.99,
+        "root_freq": 97.99,
     },
     {
         "chord_details": (
@@ -114,7 +114,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "B♭ SEVEN",
-        "root_freq": 466.16,
+        "root_freq": 116.54,
     },
     {
         "chord_details": (
@@ -127,7 +127,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -137,7 +137,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "F♯ SEVEN",
-        "root_freq": 739.99,
+        "root_freq": 92.49,
     },
     {
         "chord_details": (
@@ -150,7 +150,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "B♮ MAJ_SEVEN",
-        "root_freq": 493.88,
+        "root_freq": 123.47,
     },
     {
         "chord_details": (
@@ -163,7 +163,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "B♮ MAJ_SEVEN",
-        "root_freq": 493.88,
+        "root_freq": 123.47,
     },
     {
         "chord_details": (
@@ -173,7 +173,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "F♮ MINOR_SEVEN",
-        "root_freq": 698.46,
+        "root_freq": 87.3,
     },
     {
         "chord_details": (
@@ -186,7 +186,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "B♭ SEVEN",
-        "root_freq": 466.16,
+        "root_freq": 116.54,
     },
     {
         "chord_details": (
@@ -196,7 +196,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -206,7 +206,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -216,7 +216,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "A♮ MINOR_SEVEN",
-        "root_freq": 440,
+        "root_freq": 110,
     },
     {
         "chord_details": (
@@ -231,7 +231,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "D♮ MINOR_SEVEN",
-        "root_freq": 587.33,
+        "root_freq": 73.41,
     },
     {
         "chord_details": (
@@ -241,7 +241,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "G♮ MAJ_SEVEN",
-        "root_freq": 783.99,
+        "root_freq": 97.99,
     },
     {
         "chord_details": (
@@ -251,7 +251,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "G♮ MAJ_SEVEN",
-        "root_freq": 783.99,
+        "root_freq": 97.99,
     },
     {
         "chord_details": (
@@ -266,7 +266,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "C♯ MINOR_SEVEN",
-        "root_freq": 554.37,
+        "root_freq": 138.59,
     },
     {
         "chord_details": (
@@ -279,7 +279,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "F♯ SEVEN",
-        "root_freq": 739.99,
+        "root_freq": 92.49,
     },
     {
         "chord_details": (
@@ -289,7 +289,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "B♮ MAJ_SEVEN",
-        "root_freq": 493.88,
+        "root_freq": 123.47,
     },
     {
         "chord_details": (
@@ -299,7 +299,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "B♮ MAJ_SEVEN",
-        "root_freq": 493.88,
+        "root_freq": 123.47,
     },
     {
         "chord_details": (
@@ -312,7 +312,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "F♮ MINOR_SEVEN",
-        "root_freq": 698.46,
+        "root_freq": 87.3,
     },
     {
         "chord_details": (
@@ -322,7 +322,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "B♭ SEVEN",
-        "root_freq": 466.16,
+        "root_freq": 116.54,
     },
     {
         "chord_details": (
@@ -335,7 +335,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -348,7 +348,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -358,7 +358,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "C♯ MINOR_SEVEN",
-        "root_freq": 554.37,
+        "root_freq": 138.59,
     },
     {
         "chord_details": (
@@ -371,7 +371,7 @@ without_inversions = [
         ),
         "inversion": 0,
         "name": "F♯ SEVEN",
-        "root_freq": 739.99,
+        "root_freq": 92.49,
     },
     {
         "chord_details": (
@@ -381,7 +381,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "B♮ MAJ_SEVEN",
-        "root_freq": 493.88,
+        "root_freq": 123.47,
     },
     {
         "chord_details": (
@@ -394,7 +394,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "D♮ SEVEN",
-        "root_freq": 587.33,
+        "root_freq": 146.83,
     },
     {
         "chord_details": (
@@ -407,7 +407,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "G♮ MAJ_SEVEN",
-        "root_freq": 783.99,
+        "root_freq": 97.99,
     },
     {
         "chord_details": (
@@ -420,7 +420,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "B♭ SEVEN",
-        "root_freq": 466.16,
+        "root_freq": 116.54,
     },
     {
         "chord_details": (
@@ -430,7 +430,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -440,7 +440,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -453,7 +453,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "A♮ MINOR_SEVEN",
-        "root_freq": 440,
+        "root_freq": 110,
     },
     {
         "chord_details": (
@@ -463,7 +463,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "D♮ SEVEN",
-        "root_freq": 587.33,
+        "root_freq": 146.83,
     },
     {
         "chord_details": (
@@ -476,7 +476,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "G♮ MAJ_SEVEN",
-        "root_freq": 783.99,
+        "root_freq": 97.99,
     },
     {
         "chord_details": (
@@ -486,7 +486,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "B♭ SEVEN",
-        "root_freq": 466.16,
+        "root_freq": 116.54,
     },
     {
         "chord_details": (
@@ -499,7 +499,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -512,7 +512,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "F♯ SEVEN",
-        "root_freq": 739.99,
+        "root_freq": 92.49,
     },
     {
         "chord_details": (
@@ -522,7 +522,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "B♮ MAJ_SEVEN",
-        "root_freq": 493.88,
+        "root_freq": 123.47,
     },
     {
         "chord_details": (
@@ -532,7 +532,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "B♮ MAJ_SEVEN",
-        "root_freq": 493.88,
+        "root_freq": 123.47,
     },
     {
         "chord_details": (
@@ -545,7 +545,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "F♮ MINOR_SEVEN",
-        "root_freq": 698.46,
+        "root_freq": 87.3,
     },
     {
         "chord_details": (
@@ -558,7 +558,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "B♭ SEVEN",
-        "root_freq": 466.16,
+        "root_freq": 116.54,
     },
     {
         "chord_details": (
@@ -571,7 +571,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -584,7 +584,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -597,7 +597,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "A♮ MINOR_SEVEN",
-        "root_freq": 440,
+        "root_freq": 110,
     },
     {
         "chord_details": (
@@ -612,7 +612,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "D♮ MINOR_SEVEN",
-        "root_freq": 587.33,
+        "root_freq": 73.41,
     },
     {
         "chord_details": (
@@ -625,7 +625,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "G♮ MAJ_SEVEN",
-        "root_freq": 783.99,
+        "root_freq": 97.99,
     },
     {
         "chord_details": (
@@ -635,7 +635,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "G♮ MAJ_SEVEN",
-        "root_freq": 783.99,
+        "root_freq": 97.99,
     },
     {
         "chord_details": (
@@ -645,7 +645,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "C♯ MINOR_SEVEN",
-        "root_freq": 554.37,
+        "root_freq": 138.59,
     },
     {
         "chord_details": (
@@ -655,7 +655,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "F♯ SEVEN",
-        "root_freq": 739.99,
+        "root_freq": 92.49,
     },
     {
         "chord_details": (
@@ -665,7 +665,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "B♮ MAJ_SEVEN",
-        "root_freq": 493.88,
+        "root_freq": 123.47,
     },
     {
         "chord_details": (
@@ -675,7 +675,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "B♮ MAJ_SEVEN",
-        "root_freq": 493.88,
+        "root_freq": 123.47,
     },
     {
         "chord_details": (
@@ -688,7 +688,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "F♮ MINOR_SEVEN",
-        "root_freq": 698.46,
+        "root_freq": 87.3,
     },
     {
         "chord_details": (
@@ -701,7 +701,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "B♭ SEVEN",
-        "root_freq": 466.16,
+        "root_freq": 116.54,
     },
     {
         "chord_details": (
@@ -711,7 +711,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -721,7 +721,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -736,7 +736,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "C♯ MINOR_SEVEN",
-        "root_freq": 554.37,
+        "root_freq": 138.59,
     },
     {
         "chord_details": (
@@ -749,7 +749,7 @@ without_inversions = [
         ),
         "inversion": 1,
         "name": "F♯ SEVEN",
-        "root_freq": 739.99,
+        "root_freq": 92.49,
     },
     {
         "chord_details": (
@@ -759,7 +759,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "B♮ MAJ_SEVEN",
-        "root_freq": 493.88,
+        "root_freq": 123.47,
     },
     {
         "chord_details": (
@@ -772,7 +772,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "D♮ SEVEN",
-        "root_freq": 587.33,
+        "root_freq": 146.83,
     },
     {
         "chord_details": (
@@ -785,7 +785,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "G♮ MAJ_SEVEN",
-        "root_freq": 783.99,
+        "root_freq": 97.99,
     },
     {
         "chord_details": (
@@ -798,7 +798,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "B♭ SEVEN",
-        "root_freq": 466.16,
+        "root_freq": 116.54,
     },
     {
         "chord_details": (
@@ -811,7 +811,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -824,7 +824,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -834,7 +834,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "A♮ MINOR_SEVEN",
-        "root_freq": 440,
+        "root_freq": 110,
     },
     {
         "chord_details": (
@@ -844,7 +844,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "D♮ SEVEN",
-        "root_freq": 587.33,
+        "root_freq": 146.83,
     },
     {
         "chord_details": (
@@ -859,7 +859,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "G♮ MAJ_SEVEN",
-        "root_freq": 783.99,
+        "root_freq": 97.99,
     },
     {
         "chord_details": (
@@ -872,7 +872,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "B♭ SEVEN",
-        "root_freq": 466.16,
+        "root_freq": 116.54,
     },
     {
         "chord_details": (
@@ -885,7 +885,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -898,7 +898,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "F♯ SEVEN",
-        "root_freq": 739.99,
+        "root_freq": 92.49,
     },
     {
         "chord_details": (
@@ -911,7 +911,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "B♮ MAJ_SEVEN",
-        "root_freq": 493.88,
+        "root_freq": 123.47,
     },
     {
         "chord_details": (
@@ -924,7 +924,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "B♮ MAJ_SEVEN",
-        "root_freq": 493.88,
+        "root_freq": 123.47,
     },
     {
         "chord_details": (
@@ -934,7 +934,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "F♮ MINOR_SEVEN",
-        "root_freq": 698.46,
+        "root_freq": 87.3,
     },
     {
         "chord_details": (
@@ -944,7 +944,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "B♭ SEVEN",
-        "root_freq": 466.16,
+        "root_freq": 116.54,
     },
     {
         "chord_details": (
@@ -954,7 +954,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -964,7 +964,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -977,7 +977,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "A♮ MINOR_SEVEN",
-        "root_freq": 440,
+        "root_freq": 110,
     },
     {
         "chord_details": (
@@ -990,7 +990,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "D♮ MINOR_SEVEN",
-        "root_freq": 587.33,
+        "root_freq": 73.41,
     },
     {
         "chord_details": (
@@ -1000,7 +1000,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "G♮ MAJ_SEVEN",
-        "root_freq": 783.99,
+        "root_freq": 97.99,
     },
     {
         "chord_details": (
@@ -1010,7 +1010,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "G♮ MAJ_SEVEN",
-        "root_freq": 783.99,
+        "root_freq": 97.99,
     },
     {
         "chord_details": (
@@ -1023,7 +1023,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "C♯ MINOR_SEVEN",
-        "root_freq": 554.37,
+        "root_freq": 138.59,
     },
     {
         "chord_details": (
@@ -1036,7 +1036,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "F♯ SEVEN",
-        "root_freq": 739.99,
+        "root_freq": 92.49,
     },
     {
         "chord_details": (
@@ -1046,7 +1046,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "B♮ MAJ_SEVEN",
-        "root_freq": 493.88,
+        "root_freq": 123.47,
     },
     {
         "chord_details": (
@@ -1056,7 +1056,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "B♮ MAJ_SEVEN",
-        "root_freq": 493.88,
+        "root_freq": 123.47,
     },
     {
         "chord_details": (
@@ -1066,7 +1066,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "F♮ MINOR_SEVEN",
-        "root_freq": 698.46,
+        "root_freq": 87.3,
     },
     {
         "chord_details": (
@@ -1079,7 +1079,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "B♭ SEVEN",
-        "root_freq": 466.16,
+        "root_freq": 116.54,
     },
     {
         "chord_details": (
@@ -1092,7 +1092,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -1105,7 +1105,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -1120,7 +1120,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "C♯ MINOR_SEVEN",
-        "root_freq": 554.37,
+        "root_freq": 138.59,
     },
     {
         "chord_details": (
@@ -1133,7 +1133,7 @@ without_inversions = [
         ),
         "inversion": 2,
         "name": "F♯ SEVEN",
-        "root_freq": 739.99,
+        "root_freq": 92.49,
     },
     {
         "chord_details": (
@@ -1143,7 +1143,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "B♮ MAJ_SEVEN",
-        "root_freq": 493.88,
+        "root_freq": 123.47,
     },
     {
         "chord_details": (
@@ -1153,7 +1153,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "D♮ SEVEN",
-        "root_freq": 587.33,
+        "root_freq": 146.83,
     },
     {
         "chord_details": (
@@ -1168,7 +1168,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "G♮ MAJ_SEVEN",
-        "root_freq": 783.99,
+        "root_freq": 97.99,
     },
     {
         "chord_details": (
@@ -1181,7 +1181,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "B♭ SEVEN",
-        "root_freq": 466.16,
+        "root_freq": 116.54,
     },
     {
         "chord_details": (
@@ -1191,7 +1191,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -1201,7 +1201,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -1214,7 +1214,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "A♮ MINOR_SEVEN",
-        "root_freq": 440,
+        "root_freq": 110,
     },
     {
         "chord_details": (
@@ -1224,7 +1224,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "D♮ SEVEN",
-        "root_freq": 587.33,
+        "root_freq": 146.83,
     },
     {
         "chord_details": (
@@ -1237,7 +1237,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "G♮ MAJ_SEVEN",
-        "root_freq": 783.99,
+        "root_freq": 97.99,
     },
     {
         "chord_details": (
@@ -1247,7 +1247,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "B♭ SEVEN",
-        "root_freq": 466.16,
+        "root_freq": 116.54,
     },
     {
         "chord_details": (
@@ -1257,7 +1257,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -1270,7 +1270,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "F♯ SEVEN",
-        "root_freq": 739.99,
+        "root_freq": 92.49,
     },
     {
         "chord_details": (
@@ -1280,7 +1280,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "B♮ MAJ_SEVEN",
-        "root_freq": 493.88,
+        "root_freq": 123.47,
     },
     {
         "chord_details": (
@@ -1293,7 +1293,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "B♮ MAJ_SEVEN",
-        "root_freq": 493.88,
+        "root_freq": 123.47,
     },
     {
         "chord_details": (
@@ -1308,7 +1308,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "F♮ MINOR_SEVEN",
-        "root_freq": 698.46,
+        "root_freq": 87.3,
     },
     {
         "chord_details": (
@@ -1318,7 +1318,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "B♭ SEVEN",
-        "root_freq": 466.16,
+        "root_freq": 116.54,
     },
     {
         "chord_details": (
@@ -1331,7 +1331,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -1346,7 +1346,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -1356,7 +1356,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "A♮ MINOR_SEVEN",
-        "root_freq": 440,
+        "root_freq": 110,
     },
     {
         "chord_details": (
@@ -1369,7 +1369,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "D♮ MINOR_SEVEN",
-        "root_freq": 587.33,
+        "root_freq": 73.41,
     },
     {
         "chord_details": (
@@ -1382,7 +1382,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "G♮ MAJ_SEVEN",
-        "root_freq": 783.99,
+        "root_freq": 97.99,
     },
     {
         "chord_details": (
@@ -1392,7 +1392,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "G♮ MAJ_SEVEN",
-        "root_freq": 783.99,
+        "root_freq": 97.99,
     },
     {
         "chord_details": (
@@ -1407,7 +1407,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "C♯ MINOR_SEVEN",
-        "root_freq": 554.37,
+        "root_freq": 138.59,
     },
     {
         "chord_details": (
@@ -1417,7 +1417,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "F♯ SEVEN",
-        "root_freq": 739.99,
+        "root_freq": 92.49,
     },
     {
         "chord_details": (
@@ -1432,7 +1432,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "B♮ MAJ_SEVEN",
-        "root_freq": 493.88,
+        "root_freq": 123.47,
     },
     {
         "chord_details": (
@@ -1447,7 +1447,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "B♮ MAJ_SEVEN",
-        "root_freq": 493.88,
+        "root_freq": 123.47,
     },
     {
         "chord_details": (
@@ -1460,7 +1460,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "F♮ MINOR_SEVEN",
-        "root_freq": 698.46,
+        "root_freq": 87.3,
     },
     {
         "chord_details": (
@@ -1473,7 +1473,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "B♭ SEVEN",
-        "root_freq": 466.16,
+        "root_freq": 116.54,
     },
     {
         "chord_details": (
@@ -1483,7 +1483,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -1498,7 +1498,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
+        "root_freq": 77.78,
     },
     {
         "chord_details": (
@@ -1511,7 +1511,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "C♯ MINOR_SEVEN",
-        "root_freq": 554.37,
+        "root_freq": 138.59,
     },
     {
         "chord_details": (
@@ -1521,7 +1521,7 @@ without_inversions = [
         ),
         "inversion": 3,
         "name": "F♯ SEVEN",
-        "root_freq": 739.99,
+        "root_freq": 92.49,
     },
 ]
 

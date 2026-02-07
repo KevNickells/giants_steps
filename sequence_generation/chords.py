@@ -1,4 +1,4 @@
-from codey_bits.types import (
+from sequence_generation.types import (
     Accidental,
     ChordInfo,
     ChordType,

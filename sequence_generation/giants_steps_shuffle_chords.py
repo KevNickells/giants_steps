@@ -2,16 +2,16 @@ from dataclasses import dataclass
 from random import choice
 from time import sleep
 
-from codey_bits.chords import details
-from codey_bits.final_intervals import (
+from sequence_generation.chords import details
+from sequence_generation.final_intervals import (
     preferred_fifths,
     preferred_major_sevenths,
     preferred_minor_sevenths,
     preferred_minor_thirds,
     preferred_natural_thirds,
 )
-from codey_bits.generate_sine import Sine, mix_samples, play_samples
-from codey_bits.types import reference_tones
+from sequence_generation.generate_sine import Sine, mix_samples, play_samples
+from sequence_generation.types import reference_tones
 
 samples = []
 
