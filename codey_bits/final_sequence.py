@@ -1,830 +1,1220 @@
-from enum import Enum
-from pprint import pprint
-from typing import List
-
-import numpy as np
-
-from codey_bits.maj_7_final_list import maj_7_final_list as maj7
-from codey_bits.min_7_final_list import min_7_final_list as min7
-from codey_bits.seven_final_list import seven_final_list as dom7
-from codey_bits.types import reference_tones
-
-
-class Rank(Enum):
-    Highest = "Highest"
-    High = "High"
-    Med = "Med"
-    Low = "Low"
-    Lowest = "Lowest"
-
-
-def get_segments(lst: List):
-    segments = np.array_split(lst, 3)
-    return [list(seg) for seg in segments]
-
-
-def get_rank(rank: Rank, lst: List):
-    match rank:
-        case Rank.Highest:
-            return lst[-1]
-        case Rank.High:
-            return get_segments(lst)[2]
-        case Rank.Med:
-            return get_segments(lst)[1]
-        case Rank.Low:
-            return get_segments(lst)[0]
-        case Rank.Lowest:
-            return lst[0]
-
-
-final_sequence: List = [
-    # initial
+without_inversions = [
     {
+        "chord_details": (
+            {"name": "vicesimotertial neutral third", "ratio": 1.2173913043478262},
+            {"name": "undevicesimal meantone fifth", "ratio": 1.4953703703703705},
+            {"name": "septimal acute major seventh", "ratio": 1.9047619047619047},
+        ),
+        "inversion": 0,
         "name": "B♮ MAJ_SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Lowest, maj7),
-        "root_freq": reference_tones["B♮"],
+        "root_freq": 493.88,
     },
     {
+        "chord_details": (
+            {"name": "vicesimotertial neutral third", "ratio": 1.2173913043478262},
+            {"name": "Kirnberger's fifth", "ratio": 1.4983081847279378},
+            {"name": "harmonic/just minor seventh meantone", "ratio": 1.775},
+        ),
+        "inversion": 0,
         "name": "D♮ SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Lowest, dom7),
-        "root_freq": reference_tones["D♮"],
+        "root_freq": 587.33,
     },
     {
+        "chord_details": (
+            {"ratio": 1.2173913043478262, "name": "vicesimotertial neutral third"},
+            {"ratio": 1.5125, "name": "wide biyatismic fifth"},
+            {
+                "ratio": 1.894736842105263,
+                "name": "undevicesimal major seventh, Boethius' major seventh",
+            },
+        ),
+        "inversion": 0,
         "name": "G♮ MAJ_SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Lowest, maj7),
-        "root_freq": reference_tones["G♮"],
+        "root_freq": 783.99,
     },
     {
+        "chord_details": (
+            {"ratio": 1.2456140350877194, "name": "witchcraft major third"},
+            {"ratio": 1.5, "name": "just perfect fifth"},
+            {
+                "ratio": 1.75,
+                "name": "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+            },
+        ),
+        "inversion": 0,
         "name": "B♭ SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Lowest, maj7),
-        "root_freq": reference_tones["B♭"],
+        "root_freq": 466.16,
     },
     {
+        "chord_details": (
+            {"name": "vicesimotertial neutral third", "ratio": 1.2173913043478262},
+            {"name": "undevicesimal meantone fifth", "ratio": 1.4953703703703705},
+            {"name": "septimal acute major seventh", "ratio": 1.9047619047619047},
+        ),
+        "inversion": 0,
         "name": "E♭ MAJ_SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Lowest, maj7),
-        "root_freq": reference_tones["E♭"],
+        "root_freq": 622.25,
     },
     {
+        "chord_details": (
+            {"name": "vicesimotertial neutral third", "ratio": 1.2173913043478262},
+            {"name": "undevicesimal meantone fifth", "ratio": 1.4953703703703705},
+            {"name": "septimal acute major seventh", "ratio": 1.9047619047619047},
+        ),
+        "inversion": 0,
         "name": "E♭ MAJ_SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Lowest, maj7),
-        "root_freq": reference_tones["E♭"],
+        "root_freq": 622.25,
     },
     {
+        "chord_details": (
+            {"name": "Eratosthenes' minor third", "ratio": 1.1842105263157894},
+            {"name": "vengeance subfifth", "ratio": 1.4705882352941178},
+            {
+                "name": "subminor seventh, septimal minor seventh, "
+                "harmonic seventh, natural seventh, "
+                "octave-reduced 7th harmonic",
+                "ratio": 1.75,
+            },
+        ),
+        "inversion": 0,
         "name": "A♮ MINOR_SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Lowest, min7),
-        "root_freq": reference_tones["A♮"],
+        "root_freq": 440,
     },
     {
+        "chord_details": (
+            {"ratio": 1.2173913043478262, "name": "vicesimotertial neutral third"},
+            {"ratio": 1.5125, "name": "wide biyatismic fifth"},
+            {
+                "ratio": 1.78125,
+                "name": "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+            },
+        ),
+        "inversion": 0,
         "name": "D♮ SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Low, dom7)[1],
-        "root_freq": reference_tones["D♮"],
+        "root_freq": 587.33,
     },
     {
+        "chord_details": (
+            {"ratio": 1.2173913043478262, "name": "vicesimotertial neutral third"},
+            {"ratio": 1.52, "name": "undevicesimal acute fifth"},
+            {"ratio": 1.9047619047619047, "name": "septimal acute major seventh"},
+        ),
+        "inversion": 0,
         "name": "G♮ MAJ_SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Low, maj7)[1],
-        "root_freq": reference_tones["G♮"],
+        "root_freq": 783.99,
     },
     {
+        "chord_details": (
+            {"ratio": 1.2173913043478262, "name": "vicesimotertial neutral third"},
+            {"ratio": 1.5125, "name": "wide biyatismic fifth"},
+            {
+                "ratio": 1.78125,
+                "name": "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+            },
+        ),
+        "inversion": 0,
         "name": "B♭ SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Lowest, dom7),
-        "root_freq": reference_tones["B♭"],
+        "root_freq": 466.16,
     },
     {
+        "chord_details": (
+            {"ratio": 1.2173913043478262, "name": "vicesimotertial neutral third"},
+            {"ratio": 1.4983081847279378, "name": "Kirnberger's fifth"},
+            {
+                "ratio": 1.894736842105263,
+                "name": "undevicesimal major seventh, Boethius' major seventh",
+            },
+        ),
+        "inversion": 0,
         "name": "E♭ MAJ_SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Low, maj7)[1],
-        "root_freq": reference_tones["E♭"],
+        "root_freq": 622.25,
     },
     {
+        "chord_details": (
+            {"name": "vicesimotertial neutral third", "ratio": 1.2173913043478262},
+            {"name": "Kirnberger's fifth", "ratio": 1.4983081847279378},
+            {"name": "harmonic/just minor seventh meantone", "ratio": 1.775},
+        ),
+        "inversion": 0,
         "name": "F♯ SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Lowest, dom7),
-        "root_freq": reference_tones["F♯"],
+        "root_freq": 739.99,
     },
     {
+        "chord_details": (
+            {"ratio": 1.2173913043478262, "name": "vicesimotertial neutral third"},
+            {"ratio": 1.4983081847279378, "name": "Kirnberger's fifth"},
+            {
+                "ratio": 1.894736842105263,
+                "name": "undevicesimal major seventh, Boethius' major seventh",
+            },
+        ),
+        "inversion": 0,
         "name": "B♮ MAJ_SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Low, maj7)[1],
-        "root_freq": reference_tones["B♮"],
+        "root_freq": 493.88,
     },
     {
+        "chord_details": (
+            {"ratio": 1.2173913043478262, "name": "vicesimotertial neutral third"},
+            {"ratio": 1.4983081847279378, "name": "Kirnberger's fifth"},
+            {
+                "ratio": 1.894736842105263,
+                "name": "undevicesimal major seventh, Boethius' major seventh",
+            },
+        ),
+        "inversion": 0,
         "name": "B♮ MAJ_SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Low, maj7)[1],
-        "root_freq": reference_tones["B♮"],
+        "root_freq": 493.88,
     },
     {
+        "chord_details": (
+            {"ratio": 1.1842105263157894, "name": "Eratosthenes' minor third"},
+            {"ratio": 1.5125, "name": "wide biyatismic fifth"},
+            {"ratio": 1.775, "name": "harmonic/just minor seventh meantone"},
+        ),
+        "inversion": 0,
         "name": "F♮ MINOR_SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Low, min7)[1],
-        "root_freq": reference_tones["F♮"],
+        "root_freq": 698.46,
     },
     {
+        "chord_details": (
+            {"ratio": 1.2173913043478262, "name": "vicesimotertial neutral third"},
+            {"ratio": 1.52, "name": "undevicesimal acute fifth"},
+            {
+                "ratio": 1.75,
+                "name": "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+            },
+        ),
+        "inversion": 0,
         "name": "B♭ SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Low, dom7)[1],
-        "root_freq": reference_tones["B♭"],
+        "root_freq": 466.16,
     },
     {
+        "chord_details": (
+            {"ratio": 1.2173913043478262, "name": "vicesimotertial neutral third"},
+            {"ratio": 1.5, "name": "just perfect fifth"},
+            {"ratio": 1.9047619047619047, "name": "septimal acute major seventh"},
+        ),
+        "inversion": 0,
         "name": "E♭ MAJ_SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Low, maj7)[2],
-        "root_freq": reference_tones["E♭"],
+        "root_freq": 622.25,
     },
     {
+        "chord_details": (
+            {"ratio": 1.2173913043478262, "name": "vicesimotertial neutral third"},
+            {"ratio": 1.5, "name": "just perfect fifth"},
+            {"ratio": 1.9047619047619047, "name": "septimal acute major seventh"},
+        ),
+        "inversion": 0,
         "name": "E♭ MAJ_SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Low, maj7)[2],
-        "root_freq": reference_tones["E♭"],
+        "root_freq": 622.25,
     },
     {
+        "chord_details": (
+            {"ratio": 1.1842105263157894, "name": "Eratosthenes' minor third"},
+            {"ratio": 1.5125, "name": "wide biyatismic fifth"},
+            {"ratio": 1.775, "name": "harmonic/just minor seventh meantone"},
+        ),
+        "inversion": 0,
         "name": "A♮ MINOR_SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Low, min7)[0],
-        "root_freq": reference_tones["A♮"],
+        "root_freq": 440,
     },
     {
+        "chord_details": (
+            {"name": "Eratosthenes' minor third", "ratio": 1.1842105263157894},
+            {"name": "vengeance subfifth", "ratio": 1.4705882352941178},
+            {
+                "name": "subminor seventh, septimal minor seventh, "
+                "harmonic seventh, natural seventh, "
+                "octave-reduced 7th harmonic",
+                "ratio": 1.75,
+            },
+        ),
+        "inversion": 0,
         "name": "D♮ MINOR_SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Lowest, min7),
-        "root_freq": reference_tones["D♮"],
+        "root_freq": 587.33,
     },
     {
+        "chord_details": (
+            {"ratio": 1.2456140350877194, "name": "witchcraft major third"},
+            {"ratio": 1.4983081847279378, "name": "Kirnberger's fifth"},
+            {"ratio": 1.9047619047619047, "name": "septimal acute major seventh"},
+        ),
+        "inversion": 0,
         "name": "G♮ MAJ_SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Low, maj7)[2],
-        "root_freq": reference_tones["G♮"],
+        "root_freq": 783.99,
     },
     {
+        "chord_details": (
+            {"ratio": 1.2456140350877194, "name": "witchcraft major third"},
+            {"ratio": 1.4983081847279378, "name": "Kirnberger's fifth"},
+            {"ratio": 1.9047619047619047, "name": "septimal acute major seventh"},
+        ),
+        "inversion": 0,
         "name": "G♮ MAJ_SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Low, maj7)[2],
-        "root_freq": reference_tones["G♮"],
+        "root_freq": 783.99,
     },
     {
+        "chord_details": (
+            {"name": "Eratosthenes' minor third", "ratio": 1.1842105263157894},
+            {"name": "vengeance subfifth", "ratio": 1.4705882352941178},
+            {
+                "name": "subminor seventh, septimal minor seventh, "
+                "harmonic seventh, natural seventh, "
+                "octave-reduced 7th harmonic",
+                "ratio": 1.75,
+            },
+        ),
+        "inversion": 0,
         "name": "C♯ MINOR_SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Lowest, min7),
-        "root_freq": reference_tones["C♯"],
+        "root_freq": 554.37,
     },
     {
+        "chord_details": (
+            {"ratio": 1.2173913043478262, "name": "vicesimotertial neutral third"},
+            {"ratio": 1.52, "name": "undevicesimal acute fifth"},
+            {
+                "ratio": 1.75,
+                "name": "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+            },
+        ),
+        "inversion": 0,
         "name": "F♯ SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Low, dom7)[2],
-        "root_freq": reference_tones["F♯"],
+        "root_freq": 739.99,
     },
     {
+        "chord_details": (
+            {"ratio": 1.2173913043478262, "name": "vicesimotertial neutral third"},
+            {"ratio": 1.5, "name": "just perfect fifth"},
+            {"ratio": 1.9047619047619047, "name": "septimal acute major seventh"},
+        ),
+        "inversion": 0,
         "name": "B♮ MAJ_SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Low, maj7)[2],
-        "root_freq": reference_tones["B♮"],
+        "root_freq": 493.88,
     },
     {
+        "chord_details": (
+            {"ratio": 1.2173913043478262, "name": "vicesimotertial neutral third"},
+            {"ratio": 1.5, "name": "just perfect fifth"},
+            {"ratio": 1.9047619047619047, "name": "septimal acute major seventh"},
+        ),
+        "inversion": 0,
         "name": "B♮ MAJ_SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Low, maj7)[2],
-        "root_freq": reference_tones["B♮"],
+        "root_freq": 493.88,
     },
     {
+        "chord_details": (
+            {"ratio": 1.1842105263157894, "name": "Eratosthenes' minor third"},
+            {"ratio": 1.52, "name": "undevicesimal acute fifth"},
+            {
+                "ratio": 1.78125,
+                "name": "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+            },
+        ),
+        "inversion": 0,
         "name": "F♮ MINOR_SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Low, min7)[2],
-        "root_freq": reference_tones["F♮"],
+        "root_freq": 698.46,
     },
     {
+        "chord_details": (
+            {"ratio": 1.2456140350877194, "name": "witchcraft major third"},
+            {"ratio": 1.4953703703703705, "name": "undevicesimal meantone fifth"},
+            {"ratio": 1.775, "name": "harmonic/just minor seventh meantone"},
+        ),
+        "inversion": 0,
         "name": "B♭ SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Low, dom7)[2],
-        "root_freq": reference_tones["B♭"],
+        "root_freq": 466.16,
     },
     {
+        "chord_details": (
+            {"ratio": 1.2173913043478262, "name": "vicesimotertial neutral third"},
+            {"ratio": 1.5125, "name": "wide biyatismic fifth"},
+            {
+                "ratio": 1.894736842105263,
+                "name": "undevicesimal major seventh, Boethius' major seventh",
+            },
+        ),
+        "inversion": 0,
         "name": "E♭ MAJ_SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Low, maj7)[3],
-        "root_freq": reference_tones["E♭"],
+        "root_freq": 622.25,
     },
     {
+        "chord_details": (
+            {"ratio": 1.2173913043478262, "name": "vicesimotertial neutral third"},
+            {"ratio": 1.5125, "name": "wide biyatismic fifth"},
+            {
+                "ratio": 1.894736842105263,
+                "name": "undevicesimal major seventh, Boethius' major seventh",
+            },
+        ),
+        "inversion": 0,
         "name": "E♭ MAJ_SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Low, maj7)[3],
-        "root_freq": reference_tones["E♭"],
+        "root_freq": 622.25,
     },
     {
+        "chord_details": (
+            {"ratio": 1.1842105263157894, "name": "Eratosthenes' minor third"},
+            {"ratio": 1.5125, "name": "wide biyatismic fifth"},
+            {"ratio": 1.775, "name": "harmonic/just minor seventh meantone"},
+        ),
+        "inversion": 0,
         "name": "C♯ MINOR_SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Low, min7)[1],
-        "root_freq": reference_tones["C♯"],
+        "root_freq": 554.37,
     },
     {
+        "chord_details": (
+            {"ratio": 1.2173913043478262, "name": "vicesimotertial neutral third"},
+            {"ratio": 1.5125, "name": "wide biyatismic fifth"},
+            {
+                "ratio": 1.78125,
+                "name": "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+            },
+        ),
+        "inversion": 0,
         "name": "F♯ SEVEN",
-        "inversion": 0,
-        "chord_details": get_rank(Rank.Lowest, dom7),
-        "root_freq": reference_tones["F♯"],
+        "root_freq": 739.99,
     },
-    # first repeat
     {
+        "chord_details": (
+            {"ratio": 1.2456140350877194, "name": "witchcraft major third"},
+            {"ratio": 1.4953703703703705, "name": "undevicesimal meantone fifth"},
+            {"ratio": 1.9047619047619047, "name": "septimal acute major seventh"},
+        ),
+        "inversion": 1,
         "name": "B♮ MAJ_SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Low, maj7)[-1],
-        "root_freq": reference_tones["B♮"],
-    },
-    {"name": "D♮ SEVEN", "inversion": 1, "chord_details": get_rank(Rank.Low, dom7)[-1]},
-    {
-        "name": "G♮ MAJ_SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Low, maj7)[-1],
-        "root_freq": reference_tones["G♮"],
-    },
-    {"name": "B♭ SEVEN", "inversion": 1, "chord_details": get_rank(Rank.Low, dom7)[-1]},
-    {
-        "name": "E♭ MAJ_SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Low, maj7)[-1],
-        "root_freq": reference_tones["E♭"],
+        "root_freq": 493.88,
     },
     {
-        "name": "E♭ MAJ_SEVEN",
+        "chord_details": (
+            {"ratio": 1.2173913043478262, "name": "vicesimotertial neutral third"},
+            {"ratio": 1.52, "name": "undevicesimal acute fifth"},
+            {
+                "ratio": 1.75,
+                "name": "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+            },
+        ),
         "inversion": 1,
-        "chord_details": get_rank(Rank.Low, maj7)[-1],
-        "root_freq": reference_tones["E♭"],
-    },
-    {
-        "name": "A♮ MINOR_SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Highest, min7),
-        "root_freq": reference_tones["A♮"],
-    },
-    {
         "name": "D♮ SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Highest, dom7),
-        "root_freq": reference_tones["D♮"],
+        "root_freq": 587.33,
     },
     {
+        "chord_details": (
+            {"ratio": 1.2456140350877194, "name": "witchcraft major third"},
+            {"ratio": 1.5125, "name": "wide biyatismic fifth"},
+            {
+                "ratio": 1.894736842105263,
+                "name": "undevicesimal major seventh, Boethius' major seventh",
+            },
+        ),
+        "inversion": 1,
         "name": "G♮ MAJ_SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.High, maj7)[-1],
-        "root_freq": reference_tones["G♮"],
+        "root_freq": 783.99,
     },
     {
+        "chord_details": (
+            {"ratio": 1.2456140350877194, "name": "witchcraft major third"},
+            {"ratio": 1.5125, "name": "wide biyatismic fifth"},
+            {
+                "ratio": 1.75,
+                "name": "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+            },
+        ),
+        "inversion": 1,
         "name": "B♭ SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.High, dom7)[1],
-        "root_freq": reference_tones["B♭"],
+        "root_freq": 466.16,
     },
     {
-        "name": "E♭ MAJ_SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Med, maj7)[-1],
-        "root_freq": reference_tones["E♭"],
-    },
-    {
-        "name": "F♯ SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Med, dom7)[-1],
-        "root_freq": reference_tones["F♯"],
-    },
-    {
-        "name": "B♮ MAJ_SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Med, maj7)[0],
-        "root_freq": reference_tones["B♮"],
-    },
-    {
-        "name": "B♮ MAJ_SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Med, maj7)[0],
-        "root_freq": reference_tones["B♮"],
-    },
-    {
-        "name": "F♮ MINOR_SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Med, min7)[0],
-        "root_freq": reference_tones["F♮"],
-    },
-    {
-        "name": "B♭ SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Med, dom7)[0],
-        "root_freq": reference_tones["B♭"],
-    },
-    {
-        "name": "E♭ MAJ_SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Low, maj7)[-2],
-        "root_freq": reference_tones["E♭"],
-    },
-    {
-        "name": "E♭ MAJ_SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Low, maj7)[-2],
-        "root_freq": reference_tones["E♭"],
-    },
-    {
-        "name": "A♮ MINOR_SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Lowest, min7),
-        "root_freq": reference_tones["A♮"],
-    },
-    {
-        "name": "D♮ MINOR_SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Lowest, min7),
-        "root_freq": reference_tones["D♮"],
-    },
-    {
-        "name": "G♮ MAJ_SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Med, maj7)[-1],
-        "root_freq": reference_tones["G♮"],
-    },
-    {
-        "name": "G♮ MAJ_SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Med, maj7)[-1],
-        "root_freq": reference_tones["G♮"],
-    },
-    {
-        "name": "C♯ MINOR_SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.High, min7)[0],
-        "root_freq": reference_tones["C♯"],
-    },
-    {
-        "name": "F♯ SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.High, dom7)[0],
-        "root_freq": reference_tones["F♯"],
-    },
-    {
-        "name": "B♮ MAJ_SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Highest, maj7),
-        "root_freq": reference_tones["B♮"],
-    },
-    {
-        "name": "B♮ MAJ_SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Highest, maj7),
-        "root_freq": reference_tones["B♮"],
-    },
-    {
-        "name": "F♮ MINOR_SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Med, min7)[-1],
-        "root_freq": reference_tones["F♮"],
-    },
-    {
-        "name": "B♭ SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Med, dom7)[-1],
-        "root_freq": reference_tones["B♭"],
-    },
-    {
-        "name": "E♭ MAJ_SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Low, maj7)[-1],
-        "root_freq": reference_tones["E♭"],
-    },
-    {
-        "name": "E♭ MAJ_SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Low, maj7)[-1],
-        "root_freq": reference_tones["E♭"],
-    },
-    {
-        "name": "C♯ MINOR_SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Lowest, min7),
-        "root_freq": reference_tones["C♯"],
-    },
-    {
-        "name": "F♯ SEVEN",
-        "inversion": 1,
-        "chord_details": get_rank(Rank.Low, dom7)[1],
-        "root_freq": reference_tones["F♯"],
-    },
-    # second repeat
-    {
-        "name": "B♮ MAJ_SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Highest, maj7),
-        "root_freq": reference_tones["B♮"],
-    },
-    {
-        "name": "D♮ SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Highest, dom7),
-        "root_freq": reference_tones["D♮"],
-    },
-    {
-        "name": "G♮ MAJ_SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Highest, maj7),
-        "root_freq": reference_tones["G♮"],
-    },
-    {
-        "name": "B♭ SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Highest, dom7),
-        "root_freq": reference_tones["B♭"],
-    },
-    {
-        "name": "E♭ MAJ_SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.High, maj7)[-1],
-        "root_freq": reference_tones["E♭"],
-    },
-    {
-        "name": "E♭ MAJ_SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.High, maj7)[-1],
-        "root_freq": reference_tones["E♭"],
-    },
-    {
-        "name": "A♮ MINOR_SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.High, min7)[-2],
-        "root_freq": reference_tones["A♮"],
-    },
-    {
-        "name": "D♮ SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.High, dom7)[-2],
-        "root_freq": reference_tones["D♮"],
-    },
-    {
-        "name": "G♮ MAJ_SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Med, maj7)[-1],
-        "root_freq": reference_tones["G♮"],
-    },
-    {
-        "name": "B♭ SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Med, dom7)[-1],
-        "root_freq": reference_tones["B♭"],
-    },
-    {
-        "name": "E♭ MAJ_SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Med, maj7)[-2],
-        "root_freq": reference_tones["E♭"],
-    },
-    {
-        "name": "F♯ SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Med, dom7)[-2],
-        "root_freq": reference_tones["F♯"],
-    },
-    {
-        "name": "B♮ MAJ_SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.High, maj7)[0],
-        "root_freq": reference_tones["B♮"],
-    },
-    {
-        "name": "B♮ MAJ_SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.High, maj7)[0],
-        "root_freq": reference_tones["B♮"],
-    },
-    {
-        "name": "F♮ MINOR_SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.High, min7)[0],
-        "root_freq": reference_tones["F♮"],
-    },
-    {
-        "name": "B♭ SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.High, dom7)[1],
-        "root_freq": reference_tones["B♭"],
-    },
-    {
-        "name": "E♭ MAJ_SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Med, maj7)[-1],
-        "root_freq": reference_tones["E♭"],
-    },
-    {
-        "name": "E♭ MAJ_SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Med, maj7)[-1],
-        "root_freq": reference_tones["E♭"],
-    },
-    {
-        "name": "A♮ MINOR_SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Med, min7)[-2],
-        "root_freq": reference_tones["A♮"],
-    },
-    {
-        "name": "D♮ MINOR_SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Med, min7)[-2],
-        "root_freq": reference_tones["D♮"],
-    },
-    {
-        "name": "G♮ MAJ_SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Low, maj7)[-1],
-        "root_freq": reference_tones["G♮"],
-    },
-    {
-        "name": "G♮ MAJ_SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Low, maj7)[-1],
-        "root_freq": reference_tones["G♮"],
-    },
-    {
-        "name": "C♯ MINOR_SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Low, min7)[-2],
-        "root_freq": reference_tones["C♯"],
-    },
-    {
-        "name": "F♯ SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Low, dom7)[-2],
-        "root_freq": reference_tones["F♯"],
-    },
-    {
-        "name": "B♮ MAJ_SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Med, maj7)[0],
-        "root_freq": reference_tones["B♮"],
-    },
-    {
-        "name": "B♮ MAJ_SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Med, maj7)[0],
-        "root_freq": reference_tones["B♮"],
-    },
-    {
-        "name": "F♮ MINOR_SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Low, min7)[-1],
-        "root_freq": reference_tones["F♮"],
-    },
-    {
-        "name": "B♭ SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Low, dom7)[1],
-        "root_freq": reference_tones["B♭"],
-    },
-    {
-        "name": "E♭ MAJ_SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Lowest, maj7),
-        "root_freq": reference_tones["E♭"],
-    },
-    {
-        "name": "E♭ MAJ_SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Lowest, maj7),
-        "root_freq": reference_tones["E♭"],
-    },
-    {
-        "name": "C♯ MINOR_SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Lowest, min7),
-        "root_freq": reference_tones["C♯"],
-    },
-    {
-        "name": "F♯ SEVEN",
-        "inversion": 2,
-        "chord_details": get_rank(Rank.Lowest, dom7),
-        "root_freq": reference_tones["F♯"],
-    },
-    # third repeat
-    {
-        "name": "B♮ MAJ_SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, maj7),
-        "root_freq": reference_tones["B♮"],
-    },
-    {
-        "name": "D♮ SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, dom7),
-        "root_freq": reference_tones["D♮"],
-    },
-    {
-        "name": "G♮ MAJ_SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, maj7),
-        "root_freq": reference_tones["G♮"],
-    },
-    {
-        "name": "B♭ SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, dom7),
-        "root_freq": reference_tones["B♭"],
-    },
-    {
-        "name": "E♭ MAJ_SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, maj7),
-        "root_freq": reference_tones["E♭"],
-    },
-    {
-        "name": "E♭ MAJ_SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, maj7),
-        "root_freq": reference_tones["E♭"],
-    },
-    {
-        "name": "A♮ MINOR_SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, min7),
-        "root_freq": reference_tones["A♮"],
-    },
-    {
-        "name": "D♮ SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, dom7),
-        "root_freq": reference_tones["D♮"],
-    },
-    {
-        "name": "G♮ MAJ_SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, maj7),
-        "root_freq": reference_tones["G♮"],
-    },
-    {
-        "name": "B♭ SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, dom7),
-        "root_freq": reference_tones["B♭"],
-    },
-    {
-        "name": "E♭ MAJ_SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, maj7),
-        "root_freq": reference_tones["E♭"],
-    },
-    {
-        "name": "F♯ SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, dom7),
-        "root_freq": reference_tones["F♯"],
-    },
-    {
-        "name": "B♮ MAJ_SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, maj7),
-        "root_freq": reference_tones["B♮"],
-    },
-    {
-        "name": "B♮ MAJ_SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, maj7),
-        "root_freq": reference_tones["B♮"],
-    },
-    {
-        "name": "F♮ MINOR_SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, min7),
-        "root_freq": reference_tones["F♮"],
-    },
-    {
-        "name": "B♭ SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, dom7),
-        "root_freq": reference_tones["B♭"],
-    },
-    {
-        "name": "E♭ MAJ_SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, maj7),
-        "root_freq": reference_tones["E♭"],
-    },
-    {
-        "name": "E♭ MAJ_SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, maj7),
-        "root_freq": reference_tones["E♭"],
-    },
-    {
-        "name": "A♮ MINOR_SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, min7),
-        "root_freq": reference_tones["A♮"],
-    },
-    {
-        "name": "D♮ MINOR_SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, min7),
-        "root_freq": reference_tones["D♮"],
-    },
-    {
-        "name": "G♮ MAJ_SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, maj7),
-        "root_freq": reference_tones["G♮"],
-    },
-    {
-        "name": "G♮ MAJ_SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, maj7),
-        "root_freq": reference_tones["G♮"],
-    },
-    {
-        "name": "C♯ MINOR_SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, min7),
-        "root_freq": reference_tones["C♯"],
-    },
-    {
-        "name": "F♯ SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, dom7),
-        "root_freq": reference_tones["F♯"],
-    },
-    {
-        "name": "B♮ MAJ_SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, maj7),
-        "root_freq": reference_tones["B♮"],
-    },
-    {
-        "name": "B♮ MAJ_SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, maj7),
-        "root_freq": reference_tones["B♮"],
-    },
-    {
-        "name": "F♮ MINOR_SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, min7),
-        "root_freq": reference_tones["F♮"],
-    },
-    {
-        "name": "B♭ SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, dom7),
-        "root_freq": reference_tones["B♭"],
-    },
-    {
-        "name": "E♭ MAJ_SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, maj7),
-        "root_freq": reference_tones["E♭"],
-    },
-    {
-        "name": "E♭ MAJ_SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, maj7),
-        "root_freq": reference_tones["E♭"],
-    },
-    {
-        "name": "C♯ MINOR_SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, min7),
-        "root_freq": reference_tones["C♯"],
-    },
-    {
-        "name": "F♯ SEVEN",
-        "inversion": 3,
-        "chord_details": get_rank(Rank.Highest, dom7),
-        "root_freq": reference_tones["F♯"],
-    },
-]
-
-seen = []
-duplicates = []
-for indx, seq in enumerate(final_sequence):
-    if str(seq) in seen:
-        if str(seq) != str(final_sequence[indx - 1]):
-            duplicates.append(seq)
-    else:
-        seen.append(str(seq))
-
-pprint(duplicates)
-dd = [
-    {
-        "chord_details": array(
-            [
-                {"ratio": 1.2456140350877194, "name": "witchcraft major third"},
-                {"ratio": 1.4953703703703705, "name": "undevicesimal meantone fifth"},
-                {"ratio": 1.9047619047619047, "name": "septimal acute major seventh"},
-            ],
-            dtype=object,
+        "chord_details": (
+            {"ratio": 1.2173913043478262, "name": "vicesimotertial neutral third"},
+            {"ratio": 1.52, "name": "undevicesimal acute fifth"},
+            {"ratio": 1.9047619047619047, "name": "septimal acute major seventh"},
         ),
         "inversion": 1,
         "name": "E♭ MAJ_SEVEN",
         "root_freq": 622.25,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2173913043478262, "name": "vicesimotertial neutral third"},
+            {"ratio": 1.52, "name": "undevicesimal acute fifth"},
+            {"ratio": 1.9047619047619047, "name": "septimal acute major seventh"},
+        ),
+        "inversion": 1,
+        "name": "E♭ MAJ_SEVEN",
+        "root_freq": 622.25,
+    },
+    {
+        "chord_details": (
+            {"name": "keemic minor third", "ratio": 1.2152777777777777},
+            {"name": "just perfect fifth", "ratio": 1.5},
+            {
+                "name": "quasi-tempered minor seventh, octave-reduced " "57th harmonic",
+                "ratio": 1.78125,
+            },
+        ),
+        "inversion": 1,
+        "name": "A♮ MINOR_SEVEN",
+        "root_freq": 440,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2578125, "name": "just/Pythagorean major third meantone"},
+            {"ratio": 1.52, "name": "undevicesimal acute fifth"},
+            {"ratio": 1.775, "name": "harmonic/just minor seventh meantone"},
+        ),
+        "inversion": 1,
+        "name": "D♮ SEVEN",
+        "root_freq": 587.33,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2578125, "name": "just/Pythagorean major third meantone"},
+            {"ratio": 1.5125, "name": "wide biyatismic fifth"},
+            {
+                "ratio": 1.894736842105263,
+                "name": "undevicesimal major seventh, Boethius' major seventh",
+            },
+        ),
+        "inversion": 1,
+        "name": "G♮ MAJ_SEVEN",
+        "root_freq": 783.99,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2578125, "name": "just/Pythagorean major third meantone"},
+            {"ratio": 1.52, "name": "undevicesimal acute fifth"},
+            {"ratio": 1.775, "name": "harmonic/just minor seventh meantone"},
+        ),
+        "inversion": 1,
+        "name": "B♭ SEVEN",
+        "root_freq": 466.16,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2456140350877194, "name": "witchcraft major third"},
+            {"ratio": 1.5, "name": "just perfect fifth"},
+            {
+                "ratio": 1.8333333333333333,
+                "name": "undecimal neutral seventh, 21/4-tone",
+            },
+        ),
+        "inversion": 1,
+        "name": "E♭ MAJ_SEVEN",
+        "root_freq": 622.25,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2578125, "name": "just/Pythagorean major third meantone"},
+            {"ratio": 1.5, "name": "just perfect fifth"},
+            {
+                "ratio": 1.75,
+                "name": "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+            },
+        ),
+        "inversion": 1,
+        "name": "F♯ SEVEN",
+        "root_freq": 739.99,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2456140350877194, "name": "witchcraft major third"},
+            {"ratio": 1.4983081847279378, "name": "Kirnberger's fifth"},
+            {"ratio": 1.9047619047619047, "name": "septimal acute major seventh"},
+        ),
+        "inversion": 1,
+        "name": "B♮ MAJ_SEVEN",
+        "root_freq": 493.88,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2456140350877194, "name": "witchcraft major third"},
+            {"ratio": 1.4983081847279378, "name": "Kirnberger's fifth"},
+            {"ratio": 1.9047619047619047, "name": "septimal acute major seventh"},
+        ),
+        "inversion": 1,
+        "name": "B♮ MAJ_SEVEN",
+        "root_freq": 493.88,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2, "name": "just minor third"},
+            {"ratio": 1.5, "name": "just perfect fifth"},
+            {
+                "ratio": 1.75,
+                "name": "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+            },
+        ),
+        "inversion": 1,
+        "name": "F♮ MINOR_SEVEN",
+        "root_freq": 698.46,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2578125, "name": "just/Pythagorean major third meantone"},
+            {"ratio": 1.4953703703703705, "name": "undevicesimal meantone fifth"},
+            {
+                "ratio": 1.75,
+                "name": "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+            },
+        ),
+        "inversion": 1,
+        "name": "B♭ SEVEN",
+        "root_freq": 466.16,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2456140350877194, "name": "witchcraft major third"},
+            {"ratio": 1.5125, "name": "wide biyatismic fifth"},
+            {
+                "ratio": 1.894736842105263,
+                "name": "undevicesimal major seventh, Boethius' major seventh",
+            },
+        ),
+        "inversion": 1,
+        "name": "E♭ MAJ_SEVEN",
+        "root_freq": 622.25,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2456140350877194, "name": "witchcraft major third"},
+            {"ratio": 1.5125, "name": "wide biyatismic fifth"},
+            {
+                "ratio": 1.894736842105263,
+                "name": "undevicesimal major seventh, Boethius' major seventh",
+            },
+        ),
+        "inversion": 1,
+        "name": "E♭ MAJ_SEVEN",
+        "root_freq": 622.25,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.1842105263157894, "name": "Eratosthenes' minor third"},
+            {"ratio": 1.52, "name": "undevicesimal acute fifth"},
+            {
+                "ratio": 1.78125,
+                "name": "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+            },
+        ),
+        "inversion": 1,
+        "name": "A♮ MINOR_SEVEN",
+        "root_freq": 440,
+    },
+    {
+        "chord_details": (
+            {"name": "Eratosthenes' minor third", "ratio": 1.1842105263157894},
+            {"name": "vengeance subfifth", "ratio": 1.4705882352941178},
+            {
+                "name": "subminor seventh, septimal minor seventh, "
+                "harmonic seventh, natural seventh, "
+                "octave-reduced 7th harmonic",
+                "ratio": 1.75,
+            },
+        ),
+        "inversion": 1,
+        "name": "D♮ MINOR_SEVEN",
+        "root_freq": 587.33,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2578125, "name": "just/Pythagorean major third meantone"},
+            {"ratio": 1.4705882352941178, "name": "vengeance subfifth"},
+            {
+                "ratio": 1.894736842105263,
+                "name": "undevicesimal major seventh, Boethius' major seventh",
+            },
+        ),
+        "inversion": 1,
+        "name": "G♮ MAJ_SEVEN",
+        "root_freq": 783.99,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2578125, "name": "just/Pythagorean major third meantone"},
+            {"ratio": 1.4983081847279378, "name": "Kirnberger's fifth"},
+            {"ratio": 1.9047619047619047, "name": "septimal acute major seventh"},
+        ),
+        "inversion": 1,
+        "name": "G♮ MAJ_SEVEN",
+        "root_freq": 783.99,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2152777777777777, "name": "keemic minor third"},
+            {"ratio": 1.4983081847279378, "name": "Kirnberger's fifth"},
+            {"ratio": 1.775, "name": "harmonic/just minor seventh meantone"},
+        ),
+        "inversion": 1,
+        "name": "C♯ MINOR_SEVEN",
+        "root_freq": 554.37,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2578125, "name": "just/Pythagorean major third meantone"},
+            {"ratio": 1.52, "name": "undevicesimal acute fifth"},
+            {"ratio": 1.775, "name": "harmonic/just minor seventh meantone"},
+        ),
+        "inversion": 1,
+        "name": "F♯ SEVEN",
+        "root_freq": 739.99,
+    },
+    {
+        "chord_details": (
+            {"name": "5/7-kleismic major third", "ratio": 1.2698412698412698},
+            {"name": "undevicesimal acute fifth", "ratio": 1.52},
+            {"name": "septimal acute major seventh", "ratio": 1.9047619047619047},
+        ),
+        "inversion": 1,
+        "name": "B♮ MAJ_SEVEN",
+        "root_freq": 493.88,
+    },
+    {
+        "chord_details": (
+            {"name": "5/7-kleismic major third", "ratio": 1.2698412698412698},
+            {"name": "undevicesimal acute fifth", "ratio": 1.52},
+            {"name": "septimal acute major seventh", "ratio": 1.9047619047619047},
+        ),
+        "inversion": 1,
+        "name": "B♮ MAJ_SEVEN",
+        "root_freq": 493.88,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2152777777777777, "name": "keemic minor third"},
+            {"ratio": 1.4983081847279378, "name": "Kirnberger's fifth"},
+            {
+                "ratio": 1.75,
+                "name": "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+            },
+        ),
+        "inversion": 1,
+        "name": "F♮ MINOR_SEVEN",
+        "root_freq": 698.46,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2578125, "name": "just/Pythagorean major third meantone"},
+            {"ratio": 1.4953703703703705, "name": "undevicesimal meantone fifth"},
+            {
+                "ratio": 1.78125,
+                "name": "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+            },
+        ),
+        "inversion": 1,
+        "name": "B♭ SEVEN",
+        "root_freq": 466.16,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2456140350877194, "name": "witchcraft major third"},
+            {"ratio": 1.52, "name": "undevicesimal acute fifth"},
+            {"ratio": 1.9047619047619047, "name": "septimal acute major seventh"},
+        ),
+        "inversion": 1,
+        "name": "E♭ MAJ_SEVEN",
+        "root_freq": 622.25,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2456140350877194, "name": "witchcraft major third"},
+            {"ratio": 1.52, "name": "undevicesimal acute fifth"},
+            {"ratio": 1.9047619047619047, "name": "septimal acute major seventh"},
+        ),
+        "inversion": 1,
+        "name": "E♭ MAJ_SEVEN",
+        "root_freq": 622.25,
+    },
+    {
+        "chord_details": (
+            {"name": "Eratosthenes' minor third", "ratio": 1.1842105263157894},
+            {"name": "vengeance subfifth", "ratio": 1.4705882352941178},
+            {
+                "name": "subminor seventh, septimal minor seventh, "
+                "harmonic seventh, natural seventh, "
+                "octave-reduced 7th harmonic",
+                "ratio": 1.75,
+            },
+        ),
+        "inversion": 1,
+        "name": "C♯ MINOR_SEVEN",
+        "root_freq": 554.37,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2456140350877194, "name": "witchcraft major third"},
+            {"ratio": 1.5, "name": "just perfect fifth"},
+            {
+                "ratio": 1.75,
+                "name": "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+            },
+        ),
+        "inversion": 1,
+        "name": "F♯ SEVEN",
+        "root_freq": 739.99,
+    },
+    {
+        "chord_details": (
+            {"name": "5/7-kleismic major third", "ratio": 1.2698412698412698},
+            {"name": "undevicesimal acute fifth", "ratio": 1.52},
+            {"name": "septimal acute major seventh", "ratio": 1.9047619047619047},
+        ),
+        "inversion": 2,
+        "name": "B♮ MAJ_SEVEN",
+        "root_freq": 493.88,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2698412698412698, "name": "5/7-kleismic major third"},
+            {"ratio": 1.5125, "name": "wide biyatismic fifth"},
+            {
+                "ratio": 1.75,
+                "name": "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+            },
+        ),
+        "inversion": 2,
+        "name": "D♮ SEVEN",
+        "root_freq": 587.33,
+    },
+    {
+        "chord_details": (
+            {"name": "witchcraft major third", "ratio": 1.2456140350877194},
+            {"name": "wide biyatismic fifth", "ratio": 1.5125},
+            {
+                "name": "undevicesimal major seventh, Boethius' major " "seventh",
+                "ratio": 1.894736842105263,
+            },
+        ),
+        "inversion": 2,
+        "name": "G♮ MAJ_SEVEN",
+        "root_freq": 783.99,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2698412698412698, "name": "5/7-kleismic major third"},
+            {"ratio": 1.5125, "name": "wide biyatismic fifth"},
+            {
+                "ratio": 1.75,
+                "name": "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+            },
+        ),
+        "inversion": 2,
+        "name": "B♭ SEVEN",
+        "root_freq": 466.16,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2578125, "name": "just/Pythagorean major third meantone"},
+            {"ratio": 1.5125, "name": "wide biyatismic fifth"},
+            {
+                "ratio": 1.894736842105263,
+                "name": "undevicesimal major seventh, Boethius' major seventh",
+            },
+        ),
+        "inversion": 2,
+        "name": "E♭ MAJ_SEVEN",
+        "root_freq": 622.25,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2578125, "name": "just/Pythagorean major third meantone"},
+            {"ratio": 1.5125, "name": "wide biyatismic fifth"},
+            {
+                "ratio": 1.894736842105263,
+                "name": "undevicesimal major seventh, Boethius' major seventh",
+            },
+        ),
+        "inversion": 2,
+        "name": "E♭ MAJ_SEVEN",
+        "root_freq": 622.25,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2152777777777777, "name": "keemic minor third"},
+            {"ratio": 1.5, "name": "just perfect fifth"},
+            {"ratio": 1.775, "name": "harmonic/just minor seventh meantone"},
+        ),
+        "inversion": 2,
+        "name": "A♮ MINOR_SEVEN",
+        "root_freq": 440,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2698412698412698, "name": "5/7-kleismic major third"},
+            {"ratio": 1.5, "name": "just perfect fifth"},
+            {"ratio": 1.775, "name": "harmonic/just minor seventh meantone"},
+        ),
+        "inversion": 2,
+        "name": "D♮ SEVEN",
+        "root_freq": 587.33,
+    },
+    {
+        "chord_details": (
+            {"name": "just minor third", "ratio": 1.2},
+            {"name": "vengeance subfifth", "ratio": 1.4705882352941178},
+            {
+                "name": "subminor seventh, septimal minor seventh, "
+                "harmonic seventh, natural seventh, "
+                "octave-reduced 7th harmonic",
+                "ratio": 1.75,
+            },
+        ),
+        "inversion": 2,
+        "name": "G♮ MAJ_SEVEN",
+        "root_freq": 783.99,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2578125, "name": "just/Pythagorean major third meantone"},
+            {"ratio": 1.5, "name": "just perfect fifth"},
+            {
+                "ratio": 1.75,
+                "name": "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+            },
+        ),
+        "inversion": 2,
+        "name": "B♭ SEVEN",
+        "root_freq": 466.16,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2578125, "name": "just/Pythagorean major third meantone"},
+            {"ratio": 1.52, "name": "undevicesimal acute fifth"},
+            {
+                "ratio": 1.8333333333333333,
+                "name": "undecimal neutral seventh, 21/4-tone",
+            },
+        ),
+        "inversion": 2,
+        "name": "E♭ MAJ_SEVEN",
+        "root_freq": 622.25,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2578125, "name": "just/Pythagorean major third meantone"},
+            {"ratio": 1.4983081847279378, "name": "Kirnberger's fifth"},
+            {
+                "ratio": 1.75,
+                "name": "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+            },
+        ),
+        "inversion": 2,
+        "name": "F♯ SEVEN",
+        "root_freq": 739.99,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2578125, "name": "just/Pythagorean major third meantone"},
+            {"ratio": 1.5125, "name": "wide biyatismic fifth"},
+            {
+                "ratio": 1.894736842105263,
+                "name": "undevicesimal major seventh, Boethius' major seventh",
+            },
+        ),
+        "inversion": 2,
+        "name": "B♮ MAJ_SEVEN",
+        "root_freq": 493.88,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2578125, "name": "just/Pythagorean major third meantone"},
+            {"ratio": 1.5125, "name": "wide biyatismic fifth"},
+            {
+                "ratio": 1.894736842105263,
+                "name": "undevicesimal major seventh, Boethius' major seventh",
+            },
+        ),
+        "inversion": 2,
+        "name": "B♮ MAJ_SEVEN",
+        "root_freq": 493.88,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2152777777777777, "name": "keemic minor third"},
+            {"ratio": 1.4983081847279378, "name": "Kirnberger's fifth"},
+            {"ratio": 1.775, "name": "harmonic/just minor seventh meantone"},
+        ),
+        "inversion": 2,
+        "name": "F♮ MINOR_SEVEN",
+        "root_freq": 698.46,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2698412698412698, "name": "5/7-kleismic major third"},
+            {"ratio": 1.4983081847279378, "name": "Kirnberger's fifth"},
+            {"ratio": 1.775, "name": "harmonic/just minor seventh meantone"},
+        ),
+        "inversion": 2,
+        "name": "B♭ SEVEN",
+        "root_freq": 466.16,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2698412698412698, "name": "5/7-kleismic major third"},
+            {"ratio": 1.4705882352941178, "name": "vengeance subfifth"},
+            {"ratio": 1.9047619047619047, "name": "septimal acute major seventh"},
+        ),
+        "inversion": 2,
+        "name": "E♭ MAJ_SEVEN",
+        "root_freq": 622.25,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2698412698412698, "name": "5/7-kleismic major third"},
+            {"ratio": 1.4705882352941178, "name": "vengeance subfifth"},
+            {"ratio": 1.9047619047619047, "name": "septimal acute major seventh"},
+        ),
+        "inversion": 2,
+        "name": "E♭ MAJ_SEVEN",
+        "root_freq": 622.25,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2152777777777777, "name": "keemic minor third"},
+            {"ratio": 1.4953703703703705, "name": "undevicesimal meantone fifth"},
+            {
+                "ratio": 1.78125,
+                "name": "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+            },
+        ),
+        "inversion": 2,
+        "name": "A♮ MINOR_SEVEN",
+        "root_freq": 440,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2152777777777777, "name": "keemic minor third"},
+            {"ratio": 1.4953703703703705, "name": "undevicesimal meantone fifth"},
+            {
+                "ratio": 1.78125,
+                "name": "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+            },
+        ),
+        "inversion": 2,
+        "name": "D♮ MINOR_SEVEN",
+        "root_freq": 587.33,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2456140350877194, "name": "witchcraft major third"},
+            {"ratio": 1.4953703703703705, "name": "undevicesimal meantone fifth"},
+            {"ratio": 1.9047619047619047, "name": "septimal acute major seventh"},
+        ),
+        "inversion": 2,
+        "name": "G♮ MAJ_SEVEN",
+        "root_freq": 783.99,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2456140350877194, "name": "witchcraft major third"},
+            {"ratio": 1.4953703703703705, "name": "undevicesimal meantone fifth"},
+            {"ratio": 1.9047619047619047, "name": "septimal acute major seventh"},
+        ),
+        "inversion": 2,
+        "name": "G♮ MAJ_SEVEN",
+        "root_freq": 783.99,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2, "name": "just minor third"},
+            {"ratio": 1.4705882352941178, "name": "vengeance subfifth"},
+            {
+                "ratio": 1.75,
+                "name": "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+            },
+        ),
+        "inversion": 2,
+        "name": "C♯ MINOR_SEVEN",
+        "root_freq": 554.37,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2456140350877194, "name": "witchcraft major third"},
+            {"ratio": 1.4983081847279378, "name": "Kirnberger's fifth"},
+            {
+                "ratio": 1.75,
+                "name": "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+            },
+        ),
+        "inversion": 2,
+        "name": "F♯ SEVEN",
+        "root_freq": 739.99,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2456140350877194, "name": "witchcraft major third"},
+            {"ratio": 1.4983081847279378, "name": "Kirnberger's fifth"},
+            {"ratio": 1.9047619047619047, "name": "septimal acute major seventh"},
+        ),
+        "inversion": 2,
+        "name": "B♮ MAJ_SEVEN",
+        "root_freq": 493.88,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2456140350877194, "name": "witchcraft major third"},
+            {"ratio": 1.4983081847279378, "name": "Kirnberger's fifth"},
+            {"ratio": 1.9047619047619047, "name": "septimal acute major seventh"},
+        ),
+        "inversion": 2,
+        "name": "B♮ MAJ_SEVEN",
+        "root_freq": 493.88,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2, "name": "just minor third"},
+            {"ratio": 1.4705882352941178, "name": "vengeance subfifth"},
+            {"ratio": 1.775, "name": "harmonic/just minor seventh meantone"},
+        ),
+        "inversion": 2,
+        "name": "F♮ MINOR_SEVEN",
+        "root_freq": 698.46,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2456140350877194, "name": "witchcraft major third"},
+            {"ratio": 1.5, "name": "just perfect fifth"},
+            {
+                "ratio": 1.75,
+                "name": "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+            },
+        ),
+        "inversion": 2,
+        "name": "B♭ SEVEN",
+        "root_freq": 466.16,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2698412698412698, "name": "5/7-kleismic major third"},
+            {"ratio": 1.5, "name": "just perfect fifth"},
+            {
+                "ratio": 1.894736842105263,
+                "name": "undevicesimal major seventh, Boethius' major seventh",
+            },
+        ),
+        "inversion": 2,
+        "name": "E♭ MAJ_SEVEN",
+        "root_freq": 622.25,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2698412698412698, "name": "5/7-kleismic major third"},
+            {"ratio": 1.5, "name": "just perfect fifth"},
+            {
+                "ratio": 1.894736842105263,
+                "name": "undevicesimal major seventh, Boethius' major seventh",
+            },
+        ),
+        "inversion": 2,
+        "name": "E♭ MAJ_SEVEN",
+        "root_freq": 622.25,
+    },
+    {
+        "chord_details": (
+            {"name": "Eratosthenes' minor third", "ratio": 1.1842105263157894},
+            {"name": "vengeance subfifth", "ratio": 1.4705882352941178},
+            {
+                "name": "subminor seventh, septimal minor seventh, "
+                "harmonic seventh, natural seventh, "
+                "octave-reduced 7th harmonic",
+                "ratio": 1.75,
+            },
+        ),
+        "inversion": 2,
+        "name": "C♯ MINOR_SEVEN",
+        "root_freq": 554.37,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2578125, "name": "just/Pythagorean major third meantone"},
+            {"ratio": 1.5, "name": "just perfect fifth"},
+            {
+                "ratio": 1.75,
+                "name": "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+            },
+        ),
+        "inversion": 2,
+        "name": "F♯ SEVEN",
+        "root_freq": 739.99,
+    },
+    {
+        "chord_details": (
+            {"name": "witchcraft major third", "ratio": 1.2456140350877194},
+            {"name": "undevicesimal acute fifth", "ratio": 1.52},
+            {"name": "septimal acute major seventh", "ratio": 1.9047619047619047},
+        ),
+        "inversion": 3,
+        "name": "B♮ MAJ_SEVEN",
+        "root_freq": 493.88,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2698412698412698, "name": "5/7-kleismic major third"},
+            {"ratio": 1.4983081847279378, "name": "Kirnberger's fifth"},
+            {"ratio": 1.775, "name": "harmonic/just minor seventh meantone"},
+        ),
+        "inversion": 3,
+        "name": "D♮ SEVEN",
+        "root_freq": 587.33,
+    },
+    {
+        "chord_details": (
+            {"name": "witchcraft major third", "ratio": 1.2456140350877194},
+            {"name": "wide biyatismic fifth", "ratio": 1.5125},
+            {
+                "name": "subminor seventh, septimal minor seventh, "
+                "harmonic seventh, natural seventh, "
+                "octave-reduced 7th harmonic",
+                "ratio": 1.75,
+            },
+        ),
+        "inversion": 3,
+        "name": "G♮ MAJ_SEVEN",
+        "root_freq": 783.99,
+    },
+    {
+        "chord_details": (
+            {"name": "witchcraft major third", "ratio": 1.2456140350877194},
+            {"name": "wide biyatismic fifth", "ratio": 1.5125},
+            {
+                "name": "undevicesimal major seventh, Boethius' major " "seventh",
+                "ratio": 1.894736842105263,
+            },
+        ),
+        "inversion": 3,
+        "name": "B♭ SEVEN",
+        "root_freq": 466.16,
+    },
+    {
+        "chord_details": (
+            {"name": "keemic minor third", "ratio": 1.2152777777777777},
+            {"name": "Kirnberger's fifth", "ratio": 1.4983081847279378},
+            {"name": "harmonic/just minor seventh meantone", "ratio": 1.775},
+        ),
+        "inversion": 3,
+        "name": "E♭ MAJ_SEVEN",
+        "root_freq": 622.25,
+    },
+    {
+        "chord_details": (
+            {"name": "witchcraft major third", "ratio": 1.2456140350877194},
+            {"name": "Kirnberger's fifth", "ratio": 1.4983081847279378},
+            {"name": "septimal acute major seventh", "ratio": 1.9047619047619047},
+        ),
+        "inversion": 3,
+        "name": "E♭ MAJ_SEVEN",
+        "root_freq": 622.25,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2152777777777777, "name": "keemic minor third"},
+            {"ratio": 1.5, "name": "just perfect fifth"},
+            {
+                "ratio": 1.78125,
+                "name": "quasi-tempered minor seventh, octave-reduced 57th harmonic",
+            },
+        ),
+        "inversion": 3,
+        "name": "A♮ MINOR_SEVEN",
+        "root_freq": 440,
     },
     {
         "chord_details": (
@@ -838,92 +1228,45 @@ dd = [
     },
     {
         "chord_details": (
-            {"name": "5/7-kleismic major third", "ratio": 1.2698412698412698},
+            {"name": "just/Pythagorean major third meantone", "ratio": 1.2578125},
             {"name": "undevicesimal acute fifth", "ratio": 1.52},
-            {"name": "septimal acute major seventh", "ratio": 1.9047619047619047},
-        ),
-        "inversion": 3,
-        "name": "G♮ MAJ_SEVEN",
-        "root_freq": 783.99,
-    },
-    {
-        "chord_details": (
-            {"name": "5/7-kleismic major third", "ratio": 1.2698412698412698},
-            {"name": "undevicesimal acute fifth", "ratio": 1.52},
-            {"name": "harmonic/just minor seventh meantone", "ratio": 1.775},
-        ),
-        "inversion": 3,
-        "name": "B♭ SEVEN",
-        "root_freq": 466.16,
-    },
-    {
-        "chord_details": (
-            {"name": "5/7-kleismic major third", "ratio": 1.2698412698412698},
-            {"name": "undevicesimal acute fifth", "ratio": 1.52},
-            {"name": "septimal acute major seventh", "ratio": 1.9047619047619047},
-        ),
-        "inversion": 3,
-        "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
-    },
-    {
-        "chord_details": (
-            {"name": "5/7-kleismic major third", "ratio": 1.2698412698412698},
-            {"name": "undevicesimal acute fifth", "ratio": 1.52},
-            {"name": "septimal acute major seventh", "ratio": 1.9047619047619047},
-        ),
-        "inversion": 3,
-        "name": "B♮ MAJ_SEVEN",
-        "root_freq": 493.88,
-    },
-    {
-        "chord_details": (
-            {"name": "5/7-kleismic major third", "ratio": 1.2698412698412698},
-            {"name": "undevicesimal acute fifth", "ratio": 1.52},
-            {"name": "harmonic/just minor seventh meantone", "ratio": 1.775},
-        ),
-        "inversion": 3,
-        "name": "B♭ SEVEN",
-        "root_freq": 466.16,
-    },
-    {
-        "chord_details": (
-            {"name": "5/7-kleismic major third", "ratio": 1.2698412698412698},
-            {"name": "undevicesimal acute fifth", "ratio": 1.52},
-            {"name": "septimal acute major seventh", "ratio": 1.9047619047619047},
-        ),
-        "inversion": 3,
-        "name": "E♭ MAJ_SEVEN",
-        "root_freq": 622.25,
-    },
-    {
-        "chord_details": (
-            {"name": "keemic minor third", "ratio": 1.2152777777777777},
-            {"name": "just perfect fifth", "ratio": 1.5},
             {
-                "name": "quasi-tempered minor seventh, octave-reduced " "57th harmonic",
-                "ratio": 1.78125,
+                "name": "undecimal neutral seventh, 21/4-tone",
+                "ratio": 1.8333333333333333,
             },
         ),
         "inversion": 3,
-        "name": "A♮ MINOR_SEVEN",
-        "root_freq": 440,
-    },
-    {
-        "chord_details": (
-            {"name": "5/7-kleismic major third", "ratio": 1.2698412698412698},
-            {"name": "undevicesimal acute fifth", "ratio": 1.52},
-            {"name": "septimal acute major seventh", "ratio": 1.9047619047619047},
-        ),
-        "inversion": 3,
         "name": "G♮ MAJ_SEVEN",
         "root_freq": 783.99,
     },
     {
         "chord_details": (
-            {"name": "5/7-kleismic major third", "ratio": 1.2698412698412698},
-            {"name": "undevicesimal acute fifth", "ratio": 1.52},
-            {"name": "harmonic/just minor seventh meantone", "ratio": 1.775},
+            {"name": "just/Pythagorean major third meantone", "ratio": 1.2578125},
+            {"name": "Kirnberger's fifth", "ratio": 1.4983081847279378},
+            {"name": "septimal acute major seventh", "ratio": 1.9047619047619047},
+        ),
+        "inversion": 3,
+        "name": "B♭ SEVEN",
+        "root_freq": 466.16,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2698412698412698, "name": "5/7-kleismic major third"},
+            {"ratio": 1.5125, "name": "wide biyatismic fifth"},
+            {"ratio": 1.9047619047619047, "name": "septimal acute major seventh"},
+        ),
+        "inversion": 3,
+        "name": "E♭ MAJ_SEVEN",
+        "root_freq": 622.25,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2698412698412698, "name": "5/7-kleismic major third"},
+            {"ratio": 1.5125, "name": "wide biyatismic fifth"},
+            {
+                "ratio": 1.75,
+                "name": "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+            },
         ),
         "inversion": 3,
         "name": "F♯ SEVEN",
@@ -931,8 +1274,8 @@ dd = [
     },
     {
         "chord_details": (
-            {"name": "5/7-kleismic major third", "ratio": 1.2698412698412698},
-            {"name": "undevicesimal acute fifth", "ratio": 1.52},
+            {"name": "vicesimotertial neutral third", "ratio": 1.2173913043478262},
+            {"name": "just perfect fifth", "ratio": 1.5},
             {"name": "septimal acute major seventh", "ratio": 1.9047619047619047},
         ),
         "inversion": 3,
@@ -941,11 +1284,26 @@ dd = [
     },
     {
         "chord_details": (
-            {"name": "keemic minor third", "ratio": 1.2152777777777777},
-            {"name": "just perfect fifth", "ratio": 1.5},
+            {"name": "witchcraft major third", "ratio": 1.2456140350877194},
+            {"name": "vengeance subfifth", "ratio": 1.4705882352941178},
             {
-                "name": "quasi-tempered minor seventh, octave-reduced " "57th harmonic",
-                "ratio": 1.78125,
+                "name": "undecimal neutral seventh, 21/4-tone",
+                "ratio": 1.8333333333333333,
+            },
+        ),
+        "inversion": 3,
+        "name": "B♮ MAJ_SEVEN",
+        "root_freq": 493.88,
+    },
+    {
+        "chord_details": (
+            {"name": "5/7-kleismic major third", "ratio": 1.2698412698412698},
+            {"name": "wide biyatismic fifth", "ratio": 1.5125},
+            {
+                "name": "subminor seventh, septimal minor seventh, "
+                "harmonic seventh, natural seventh, "
+                "octave-reduced 7th harmonic",
+                "ratio": 1.75,
             },
         ),
         "inversion": 3,
@@ -954,9 +1312,9 @@ dd = [
     },
     {
         "chord_details": (
-            {"name": "5/7-kleismic major third", "ratio": 1.2698412698412698},
-            {"name": "undevicesimal acute fifth", "ratio": 1.52},
-            {"name": "harmonic/just minor seventh meantone", "ratio": 1.775},
+            {"ratio": 1.2698412698412698, "name": "5/7-kleismic major third"},
+            {"ratio": 1.5, "name": "just perfect fifth"},
+            {"ratio": 1.775, "name": "harmonic/just minor seventh meantone"},
         ),
         "inversion": 3,
         "name": "B♭ SEVEN",
@@ -964,7 +1322,162 @@ dd = [
     },
     {
         "chord_details": (
+            {"name": "vicesimotertial neutral third", "ratio": 1.2173913043478262},
+            {"name": "wide biyatismic fifth", "ratio": 1.5125},
+            {
+                "name": "undevicesimal major seventh, Boethius' major " "seventh",
+                "ratio": 1.894736842105263,
+            },
+        ),
+        "inversion": 3,
+        "name": "E♭ MAJ_SEVEN",
+        "root_freq": 622.25,
+    },
+    {
+        "chord_details": (
+            {"name": "just/Pythagorean major third meantone", "ratio": 1.2578125},
+            {"name": "Kirnberger's fifth", "ratio": 1.4983081847279378},
+            {
+                "name": "subminor seventh, septimal minor seventh, "
+                "harmonic seventh, natural seventh, "
+                "octave-reduced 7th harmonic",
+                "ratio": 1.75,
+            },
+        ),
+        "inversion": 3,
+        "name": "E♭ MAJ_SEVEN",
+        "root_freq": 622.25,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2152777777777777, "name": "keemic minor third"},
+            {"ratio": 1.5, "name": "just perfect fifth"},
+            {"ratio": 1.775, "name": "harmonic/just minor seventh meantone"},
+        ),
+        "inversion": 3,
+        "name": "A♮ MINOR_SEVEN",
+        "root_freq": 440,
+    },
+    {
+        "chord_details": (
+            {"name": "keemic minor third", "ratio": 1.2152777777777777},
+            {"name": "just perfect fifth", "ratio": 1.5},
+            {
+                "name": "quasi-tempered minor seventh, octave-reduced " "57th harmonic",
+                "ratio": 1.78125,
+            },
+        ),
+        "inversion": 3,
+        "name": "D♮ MINOR_SEVEN",
+        "root_freq": 587.33,
+    },
+    {
+        "chord_details": (
+            {"name": "Eratosthenes' minor third", "ratio": 1.1842105263157894},
+            {"name": "undevicesimal acute fifth", "ratio": 1.52},
+            {
+                "name": "quasi-tempered minor seventh, octave-reduced " "57th harmonic",
+                "ratio": 1.78125,
+            },
+        ),
+        "inversion": 3,
+        "name": "G♮ MAJ_SEVEN",
+        "root_freq": 783.99,
+    },
+    {
+        "chord_details": (
+            {"name": "keemic minor third", "ratio": 1.2152777777777777},
+            {"name": "just perfect fifth", "ratio": 1.5},
+            {"name": "harmonic/just minor seventh meantone", "ratio": 1.775},
+        ),
+        "inversion": 3,
+        "name": "G♮ MAJ_SEVEN",
+        "root_freq": 783.99,
+    },
+    {
+        "chord_details": (
             {"name": "5/7-kleismic major third", "ratio": 1.2698412698412698},
+            {"name": "wide biyatismic fifth", "ratio": 1.5125},
+            {
+                "name": "subminor seventh, septimal minor seventh, "
+                "harmonic seventh, natural seventh, "
+                "octave-reduced 7th harmonic",
+                "ratio": 1.75,
+            },
+        ),
+        "inversion": 3,
+        "name": "C♯ MINOR_SEVEN",
+        "root_freq": 554.37,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2698412698412698, "name": "5/7-kleismic major third"},
+            {"ratio": 1.52, "name": "undevicesimal acute fifth"},
+            {"ratio": 1.775, "name": "harmonic/just minor seventh meantone"},
+        ),
+        "inversion": 3,
+        "name": "F♯ SEVEN",
+        "root_freq": 739.99,
+    },
+    {
+        "chord_details": (
+            {"name": "keemic minor third", "ratio": 1.2152777777777777},
+            {"name": "vengeance subfifth", "ratio": 1.4705882352941178},
+            {
+                "name": "subminor seventh, septimal minor seventh, "
+                "harmonic seventh, natural seventh, "
+                "octave-reduced 7th harmonic",
+                "ratio": 1.75,
+            },
+        ),
+        "inversion": 3,
+        "name": "B♮ MAJ_SEVEN",
+        "root_freq": 493.88,
+    },
+    {
+        "chord_details": (
+            {"name": "just/Pythagorean major third meantone", "ratio": 1.2578125},
+            {"name": "undevicesimal meantone fifth", "ratio": 1.4953703703703705},
+            {
+                "name": "subminor seventh, septimal minor seventh, "
+                "harmonic seventh, natural seventh, "
+                "octave-reduced 7th harmonic",
+                "ratio": 1.75,
+            },
+        ),
+        "inversion": 3,
+        "name": "B♮ MAJ_SEVEN",
+        "root_freq": 493.88,
+    },
+    {
+        "chord_details": (
+            {"name": "just/Pythagorean major third meantone", "ratio": 1.2578125},
+            {"name": "vengeance subfifth", "ratio": 1.4705882352941178},
+            {
+                "name": "undevicesimal major seventh, Boethius' major " "seventh",
+                "ratio": 1.894736842105263,
+            },
+        ),
+        "inversion": 3,
+        "name": "F♮ MINOR_SEVEN",
+        "root_freq": 698.46,
+    },
+    {
+        "chord_details": (
+            {"ratio": 1.2698412698412698, "name": "5/7-kleismic major third"},
+            {"ratio": 1.5125, "name": "wide biyatismic fifth"},
+            {
+                "ratio": 1.75,
+                "name": "subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+            },
+        ),
+        "inversion": 3,
+        "name": "B♭ SEVEN",
+        "root_freq": 466.16,
+    },
+    {
+        "chord_details": (
+            {"name": "witchcraft major third", "ratio": 1.2456140350877194},
             {"name": "undevicesimal acute fifth", "ratio": 1.52},
             {"name": "septimal acute major seventh", "ratio": 1.9047619047619047},
         ),
@@ -974,11 +1487,26 @@ dd = [
     },
     {
         "chord_details": (
-            {"name": "keemic minor third", "ratio": 1.2152777777777777},
+            {"name": "witchcraft major third", "ratio": 1.2456140350877194},
             {"name": "just perfect fifth", "ratio": 1.5},
             {
-                "name": "quasi-tempered minor seventh, octave-reduced " "57th harmonic",
-                "ratio": 1.78125,
+                "name": "subminor seventh, septimal minor seventh, "
+                "harmonic seventh, natural seventh, "
+                "octave-reduced 7th harmonic",
+                "ratio": 1.75,
+            },
+        ),
+        "inversion": 3,
+        "name": "E♭ MAJ_SEVEN",
+        "root_freq": 622.25,
+    },
+    {
+        "chord_details": (
+            {"name": "witchcraft major third", "ratio": 1.2456140350877194},
+            {"name": "just perfect fifth", "ratio": 1.5},
+            {
+                "name": "undecimal neutral seventh, 21/4-tone",
+                "ratio": 1.8333333333333333,
             },
         ),
         "inversion": 3,
@@ -996,3 +1524,48 @@ dd = [
         "root_freq": 739.99,
     },
 ]
+
+
+def get_frequencies(root, ratios):
+    first = root
+    third = root * ratios[0]["ratio"]
+    fifth = root * ratios[1]["ratio"]
+    seventh = root * ratios[2]["ratio"]
+
+    return (first, third, fifth, seventh)
+
+
+def get_inversions(frequencies, inversion):
+    new_frequencies = list(frequencies)
+
+    if inversion >= 1:
+        new_frequencies[0] = frequencies[0] * 2  # 8va
+
+    if inversion >= 2:
+        new_frequencies[1] = frequencies[1] * 2  # 8va
+
+    if inversion >= 3:
+        new_frequencies[2] = frequencies[2] * 2  # 8va
+
+    return new_frequencies
+
+
+with_inversions = []
+for detail in without_inversions:
+    inversion = detail["inversion"]
+
+    new_detail = dict()
+    new_detail["chord"] = detail["name"]
+    new_detail["intervals"] = " | ".join([x["name"] for x in detail["chord_details"]])
+    new_detail["inversion"] = inversion
+
+    frequencies = get_frequencies(detail["root_freq"], detail["chord_details"])
+
+    if inversion >= 1:
+        frequencies = get_inversions(frequencies, detail["inversion"])
+
+    new_detail["frequencies"] = frequencies
+
+    with_inversions.append(new_detail)
+
+print(len(with_inversions))

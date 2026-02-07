@@ -1,7 +1,19 @@
 import array
 import math
+import struct
+import wave
 
 import pyaudio
+
+
+def save_samples_to_wav(samples, filename, sampling_rate=48000):
+    """slavishly copy and pasted"""
+    int_samples = [int(max(-1.0, min(1.0, s)) * 32767) for s in samples]
+    with wave.open(filename, "w") as wf:
+        wf.setnchannels(1)
+        wf.setsampwidth(2)
+        wf.setframerate(sampling_rate)
+        wf.writeframes(b"".join(struct.pack("<h", s) for s in int_samples))
 
 
 class Sine:
