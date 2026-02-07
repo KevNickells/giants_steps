@@ -13,6 +13,7 @@
       pythonEnv = pkgs.python312.withPackages (ps: with ps; [
           pyaudio
           numpy
+	  portaudio
       ]);
     in {
       devShells.${system}.default = pkgs.mkShell {
