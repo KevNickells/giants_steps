@@ -1,0 +1,12 @@
+inv 0
+B3
+d#4
+f#4
+a#4
+
+inv 1
+
+d#4
+f#4
+a#4
+B4 --> actually B3 for the intervals and then changed to B4 for the inversion

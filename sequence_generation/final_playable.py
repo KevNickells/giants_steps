@@ -1,23 +1,29 @@
-# from time import sleep
-
-
-#
 from sequence_generation.final_sequence import with_inversions
 
-#
-duration = 9.375
+duration = 0.4
 all_samples = []
-#
-#
-# def generate_silence(sampling_rate=48000):
-#    num_samples = int(sampling_rate * 0.2)
-#    return [0.0] * num_samples
+
+
+def generate_silence(sampling_rate=48000):
+    num_samples = int(sampling_rate * 0.2)
+    return [0.0] * num_samples
 
 
 for index, chord_detail in enumerate(with_inversions):
-    print(
-        f"{index + 1}. Chord: {chord_detail['chord']}; {chord_detail["intervals"]}; {chord_detail['frequencies']}"
-    )
+    print(chord_detail)
+
+# print(
+
+#    f"{index + 1}. Chord: {chord_detail['chord']}; {chord_detail["intervals"]}; {chord_detail['frequencies']}"
+
+# )
+
+
+# for index, chord_detail in enumerate(with_inversions):
+#    print(
+#        f"{index + 1}. Chord: {chord_detail['chord']}; {chord_detail["intervals"]}; {chord_detail['frequencies']}"
+#    )
+#
 #    sines = [
 #        Sine(
 #            frequency=freq,
@@ -33,12 +39,12 @@ for index, chord_detail in enumerate(with_inversions):
 #    all_samples.extend(generate_silence())
 #    sleep(0.2)
 
-# save_samples_to_wav(all_samples, "giants_steps_prototype_long.wav")
+# save_samples_to_wav(all_samples, "giants_steps_prototype_long_a.wav")
 
 
-# with wave.open("giants_steps_prototype_long.wav", "wb") as wf:
+# with wave.open("giants_steps_prototype_short_b.wav", "wb") as wf:
 #    wf.setnchannels(1)
-#    wf.setsampwidth(2)  # 16-bit audio
+#    wf.setsampwidth(2)
 #    wf.setframerate(48000)
 #
 #    for chord_detail in with_inversions:

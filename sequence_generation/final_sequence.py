@@ -1568,4 +1568,6 @@ for detail in without_inversions:
 
     with_inversions.append(new_detail)
 
-print(len(with_inversions))
+
+# With open("with_inversions.json", "w") as f:
+#    json.dump(with_inversions, f, indent=2)

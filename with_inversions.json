@@ -1,0 +1,1410 @@
+[
+  {
+    "chord": "B\u266e MAJ_SEVEN",
+    "intervals": "vicesimotertial neutral third | undevicesimal meantone fifth | septimal acute major seventh",
+    "inversion": 0,
+    "frequencies": [
+      123.47,
+      150.3113043478261,
+      184.63337962962964,
+      235.18095238095236
+    ]
+  },
+  {
+    "chord": "D\u266e SEVEN",
+    "intervals": "vicesimotertial neutral third | Kirnberger's fifth | harmonic/just minor seventh meantone",
+    "inversion": 0,
+    "frequencies": [
+      146.83,
+      178.74956521739134,
+      219.99659076360314,
+      260.62325
+    ]
+  },
+  {
+    "chord": "G\u266e MAJ_SEVEN",
+    "intervals": "vicesimotertial neutral third | wide biyatismic fifth | undevicesimal major seventh, Boethius' major seventh",
+    "inversion": 0,
+    "frequencies": [
+      97.99,
+      119.29217391304348,
+      148.20987499999998,
+      185.6652631578947
+    ]
+  },
+  {
+    "chord": "B\u266d SEVEN",
+    "intervals": "witchcraft major third | just perfect fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 0,
+    "frequencies": [
+      116.54,
+      145.16385964912283,
+      174.81,
+      203.94500000000002
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "vicesimotertial neutral third | undevicesimal meantone fifth | septimal acute major seventh",
+    "inversion": 0,
+    "frequencies": [
+      77.78,
+      94.68869565217392,
+      116.30990740740742,
+      148.15238095238095
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "vicesimotertial neutral third | undevicesimal meantone fifth | septimal acute major seventh",
+    "inversion": 0,
+    "frequencies": [
+      77.78,
+      94.68869565217392,
+      116.30990740740742,
+      148.15238095238095
+    ]
+  },
+  {
+    "chord": "A\u266e MINOR_SEVEN",
+    "intervals": "Eratosthenes' minor third | vengeance subfifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 0,
+    "frequencies": [
+      110,
+      130.26315789473682,
+      161.76470588235296,
+      192.5
+    ]
+  },
+  {
+    "chord": "D\u266e SEVEN",
+    "intervals": "vicesimotertial neutral third | wide biyatismic fifth | quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    "inversion": 0,
+    "frequencies": [
+      146.83,
+      178.74956521739134,
+      222.080375,
+      261.54093750000004
+    ]
+  },
+  {
+    "chord": "G\u266e MAJ_SEVEN",
+    "intervals": "vicesimotertial neutral third | undevicesimal acute fifth | septimal acute major seventh",
+    "inversion": 0,
+    "frequencies": [
+      97.99,
+      119.29217391304348,
+      148.9448,
+      186.64761904761903
+    ]
+  },
+  {
+    "chord": "B\u266d SEVEN",
+    "intervals": "vicesimotertial neutral third | wide biyatismic fifth | quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    "inversion": 0,
+    "frequencies": [
+      116.54,
+      141.87478260869568,
+      176.26675,
+      207.58687500000002
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "vicesimotertial neutral third | Kirnberger's fifth | undevicesimal major seventh, Boethius' major seventh",
+    "inversion": 0,
+    "frequencies": [
+      77.78,
+      94.68869565217392,
+      116.538410608139,
+      147.37263157894736
+    ]
+  },
+  {
+    "chord": "F\u266f SEVEN",
+    "intervals": "vicesimotertial neutral third | Kirnberger's fifth | harmonic/just minor seventh meantone",
+    "inversion": 0,
+    "frequencies": [
+      92.49,
+      112.59652173913044,
+      138.57852400548697,
+      164.16975
+    ]
+  },
+  {
+    "chord": "B\u266e MAJ_SEVEN",
+    "intervals": "vicesimotertial neutral third | Kirnberger's fifth | undevicesimal major seventh, Boethius' major seventh",
+    "inversion": 0,
+    "frequencies": [
+      123.47,
+      150.3113043478261,
+      184.9961115683585,
+      233.94315789473683
+    ]
+  },
+  {
+    "chord": "B\u266e MAJ_SEVEN",
+    "intervals": "vicesimotertial neutral third | Kirnberger's fifth | undevicesimal major seventh, Boethius' major seventh",
+    "inversion": 0,
+    "frequencies": [
+      123.47,
+      150.3113043478261,
+      184.9961115683585,
+      233.94315789473683
+    ]
+  },
+  {
+    "chord": "F\u266e MINOR_SEVEN",
+    "intervals": "Eratosthenes' minor third | wide biyatismic fifth | harmonic/just minor seventh meantone",
+    "inversion": 0,
+    "frequencies": [
+      87.3,
+      103.38157894736841,
+      132.04125,
+      154.95749999999998
+    ]
+  },
+  {
+    "chord": "B\u266d SEVEN",
+    "intervals": "vicesimotertial neutral third | undevicesimal acute fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 0,
+    "frequencies": [
+      116.54,
+      141.87478260869568,
+      177.1408,
+      203.94500000000002
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "vicesimotertial neutral third | just perfect fifth | septimal acute major seventh",
+    "inversion": 0,
+    "frequencies": [
+      77.78,
+      94.68869565217392,
+      116.67,
+      148.15238095238095
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "vicesimotertial neutral third | just perfect fifth | septimal acute major seventh",
+    "inversion": 0,
+    "frequencies": [
+      77.78,
+      94.68869565217392,
+      116.67,
+      148.15238095238095
+    ]
+  },
+  {
+    "chord": "A\u266e MINOR_SEVEN",
+    "intervals": "Eratosthenes' minor third | wide biyatismic fifth | harmonic/just minor seventh meantone",
+    "inversion": 0,
+    "frequencies": [
+      110,
+      130.26315789473682,
+      166.375,
+      195.25
+    ]
+  },
+  {
+    "chord": "D\u266e MINOR_SEVEN",
+    "intervals": "Eratosthenes' minor third | vengeance subfifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 0,
+    "frequencies": [
+      73.41,
+      86.9328947368421,
+      107.95588235294117,
+      128.4675
+    ]
+  },
+  {
+    "chord": "G\u266e MAJ_SEVEN",
+    "intervals": "witchcraft major third | Kirnberger's fifth | septimal acute major seventh",
+    "inversion": 0,
+    "frequencies": [
+      97.99,
+      122.05771929824562,
+      146.81921902149062,
+      186.64761904761903
+    ]
+  },
+  {
+    "chord": "G\u266e MAJ_SEVEN",
+    "intervals": "witchcraft major third | Kirnberger's fifth | septimal acute major seventh",
+    "inversion": 0,
+    "frequencies": [
+      97.99,
+      122.05771929824562,
+      146.81921902149062,
+      186.64761904761903
+    ]
+  },
+  {
+    "chord": "C\u266f MINOR_SEVEN",
+    "intervals": "Eratosthenes' minor third | vengeance subfifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 0,
+    "frequencies": [
+      138.59,
+      164.11973684210525,
+      203.8088235294118,
+      242.5325
+    ]
+  },
+  {
+    "chord": "F\u266f SEVEN",
+    "intervals": "vicesimotertial neutral third | undevicesimal acute fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 0,
+    "frequencies": [
+      92.49,
+      112.59652173913044,
+      140.5848,
+      161.8575
+    ]
+  },
+  {
+    "chord": "B\u266e MAJ_SEVEN",
+    "intervals": "vicesimotertial neutral third | just perfect fifth | septimal acute major seventh",
+    "inversion": 0,
+    "frequencies": [
+      123.47,
+      150.3113043478261,
+      185.20499999999998,
+      235.18095238095236
+    ]
+  },
+  {
+    "chord": "B\u266e MAJ_SEVEN",
+    "intervals": "vicesimotertial neutral third | just perfect fifth | septimal acute major seventh",
+    "inversion": 0,
+    "frequencies": [
+      123.47,
+      150.3113043478261,
+      185.20499999999998,
+      235.18095238095236
+    ]
+  },
+  {
+    "chord": "F\u266e MINOR_SEVEN",
+    "intervals": "Eratosthenes' minor third | undevicesimal acute fifth | quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    "inversion": 0,
+    "frequencies": [
+      87.3,
+      103.38157894736841,
+      132.696,
+      155.50312499999998
+    ]
+  },
+  {
+    "chord": "B\u266d SEVEN",
+    "intervals": "witchcraft major third | undevicesimal meantone fifth | harmonic/just minor seventh meantone",
+    "inversion": 0,
+    "frequencies": [
+      116.54,
+      145.16385964912283,
+      174.270462962963,
+      206.8585
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "vicesimotertial neutral third | wide biyatismic fifth | undevicesimal major seventh, Boethius' major seventh",
+    "inversion": 0,
+    "frequencies": [
+      77.78,
+      94.68869565217392,
+      117.64225,
+      147.37263157894736
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "vicesimotertial neutral third | wide biyatismic fifth | undevicesimal major seventh, Boethius' major seventh",
+    "inversion": 0,
+    "frequencies": [
+      77.78,
+      94.68869565217392,
+      117.64225,
+      147.37263157894736
+    ]
+  },
+  {
+    "chord": "C\u266f MINOR_SEVEN",
+    "intervals": "Eratosthenes' minor third | wide biyatismic fifth | harmonic/just minor seventh meantone",
+    "inversion": 0,
+    "frequencies": [
+      138.59,
+      164.11973684210525,
+      209.617375,
+      245.99724999999998
+    ]
+  },
+  {
+    "chord": "F\u266f SEVEN",
+    "intervals": "vicesimotertial neutral third | wide biyatismic fifth | quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    "inversion": 0,
+    "frequencies": [
+      92.49,
+      112.59652173913044,
+      139.891125,
+      164.74781249999998
+    ]
+  },
+  {
+    "chord": "B\u266e MAJ_SEVEN",
+    "intervals": "witchcraft major third | undevicesimal meantone fifth | septimal acute major seventh",
+    "inversion": 1,
+    "frequencies": [
+      246.94,
+      153.7959649122807,
+      184.63337962962964,
+      235.18095238095236
+    ]
+  },
+  {
+    "chord": "D\u266e SEVEN",
+    "intervals": "vicesimotertial neutral third | undevicesimal acute fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 1,
+    "frequencies": [
+      293.66,
+      178.74956521739134,
+      223.18160000000003,
+      256.95250000000004
+    ]
+  },
+  {
+    "chord": "G\u266e MAJ_SEVEN",
+    "intervals": "witchcraft major third | wide biyatismic fifth | undevicesimal major seventh, Boethius' major seventh",
+    "inversion": 1,
+    "frequencies": [
+      195.98,
+      122.05771929824562,
+      148.20987499999998,
+      185.6652631578947
+    ]
+  },
+  {
+    "chord": "B\u266d SEVEN",
+    "intervals": "witchcraft major third | wide biyatismic fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 1,
+    "frequencies": [
+      233.08,
+      145.16385964912283,
+      176.26675,
+      203.94500000000002
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "vicesimotertial neutral third | undevicesimal acute fifth | septimal acute major seventh",
+    "inversion": 1,
+    "frequencies": [
+      155.56,
+      94.68869565217392,
+      118.2256,
+      148.15238095238095
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "vicesimotertial neutral third | undevicesimal acute fifth | septimal acute major seventh",
+    "inversion": 1,
+    "frequencies": [
+      155.56,
+      94.68869565217392,
+      118.2256,
+      148.15238095238095
+    ]
+  },
+  {
+    "chord": "A\u266e MINOR_SEVEN",
+    "intervals": "keemic minor third | just perfect fifth | quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    "inversion": 1,
+    "frequencies": [
+      220,
+      133.68055555555554,
+      165.0,
+      195.9375
+    ]
+  },
+  {
+    "chord": "D\u266e SEVEN",
+    "intervals": "just/Pythagorean major third meantone | undevicesimal acute fifth | harmonic/just minor seventh meantone",
+    "inversion": 1,
+    "frequencies": [
+      293.66,
+      184.684609375,
+      223.18160000000003,
+      260.62325
+    ]
+  },
+  {
+    "chord": "G\u266e MAJ_SEVEN",
+    "intervals": "just/Pythagorean major third meantone | wide biyatismic fifth | undevicesimal major seventh, Boethius' major seventh",
+    "inversion": 1,
+    "frequencies": [
+      195.98,
+      123.253046875,
+      148.20987499999998,
+      185.6652631578947
+    ]
+  },
+  {
+    "chord": "B\u266d SEVEN",
+    "intervals": "just/Pythagorean major third meantone | undevicesimal acute fifth | harmonic/just minor seventh meantone",
+    "inversion": 1,
+    "frequencies": [
+      233.08,
+      146.58546875000002,
+      177.1408,
+      206.8585
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "witchcraft major third | just perfect fifth | undecimal neutral seventh, 21/4-tone",
+    "inversion": 1,
+    "frequencies": [
+      155.56,
+      96.88385964912281,
+      116.67,
+      142.59666666666666
+    ]
+  },
+  {
+    "chord": "F\u266f SEVEN",
+    "intervals": "just/Pythagorean major third meantone | just perfect fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 1,
+    "frequencies": [
+      184.98,
+      116.335078125,
+      138.73499999999999,
+      161.8575
+    ]
+  },
+  {
+    "chord": "B\u266e MAJ_SEVEN",
+    "intervals": "witchcraft major third | Kirnberger's fifth | septimal acute major seventh",
+    "inversion": 1,
+    "frequencies": [
+      246.94,
+      153.7959649122807,
+      184.9961115683585,
+      235.18095238095236
+    ]
+  },
+  {
+    "chord": "B\u266e MAJ_SEVEN",
+    "intervals": "witchcraft major third | Kirnberger's fifth | septimal acute major seventh",
+    "inversion": 1,
+    "frequencies": [
+      246.94,
+      153.7959649122807,
+      184.9961115683585,
+      235.18095238095236
+    ]
+  },
+  {
+    "chord": "F\u266e MINOR_SEVEN",
+    "intervals": "just minor third | just perfect fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 1,
+    "frequencies": [
+      174.6,
+      104.75999999999999,
+      130.95,
+      152.775
+    ]
+  },
+  {
+    "chord": "B\u266d SEVEN",
+    "intervals": "just/Pythagorean major third meantone | undevicesimal meantone fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 1,
+    "frequencies": [
+      233.08,
+      146.58546875000002,
+      174.270462962963,
+      203.94500000000002
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "witchcraft major third | wide biyatismic fifth | undevicesimal major seventh, Boethius' major seventh",
+    "inversion": 1,
+    "frequencies": [
+      155.56,
+      96.88385964912281,
+      117.64225,
+      147.37263157894736
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "witchcraft major third | wide biyatismic fifth | undevicesimal major seventh, Boethius' major seventh",
+    "inversion": 1,
+    "frequencies": [
+      155.56,
+      96.88385964912281,
+      117.64225,
+      147.37263157894736
+    ]
+  },
+  {
+    "chord": "A\u266e MINOR_SEVEN",
+    "intervals": "Eratosthenes' minor third | undevicesimal acute fifth | quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    "inversion": 1,
+    "frequencies": [
+      220,
+      130.26315789473682,
+      167.2,
+      195.9375
+    ]
+  },
+  {
+    "chord": "D\u266e MINOR_SEVEN",
+    "intervals": "Eratosthenes' minor third | vengeance subfifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 1,
+    "frequencies": [
+      146.82,
+      86.9328947368421,
+      107.95588235294117,
+      128.4675
+    ]
+  },
+  {
+    "chord": "G\u266e MAJ_SEVEN",
+    "intervals": "just/Pythagorean major third meantone | vengeance subfifth | undevicesimal major seventh, Boethius' major seventh",
+    "inversion": 1,
+    "frequencies": [
+      195.98,
+      123.253046875,
+      144.10294117647058,
+      185.6652631578947
+    ]
+  },
+  {
+    "chord": "G\u266e MAJ_SEVEN",
+    "intervals": "just/Pythagorean major third meantone | Kirnberger's fifth | septimal acute major seventh",
+    "inversion": 1,
+    "frequencies": [
+      195.98,
+      123.253046875,
+      146.81921902149062,
+      186.64761904761903
+    ]
+  },
+  {
+    "chord": "C\u266f MINOR_SEVEN",
+    "intervals": "keemic minor third | Kirnberger's fifth | harmonic/just minor seventh meantone",
+    "inversion": 1,
+    "frequencies": [
+      277.18,
+      168.4253472222222,
+      207.6505313214449,
+      245.99724999999998
+    ]
+  },
+  {
+    "chord": "F\u266f SEVEN",
+    "intervals": "just/Pythagorean major third meantone | undevicesimal acute fifth | harmonic/just minor seventh meantone",
+    "inversion": 1,
+    "frequencies": [
+      184.98,
+      116.335078125,
+      140.5848,
+      164.16975
+    ]
+  },
+  {
+    "chord": "B\u266e MAJ_SEVEN",
+    "intervals": "5/7-kleismic major third | undevicesimal acute fifth | septimal acute major seventh",
+    "inversion": 1,
+    "frequencies": [
+      246.94,
+      156.78730158730158,
+      187.6744,
+      235.18095238095236
+    ]
+  },
+  {
+    "chord": "B\u266e MAJ_SEVEN",
+    "intervals": "5/7-kleismic major third | undevicesimal acute fifth | septimal acute major seventh",
+    "inversion": 1,
+    "frequencies": [
+      246.94,
+      156.78730158730158,
+      187.6744,
+      235.18095238095236
+    ]
+  },
+  {
+    "chord": "F\u266e MINOR_SEVEN",
+    "intervals": "keemic minor third | Kirnberger's fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 1,
+    "frequencies": [
+      174.6,
+      106.09374999999999,
+      130.80230452674897,
+      152.775
+    ]
+  },
+  {
+    "chord": "B\u266d SEVEN",
+    "intervals": "just/Pythagorean major third meantone | undevicesimal meantone fifth | quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    "inversion": 1,
+    "frequencies": [
+      233.08,
+      146.58546875000002,
+      174.270462962963,
+      207.58687500000002
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "witchcraft major third | undevicesimal acute fifth | septimal acute major seventh",
+    "inversion": 1,
+    "frequencies": [
+      155.56,
+      96.88385964912281,
+      118.2256,
+      148.15238095238095
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "witchcraft major third | undevicesimal acute fifth | septimal acute major seventh",
+    "inversion": 1,
+    "frequencies": [
+      155.56,
+      96.88385964912281,
+      118.2256,
+      148.15238095238095
+    ]
+  },
+  {
+    "chord": "C\u266f MINOR_SEVEN",
+    "intervals": "Eratosthenes' minor third | vengeance subfifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 1,
+    "frequencies": [
+      277.18,
+      164.11973684210525,
+      203.8088235294118,
+      242.5325
+    ]
+  },
+  {
+    "chord": "F\u266f SEVEN",
+    "intervals": "witchcraft major third | just perfect fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 1,
+    "frequencies": [
+      184.98,
+      115.20684210526316,
+      138.73499999999999,
+      161.8575
+    ]
+  },
+  {
+    "chord": "B\u266e MAJ_SEVEN",
+    "intervals": "5/7-kleismic major third | undevicesimal acute fifth | septimal acute major seventh",
+    "inversion": 2,
+    "frequencies": [
+      246.94,
+      313.57460317460317,
+      187.6744,
+      235.18095238095236
+    ]
+  },
+  {
+    "chord": "D\u266e SEVEN",
+    "intervals": "5/7-kleismic major third | wide biyatismic fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 2,
+    "frequencies": [
+      293.66,
+      372.9015873015873,
+      222.080375,
+      256.95250000000004
+    ]
+  },
+  {
+    "chord": "G\u266e MAJ_SEVEN",
+    "intervals": "witchcraft major third | wide biyatismic fifth | undevicesimal major seventh, Boethius' major seventh",
+    "inversion": 2,
+    "frequencies": [
+      195.98,
+      244.11543859649123,
+      148.20987499999998,
+      185.6652631578947
+    ]
+  },
+  {
+    "chord": "B\u266d SEVEN",
+    "intervals": "5/7-kleismic major third | wide biyatismic fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 2,
+    "frequencies": [
+      233.08,
+      295.97460317460315,
+      176.26675,
+      203.94500000000002
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "just/Pythagorean major third meantone | wide biyatismic fifth | undevicesimal major seventh, Boethius' major seventh",
+    "inversion": 2,
+    "frequencies": [
+      155.56,
+      195.6653125,
+      117.64225,
+      147.37263157894736
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "just/Pythagorean major third meantone | wide biyatismic fifth | undevicesimal major seventh, Boethius' major seventh",
+    "inversion": 2,
+    "frequencies": [
+      155.56,
+      195.6653125,
+      117.64225,
+      147.37263157894736
+    ]
+  },
+  {
+    "chord": "A\u266e MINOR_SEVEN",
+    "intervals": "keemic minor third | just perfect fifth | harmonic/just minor seventh meantone",
+    "inversion": 2,
+    "frequencies": [
+      220,
+      267.3611111111111,
+      165.0,
+      195.25
+    ]
+  },
+  {
+    "chord": "D\u266e SEVEN",
+    "intervals": "5/7-kleismic major third | just perfect fifth | harmonic/just minor seventh meantone",
+    "inversion": 2,
+    "frequencies": [
+      293.66,
+      372.9015873015873,
+      220.245,
+      260.62325
+    ]
+  },
+  {
+    "chord": "G\u266e MAJ_SEVEN",
+    "intervals": "just minor third | vengeance subfifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 2,
+    "frequencies": [
+      195.98,
+      235.176,
+      144.10294117647058,
+      171.4825
+    ]
+  },
+  {
+    "chord": "B\u266d SEVEN",
+    "intervals": "just/Pythagorean major third meantone | just perfect fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 2,
+    "frequencies": [
+      233.08,
+      293.17093750000004,
+      174.81,
+      203.94500000000002
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "just/Pythagorean major third meantone | undevicesimal acute fifth | undecimal neutral seventh, 21/4-tone",
+    "inversion": 2,
+    "frequencies": [
+      155.56,
+      195.6653125,
+      118.2256,
+      142.59666666666666
+    ]
+  },
+  {
+    "chord": "F\u266f SEVEN",
+    "intervals": "just/Pythagorean major third meantone | Kirnberger's fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 2,
+    "frequencies": [
+      184.98,
+      232.67015625,
+      138.57852400548697,
+      161.8575
+    ]
+  },
+  {
+    "chord": "B\u266e MAJ_SEVEN",
+    "intervals": "just/Pythagorean major third meantone | wide biyatismic fifth | undevicesimal major seventh, Boethius' major seventh",
+    "inversion": 2,
+    "frequencies": [
+      246.94,
+      310.60421875,
+      186.74837499999998,
+      233.94315789473683
+    ]
+  },
+  {
+    "chord": "B\u266e MAJ_SEVEN",
+    "intervals": "just/Pythagorean major third meantone | wide biyatismic fifth | undevicesimal major seventh, Boethius' major seventh",
+    "inversion": 2,
+    "frequencies": [
+      246.94,
+      310.60421875,
+      186.74837499999998,
+      233.94315789473683
+    ]
+  },
+  {
+    "chord": "F\u266e MINOR_SEVEN",
+    "intervals": "keemic minor third | Kirnberger's fifth | harmonic/just minor seventh meantone",
+    "inversion": 2,
+    "frequencies": [
+      174.6,
+      212.18749999999997,
+      130.80230452674897,
+      154.95749999999998
+    ]
+  },
+  {
+    "chord": "B\u266d SEVEN",
+    "intervals": "5/7-kleismic major third | Kirnberger's fifth | harmonic/just minor seventh meantone",
+    "inversion": 2,
+    "frequencies": [
+      233.08,
+      295.97460317460315,
+      174.61283584819387,
+      206.8585
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "5/7-kleismic major third | vengeance subfifth | septimal acute major seventh",
+    "inversion": 2,
+    "frequencies": [
+      155.56,
+      197.53650793650792,
+      114.38235294117648,
+      148.15238095238095
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "5/7-kleismic major third | vengeance subfifth | septimal acute major seventh",
+    "inversion": 2,
+    "frequencies": [
+      155.56,
+      197.53650793650792,
+      114.38235294117648,
+      148.15238095238095
+    ]
+  },
+  {
+    "chord": "A\u266e MINOR_SEVEN",
+    "intervals": "keemic minor third | undevicesimal meantone fifth | quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    "inversion": 2,
+    "frequencies": [
+      220,
+      267.3611111111111,
+      164.49074074074076,
+      195.9375
+    ]
+  },
+  {
+    "chord": "D\u266e MINOR_SEVEN",
+    "intervals": "keemic minor third | undevicesimal meantone fifth | quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    "inversion": 2,
+    "frequencies": [
+      146.82,
+      178.42708333333331,
+      109.77513888888889,
+      130.7615625
+    ]
+  },
+  {
+    "chord": "G\u266e MAJ_SEVEN",
+    "intervals": "witchcraft major third | undevicesimal meantone fifth | septimal acute major seventh",
+    "inversion": 2,
+    "frequencies": [
+      195.98,
+      244.11543859649123,
+      146.53134259259258,
+      186.64761904761903
+    ]
+  },
+  {
+    "chord": "G\u266e MAJ_SEVEN",
+    "intervals": "witchcraft major third | undevicesimal meantone fifth | septimal acute major seventh",
+    "inversion": 2,
+    "frequencies": [
+      195.98,
+      244.11543859649123,
+      146.53134259259258,
+      186.64761904761903
+    ]
+  },
+  {
+    "chord": "C\u266f MINOR_SEVEN",
+    "intervals": "just minor third | vengeance subfifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 2,
+    "frequencies": [
+      277.18,
+      332.616,
+      203.8088235294118,
+      242.5325
+    ]
+  },
+  {
+    "chord": "F\u266f SEVEN",
+    "intervals": "witchcraft major third | Kirnberger's fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 2,
+    "frequencies": [
+      184.98,
+      230.41368421052633,
+      138.57852400548697,
+      161.8575
+    ]
+  },
+  {
+    "chord": "B\u266e MAJ_SEVEN",
+    "intervals": "witchcraft major third | Kirnberger's fifth | septimal acute major seventh",
+    "inversion": 2,
+    "frequencies": [
+      246.94,
+      307.5919298245614,
+      184.9961115683585,
+      235.18095238095236
+    ]
+  },
+  {
+    "chord": "B\u266e MAJ_SEVEN",
+    "intervals": "witchcraft major third | Kirnberger's fifth | septimal acute major seventh",
+    "inversion": 2,
+    "frequencies": [
+      246.94,
+      307.5919298245614,
+      184.9961115683585,
+      235.18095238095236
+    ]
+  },
+  {
+    "chord": "F\u266e MINOR_SEVEN",
+    "intervals": "just minor third | vengeance subfifth | harmonic/just minor seventh meantone",
+    "inversion": 2,
+    "frequencies": [
+      174.6,
+      209.51999999999998,
+      128.38235294117646,
+      154.95749999999998
+    ]
+  },
+  {
+    "chord": "B\u266d SEVEN",
+    "intervals": "witchcraft major third | just perfect fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 2,
+    "frequencies": [
+      233.08,
+      290.32771929824565,
+      174.81,
+      203.94500000000002
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "5/7-kleismic major third | just perfect fifth | undevicesimal major seventh, Boethius' major seventh",
+    "inversion": 2,
+    "frequencies": [
+      155.56,
+      197.53650793650792,
+      116.67,
+      147.37263157894736
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "5/7-kleismic major third | just perfect fifth | undevicesimal major seventh, Boethius' major seventh",
+    "inversion": 2,
+    "frequencies": [
+      155.56,
+      197.53650793650792,
+      116.67,
+      147.37263157894736
+    ]
+  },
+  {
+    "chord": "C\u266f MINOR_SEVEN",
+    "intervals": "Eratosthenes' minor third | vengeance subfifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 2,
+    "frequencies": [
+      277.18,
+      328.2394736842105,
+      203.8088235294118,
+      242.5325
+    ]
+  },
+  {
+    "chord": "F\u266f SEVEN",
+    "intervals": "just/Pythagorean major third meantone | just perfect fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 2,
+    "frequencies": [
+      184.98,
+      232.67015625,
+      138.73499999999999,
+      161.8575
+    ]
+  },
+  {
+    "chord": "B\u266e MAJ_SEVEN",
+    "intervals": "witchcraft major third | undevicesimal acute fifth | septimal acute major seventh",
+    "inversion": 3,
+    "frequencies": [
+      246.94,
+      307.5919298245614,
+      375.3488,
+      235.18095238095236
+    ]
+  },
+  {
+    "chord": "D\u266e SEVEN",
+    "intervals": "5/7-kleismic major third | Kirnberger's fifth | harmonic/just minor seventh meantone",
+    "inversion": 3,
+    "frequencies": [
+      293.66,
+      372.9015873015873,
+      439.9931815272063,
+      260.62325
+    ]
+  },
+  {
+    "chord": "G\u266e MAJ_SEVEN",
+    "intervals": "witchcraft major third | wide biyatismic fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 3,
+    "frequencies": [
+      195.98,
+      244.11543859649123,
+      296.41974999999996,
+      171.4825
+    ]
+  },
+  {
+    "chord": "B\u266d SEVEN",
+    "intervals": "witchcraft major third | wide biyatismic fifth | undevicesimal major seventh, Boethius' major seventh",
+    "inversion": 3,
+    "frequencies": [
+      233.08,
+      290.32771929824565,
+      352.5335,
+      220.81263157894736
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "keemic minor third | Kirnberger's fifth | harmonic/just minor seventh meantone",
+    "inversion": 3,
+    "frequencies": [
+      155.56,
+      189.0486111111111,
+      233.076821216278,
+      138.05949999999999
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "witchcraft major third | Kirnberger's fifth | septimal acute major seventh",
+    "inversion": 3,
+    "frequencies": [
+      155.56,
+      193.76771929824562,
+      233.076821216278,
+      148.15238095238095
+    ]
+  },
+  {
+    "chord": "A\u266e MINOR_SEVEN",
+    "intervals": "keemic minor third | just perfect fifth | quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    "inversion": 3,
+    "frequencies": [
+      220,
+      267.3611111111111,
+      330.0,
+      195.9375
+    ]
+  },
+  {
+    "chord": "D\u266e SEVEN",
+    "intervals": "5/7-kleismic major third | undevicesimal acute fifth | harmonic/just minor seventh meantone",
+    "inversion": 3,
+    "frequencies": [
+      293.66,
+      372.9015873015873,
+      446.36320000000006,
+      260.62325
+    ]
+  },
+  {
+    "chord": "G\u266e MAJ_SEVEN",
+    "intervals": "just/Pythagorean major third meantone | undevicesimal acute fifth | undecimal neutral seventh, 21/4-tone",
+    "inversion": 3,
+    "frequencies": [
+      195.98,
+      246.50609375,
+      297.8896,
+      179.6483333333333
+    ]
+  },
+  {
+    "chord": "B\u266d SEVEN",
+    "intervals": "just/Pythagorean major third meantone | Kirnberger's fifth | septimal acute major seventh",
+    "inversion": 3,
+    "frequencies": [
+      233.08,
+      293.17093750000004,
+      349.22567169638774,
+      221.98095238095237
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "5/7-kleismic major third | wide biyatismic fifth | septimal acute major seventh",
+    "inversion": 3,
+    "frequencies": [
+      155.56,
+      197.53650793650792,
+      235.2845,
+      148.15238095238095
+    ]
+  },
+  {
+    "chord": "F\u266f SEVEN",
+    "intervals": "5/7-kleismic major third | wide biyatismic fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 3,
+    "frequencies": [
+      184.98,
+      234.89523809523806,
+      279.78225,
+      161.8575
+    ]
+  },
+  {
+    "chord": "B\u266e MAJ_SEVEN",
+    "intervals": "vicesimotertial neutral third | just perfect fifth | septimal acute major seventh",
+    "inversion": 3,
+    "frequencies": [
+      246.94,
+      300.6226086956522,
+      370.40999999999997,
+      235.18095238095236
+    ]
+  },
+  {
+    "chord": "B\u266e MAJ_SEVEN",
+    "intervals": "witchcraft major third | vengeance subfifth | undecimal neutral seventh, 21/4-tone",
+    "inversion": 3,
+    "frequencies": [
+      246.94,
+      307.5919298245614,
+      363.14705882352945,
+      226.36166666666665
+    ]
+  },
+  {
+    "chord": "F\u266e MINOR_SEVEN",
+    "intervals": "5/7-kleismic major third | wide biyatismic fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 3,
+    "frequencies": [
+      174.6,
+      221.7142857142857,
+      264.0825,
+      152.775
+    ]
+  },
+  {
+    "chord": "B\u266d SEVEN",
+    "intervals": "5/7-kleismic major third | just perfect fifth | harmonic/just minor seventh meantone",
+    "inversion": 3,
+    "frequencies": [
+      233.08,
+      295.97460317460315,
+      349.62,
+      206.8585
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "vicesimotertial neutral third | wide biyatismic fifth | undevicesimal major seventh, Boethius' major seventh",
+    "inversion": 3,
+    "frequencies": [
+      155.56,
+      189.37739130434784,
+      235.2845,
+      147.37263157894736
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "just/Pythagorean major third meantone | Kirnberger's fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 3,
+    "frequencies": [
+      155.56,
+      195.6653125,
+      233.076821216278,
+      136.115
+    ]
+  },
+  {
+    "chord": "A\u266e MINOR_SEVEN",
+    "intervals": "keemic minor third | just perfect fifth | harmonic/just minor seventh meantone",
+    "inversion": 3,
+    "frequencies": [
+      220,
+      267.3611111111111,
+      330.0,
+      195.25
+    ]
+  },
+  {
+    "chord": "D\u266e MINOR_SEVEN",
+    "intervals": "keemic minor third | just perfect fifth | quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    "inversion": 3,
+    "frequencies": [
+      146.82,
+      178.42708333333331,
+      220.23,
+      130.7615625
+    ]
+  },
+  {
+    "chord": "G\u266e MAJ_SEVEN",
+    "intervals": "Eratosthenes' minor third | undevicesimal acute fifth | quasi-tempered minor seventh, octave-reduced 57th harmonic",
+    "inversion": 3,
+    "frequencies": [
+      195.98,
+      232.0815789473684,
+      297.8896,
+      174.54468749999998
+    ]
+  },
+  {
+    "chord": "G\u266e MAJ_SEVEN",
+    "intervals": "keemic minor third | just perfect fifth | harmonic/just minor seventh meantone",
+    "inversion": 3,
+    "frequencies": [
+      195.98,
+      238.17013888888886,
+      293.96999999999997,
+      173.93224999999998
+    ]
+  },
+  {
+    "chord": "C\u266f MINOR_SEVEN",
+    "intervals": "5/7-kleismic major third | wide biyatismic fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 3,
+    "frequencies": [
+      277.18,
+      351.97460317460315,
+      419.23475,
+      242.5325
+    ]
+  },
+  {
+    "chord": "F\u266f SEVEN",
+    "intervals": "5/7-kleismic major third | undevicesimal acute fifth | harmonic/just minor seventh meantone",
+    "inversion": 3,
+    "frequencies": [
+      184.98,
+      234.89523809523806,
+      281.1696,
+      164.16975
+    ]
+  },
+  {
+    "chord": "B\u266e MAJ_SEVEN",
+    "intervals": "keemic minor third | vengeance subfifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 3,
+    "frequencies": [
+      246.94,
+      300.1006944444444,
+      363.14705882352945,
+      216.0725
+    ]
+  },
+  {
+    "chord": "B\u266e MAJ_SEVEN",
+    "intervals": "just/Pythagorean major third meantone | undevicesimal meantone fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 3,
+    "frequencies": [
+      246.94,
+      310.60421875,
+      369.2667592592593,
+      216.0725
+    ]
+  },
+  {
+    "chord": "F\u266e MINOR_SEVEN",
+    "intervals": "just/Pythagorean major third meantone | vengeance subfifth | undevicesimal major seventh, Boethius' major seventh",
+    "inversion": 3,
+    "frequencies": [
+      174.6,
+      219.6140625,
+      256.7647058823529,
+      165.41052631578947
+    ]
+  },
+  {
+    "chord": "B\u266d SEVEN",
+    "intervals": "5/7-kleismic major third | wide biyatismic fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 3,
+    "frequencies": [
+      233.08,
+      295.97460317460315,
+      352.5335,
+      203.94500000000002
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "witchcraft major third | undevicesimal acute fifth | septimal acute major seventh",
+    "inversion": 3,
+    "frequencies": [
+      155.56,
+      193.76771929824562,
+      236.4512,
+      148.15238095238095
+    ]
+  },
+  {
+    "chord": "E\u266d MAJ_SEVEN",
+    "intervals": "witchcraft major third | just perfect fifth | subminor seventh, septimal minor seventh, harmonic seventh, natural seventh, octave-reduced 7th harmonic",
+    "inversion": 3,
+    "frequencies": [
+      155.56,
+      193.76771929824562,
+      233.34,
+      136.115
+    ]
+  },
+  {
+    "chord": "C\u266f MINOR_SEVEN",
+    "intervals": "witchcraft major third | just perfect fifth | undecimal neutral seventh, 21/4-tone",
+    "inversion": 3,
+    "frequencies": [
+      277.18,
+      345.25929824561405,
+      415.77,
+      254.08166666666665
+    ]
+  },
+  {
+    "chord": "F\u266f SEVEN",
+    "intervals": "5/7-kleismic major third | undevicesimal acute fifth | harmonic/just minor seventh meantone",
+    "inversion": 3,
+    "frequencies": [
+      184.98,
+      234.89523809523806,
+      281.1696,
+      164.16975
+    ]
+  }
+]

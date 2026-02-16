@@ -1,0 +1,962 @@
+[
+    {
+        "chord": "B\u266e MAJ_SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 246.9417,
+                "image": "B_nat_low.png",
+                "note": "B\u266e",
+                "scientific_name": "B3"
+            },
+            {
+                "frequency": 300.6246782608696,
+                "image": "D_sharp_med.png",
+                "note": "D\u266f",
+                "scientific_name": "D\u266f4"
+            },
+            {
+                "frequency": 370.41255,
+                "image": "F_sharp_med.png",
+                "note": "F\u266f",
+                "scientific_name": "F\u266f4"
+            },
+            {
+                "frequency": 470.3651428571428,
+                "image": "A_sharp_med.png",
+                "note": "A\u266f",
+                "scientific_name": "A\u266f4"
+            }
+        ]
+    },
+    {
+        "chord": "D\u266e SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 146.8324,
+                "image": "D_nat_low",
+                "note": "D\u266e",
+                "scientific_name": "D3"
+            },
+            {
+                "frequency": 178.75248695652175,
+                "image": "F_sharp_low.png",
+                "note": "F\u266f",
+                "scientific_name": "F\u266f3"
+            },
+            {
+                "frequency": 222.084005,
+                "image": "A_nat_low.png",
+                "note": "A\u266e",
+                "scientific_name": "A3"
+            },
+            {
+                "frequency": 261.5452125,
+                "image": "C_nat_low.png",
+                "note": "C\u266e",
+                "scientific_name": "C4"
+            }
+        ]
+    },
+    {
+        "chord": "G\u266e MAJ_SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 195.9977,
+                "image": "G_nat_low.png",
+                "note": "G\u266e",
+                "scientific_name": "G3"
+            },
+            {
+                "frequency": 244.13748596491232,
+                "image": "B_nat_low.png",
+                "note": "B\u266e",
+                "scientific_name": "B3"
+            },
+            {
+                "frequency": 293.66495809785096,
+                "image": "D_nat_med.png",
+                "note": "D\u266e",
+                "scientific_name": "D4"
+            },
+            {
+                "frequency": 373.3289523809524,
+                "image": "F_sharp_med.png",
+                "note": "F\u266f",
+                "scientific_name": "F\u266f4"
+            }
+        ]
+    },
+    {
+        "chord": "B\u266d SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 233.0819,
+                "image": "B_flat_low.png",
+                "note": "B\u266d",
+                "scientific_name": "B\u266d3"
+            },
+            {
+                "frequency": 290.3300859649123,
+                "image": "D_nat_med.png",
+                "note": "D\u266e",
+                "scientific_name": "D4"
+            },
+            {
+                "frequency": 348.54376712962966,
+                "image": "F_nat_med.png",
+                "note": "F\u266e",
+                "scientific_name": "F4"
+            },
+            {
+                "frequency": 413.72037249999994,
+                "image": "A_flat_med.png",
+                "note": "A\u266d",
+                "scientific_name": "A\u266d4"
+            }
+        ]
+    },
+    {
+        "chord": "E\u266d MAJ_SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 155.5635,
+                "image": "E_flat_low.png",
+                "note": "E\u266d",
+                "scientific_name": "E\u266d3"
+            },
+            {
+                "frequency": 189.38165217391307,
+                "image": "G_nat_low.png",
+                "note": "G\u266e",
+                "scientific_name": "G3"
+            },
+            {
+                "frequency": 235.28979375,
+                "image": "B_flat_low.png",
+                "note": "B\u266d",
+                "scientific_name": "B\u266d3"
+            },
+            {
+                "frequency": 294.7518947368421,
+                "image": "D_nat_med.png",
+                "note": "D\u266e",
+                "scientific_name": "D4"
+            }
+        ]
+    },
+    {
+        "chord": "E\u266d MAJ_SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 155.5635,
+                "image": "E_flat_low.png",
+                "note": "E\u266d",
+                "scientific_name": "E\u266d3"
+            },
+            {
+                "frequency": 189.38165217391307,
+                "image": "G_nat_low.png",
+                "note": "G\u266e",
+                "scientific_name": "G3"
+            },
+            {
+                "frequency": 235.28979375,
+                "image": "B_flat_low.png",
+                "note": "B\u266d",
+                "scientific_name": "B\u266d3"
+            },
+            {
+                "frequency": 294.7518947368421,
+                "image": "D_nat_med.png",
+                "note": "D\u266e",
+                "scientific_name": "D4"
+            }
+        ]
+    },
+    {
+        "chord": "A\u266e MINOR_SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 220.0,
+                "image": "A_nat_low.png",
+                "note": "A\u266e",
+                "scientific_name": "A3"
+            },
+            {
+                "frequency": 260.52631578947364,
+                "image": "C_nat_low.png",
+                "note": "C\u266e",
+                "scientific_name": "C4"
+            },
+            {
+                "frequency": 332.75,
+                "image": "E_nat_med.png",
+                "note": "E\u266e",
+                "scientific_name": "E4"
+            },
+            {
+                "frequency": 390.5,
+                "image": "G_nat_med.png",
+                "note": "G\u266e",
+                "scientific_name": "G4"
+            }
+        ]
+    },
+    {
+        "chord": "D\u266e SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 146.8324,
+                "image": "D_nat_low",
+                "note": "D\u266e",
+                "scientific_name": "D3"
+            },
+            {
+                "frequency": 178.75248695652175,
+                "image": "F_sharp_low.png",
+                "note": "F\u266f",
+                "scientific_name": "F\u266f3"
+            },
+            {
+                "frequency": 222.084005,
+                "image": "A_nat_low.png",
+                "note": "A\u266e",
+                "scientific_name": "A3"
+            },
+            {
+                "frequency": 261.5452125,
+                "image": "C_nat_low.png",
+                "note": "C\u266e",
+                "scientific_name": "C4"
+            }
+        ]
+    },
+    {
+        "chord": "G\u266e MAJ_SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 195.9977,
+                "image": "G_nat_low.png",
+                "note": "G\u266e",
+                "scientific_name": "G3"
+            },
+            {
+                "frequency": 244.13748596491232,
+                "image": "B_nat_low.png",
+                "note": "B\u266e",
+                "scientific_name": "B3"
+            },
+            {
+                "frequency": 293.66495809785096,
+                "image": "D_nat_med.png",
+                "note": "D\u266e",
+                "scientific_name": "D4"
+            },
+            {
+                "frequency": 373.3289523809524,
+                "image": "F_sharp_med.png",
+                "note": "F\u266f",
+                "scientific_name": "F\u266f4"
+            }
+        ]
+    },
+    {
+        "chord": "B\u266d SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 233.0819,
+                "image": "B_flat_low.png",
+                "note": "B\u266d",
+                "scientific_name": "B\u266d3"
+            },
+            {
+                "frequency": 290.3300859649123,
+                "image": "D_nat_med.png",
+                "note": "D\u266e",
+                "scientific_name": "D4"
+            },
+            {
+                "frequency": 348.54376712962966,
+                "image": "F_nat_med.png",
+                "note": "F\u266e",
+                "scientific_name": "F4"
+            },
+            {
+                "frequency": 413.72037249999994,
+                "image": "A_flat_med.png",
+                "note": "A\u266d",
+                "scientific_name": "A\u266d4"
+            }
+        ]
+    },
+    {
+        "chord": "E\u266d MAJ_SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 155.5635,
+                "image": "E_flat_low.png",
+                "note": "E\u266d",
+                "scientific_name": "E\u266d3"
+            },
+            {
+                "frequency": 189.38165217391307,
+                "image": "G_nat_low.png",
+                "note": "G\u266e",
+                "scientific_name": "G3"
+            },
+            {
+                "frequency": 235.28979375,
+                "image": "B_flat_low.png",
+                "note": "B\u266d",
+                "scientific_name": "B\u266d3"
+            },
+            {
+                "frequency": 294.7518947368421,
+                "image": "D_nat_med.png",
+                "note": "D\u266e",
+                "scientific_name": "D4"
+            }
+        ]
+    },
+    {
+        "chord": "F\u266f SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 184.9972,
+                "image": "F_sharp_low.png",
+                "note": "F\u266f",
+                "scientific_name": "F\u266f3"
+            },
+            {
+                "frequency": 225.21398260869566,
+                "image": "A_sharp_low.png",
+                "note": "A\u266f",
+                "scientific_name": "A\u266f3"
+            },
+            {
+                "frequency": 279.808265,
+                "image": "C_sharp_low.png",
+                "note": "C\u266f",
+                "scientific_name": "C\u266f4"
+            },
+            {
+                "frequency": 329.5262625,
+                "image": "E_nat_med.png",
+                "note": "E\u266e",
+                "scientific_name": "E4"
+            }
+        ]
+    },
+    {
+        "chord": "B\u266e MAJ_SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 246.9417,
+                "image": "B_nat_low.png",
+                "note": "B\u266e",
+                "scientific_name": "B3"
+            },
+            {
+                "frequency": 300.6246782608696,
+                "image": "D_sharp_med.png",
+                "note": "D\u266f",
+                "scientific_name": "D\u266f4"
+            },
+            {
+                "frequency": 370.41255,
+                "image": "F_sharp_med.png",
+                "note": "F\u266f",
+                "scientific_name": "F\u266f4"
+            },
+            {
+                "frequency": 470.3651428571428,
+                "image": "A_sharp_med.png",
+                "note": "A\u266f",
+                "scientific_name": "A\u266f4"
+            }
+        ]
+    },
+    {
+        "chord": "B\u266e MAJ_SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 246.9417,
+                "image": "B_nat_low.png",
+                "note": "B\u266e",
+                "scientific_name": "B3"
+            },
+            {
+                "frequency": 300.6246782608696,
+                "image": "D_sharp_med.png",
+                "note": "D\u266f",
+                "scientific_name": "D\u266f4"
+            },
+            {
+                "frequency": 370.41255,
+                "image": "F_sharp_med.png",
+                "note": "F\u266f",
+                "scientific_name": "F\u266f4"
+            },
+            {
+                "frequency": 470.3651428571428,
+                "image": "A_sharp_med.png",
+                "note": "A\u266f",
+                "scientific_name": "A\u266f4"
+            }
+        ]
+    },
+    {
+        "chord": "F\u266e MINOR_SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 174.6141,
+                "image": "F_nat_low.png",
+                "note": "F\u266e",
+                "scientific_name": "F3"
+            },
+            {
+                "frequency": 206.77985526315788,
+                "image": "A_flat_low.png",
+                "note": "A\u266d",
+                "scientific_name": "A\u266d3"
+            },
+            {
+                "frequency": 265.413432,
+                "image": "C_nat_low.png",
+                "note": "C\u266e",
+                "scientific_name": "C4"
+            },
+            {
+                "frequency": 311.03136562500003,
+                "image": "E_flat_med.png",
+                "note": "E\u266d",
+                "scientific_name": "E\u266d4"
+            }
+        ]
+    },
+    {
+        "chord": "B\u266d SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 233.0819,
+                "image": "B_flat_low.png",
+                "note": "B\u266d",
+                "scientific_name": "B\u266d3"
+            },
+            {
+                "frequency": 290.3300859649123,
+                "image": "D_nat_med.png",
+                "note": "D\u266e",
+                "scientific_name": "D4"
+            },
+            {
+                "frequency": 348.54376712962966,
+                "image": "F_nat_med.png",
+                "note": "F\u266e",
+                "scientific_name": "F4"
+            },
+            {
+                "frequency": 413.72037249999994,
+                "image": "A_flat_med.png",
+                "note": "A\u266d",
+                "scientific_name": "A\u266d4"
+            }
+        ]
+    },
+    {
+        "chord": "E\u266d MAJ_SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 155.5635,
+                "image": "E_flat_low.png",
+                "note": "E\u266d",
+                "scientific_name": "E\u266d3"
+            },
+            {
+                "frequency": 189.38165217391307,
+                "image": "G_nat_low.png",
+                "note": "G\u266e",
+                "scientific_name": "G3"
+            },
+            {
+                "frequency": 235.28979375,
+                "image": "B_flat_low.png",
+                "note": "B\u266d",
+                "scientific_name": "B\u266d3"
+            },
+            {
+                "frequency": 294.7518947368421,
+                "image": "D_nat_med.png",
+                "note": "D\u266e",
+                "scientific_name": "D4"
+            }
+        ]
+    },
+    {
+        "chord": "E\u266d MAJ_SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 155.5635,
+                "image": "E_flat_low.png",
+                "note": "E\u266d",
+                "scientific_name": "E\u266d3"
+            },
+            {
+                "frequency": 189.38165217391307,
+                "image": "G_nat_low.png",
+                "note": "G\u266e",
+                "scientific_name": "G3"
+            },
+            {
+                "frequency": 235.28979375,
+                "image": "B_flat_low.png",
+                "note": "B\u266d",
+                "scientific_name": "B\u266d3"
+            },
+            {
+                "frequency": 294.7518947368421,
+                "image": "D_nat_med.png",
+                "note": "D\u266e",
+                "scientific_name": "D4"
+            }
+        ]
+    },
+    {
+        "chord": "A\u266e MINOR_SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 220.0,
+                "image": "A_nat_low.png",
+                "note": "A\u266e",
+                "scientific_name": "A3"
+            },
+            {
+                "frequency": 260.52631578947364,
+                "image": "C_nat_low.png",
+                "note": "C\u266e",
+                "scientific_name": "C4"
+            },
+            {
+                "frequency": 332.75,
+                "image": "E_nat_med.png",
+                "note": "E\u266e",
+                "scientific_name": "E4"
+            },
+            {
+                "frequency": 390.5,
+                "image": "G_nat_med.png",
+                "note": "G\u266e",
+                "scientific_name": "G4"
+            }
+        ]
+    },
+    {
+        "chord": "D\u266e MINOR_SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 146.8324,
+                "image": "D_nat_low.png",
+                "note": "D\u266e",
+                "scientific_name": "D3"
+            },
+            {
+                "frequency": 173.88047368421053,
+                "image": "F_nat_low.png",
+                "note": "F\u266e",
+                "scientific_name": "F3"
+            },
+            {
+                "frequency": 215.93000000000004,
+                "image": "A_nat_low.png",
+                "note": "A\u266e",
+                "scientific_name": "A3"
+            },
+            {
+                "frequency": 256.9567,
+                "image": "C_nat_low.png",
+                "note": "C\u266e",
+                "scientific_name": "C4"
+            }
+        ]
+    },
+    {
+        "chord": "G\u266e MAJ_SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 195.9977,
+                "image": "G_nat_low.png",
+                "note": "G\u266e",
+                "scientific_name": "G3"
+            },
+            {
+                "frequency": 244.13748596491232,
+                "image": "B_nat_low.png",
+                "note": "B\u266e",
+                "scientific_name": "B3"
+            },
+            {
+                "frequency": 293.66495809785096,
+                "image": "D_nat_med.png",
+                "note": "D\u266e",
+                "scientific_name": "D4"
+            },
+            {
+                "frequency": 373.3289523809524,
+                "image": "F_sharp_med.png",
+                "note": "F\u266f",
+                "scientific_name": "F\u266f4"
+            }
+        ]
+    },
+    {
+        "chord": "G\u266e MAJ_SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 195.9977,
+                "image": "G_nat_low.png",
+                "note": "G\u266e",
+                "scientific_name": "G3"
+            },
+            {
+                "frequency": 244.13748596491232,
+                "image": "B_nat_low.png",
+                "note": "B\u266e",
+                "scientific_name": "B3"
+            },
+            {
+                "frequency": 293.66495809785096,
+                "image": "D_nat_med.png",
+                "note": "D\u266e",
+                "scientific_name": "D4"
+            },
+            {
+                "frequency": 373.3289523809524,
+                "image": "F_sharp_med.png",
+                "note": "F\u266f",
+                "scientific_name": "F\u266f4"
+            }
+        ]
+    },
+    {
+        "chord": "C\u266f MINOR_SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 277.1826,
+                "image": "C_sharp_low.png",
+                "note": "C\u266f",
+                "scientific_name": "C\u266f4"
+            },
+            {
+                "frequency": 328.2425526315789,
+                "image": "E_nat_med.png",
+                "note": "E\u266e",
+                "scientific_name": "E4"
+            },
+            {
+                "frequency": 419.2386825,
+                "image": "G_sharp_med.png",
+                "note": "G\u266f",
+                "scientific_name": "G\u266f4"
+            },
+            {
+                "frequency": 491.99911499999996,
+                "image": "B_nat_med.png",
+                "note": "B\u266e",
+                "scientific_name": "B4"
+            }
+        ]
+    },
+    {
+        "chord": "F\u266f SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 184.9972,
+                "image": "F_sharp_low.png",
+                "note": "F\u266f",
+                "scientific_name": "F\u266f3"
+            },
+            {
+                "frequency": 225.21398260869566,
+                "image": "A_sharp_low.png",
+                "note": "A\u266f",
+                "scientific_name": "A\u266f3"
+            },
+            {
+                "frequency": 279.808265,
+                "image": "C_sharp_low.png",
+                "note": "C\u266f",
+                "scientific_name": "C\u266f4"
+            },
+            {
+                "frequency": 329.5262625,
+                "image": "E_nat_med.png",
+                "note": "E\u266e",
+                "scientific_name": "E4"
+            }
+        ]
+    },
+    {
+        "chord": "B\u266e MAJ_SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 246.9417,
+                "image": "B_nat_low.png",
+                "note": "B\u266e",
+                "scientific_name": "B3"
+            },
+            {
+                "frequency": 300.6246782608696,
+                "image": "D_sharp_med.png",
+                "note": "D\u266f",
+                "scientific_name": "D\u266f4"
+            },
+            {
+                "frequency": 370.41255,
+                "image": "F_sharp_med.png",
+                "note": "F\u266f",
+                "scientific_name": "F\u266f4"
+            },
+            {
+                "frequency": 470.3651428571428,
+                "image": "A_sharp_med.png",
+                "note": "A\u266f",
+                "scientific_name": "A\u266f4"
+            }
+        ]
+    },
+    {
+        "chord": "B\u266e MAJ_SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 246.9417,
+                "image": "B_nat_low.png",
+                "note": "B\u266e",
+                "scientific_name": "B3"
+            },
+            {
+                "frequency": 300.6246782608696,
+                "image": "D_sharp_med.png",
+                "note": "D\u266f",
+                "scientific_name": "D\u266f4"
+            },
+            {
+                "frequency": 370.41255,
+                "image": "F_sharp_med.png",
+                "note": "F\u266f",
+                "scientific_name": "F\u266f4"
+            },
+            {
+                "frequency": 470.3651428571428,
+                "image": "A_sharp_med.png",
+                "note": "A\u266f",
+                "scientific_name": "A\u266f4"
+            }
+        ]
+    },
+    {
+        "chord": "F\u266e MINOR_SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 174.6141,
+                "image": "F_nat_low.png",
+                "note": "F\u266e",
+                "scientific_name": "F3"
+            },
+            {
+                "frequency": 206.77985526315788,
+                "image": "A_flat_low.png",
+                "note": "A\u266d",
+                "scientific_name": "A\u266d3"
+            },
+            {
+                "frequency": 265.413432,
+                "image": "C_nat_low.png",
+                "note": "C\u266e",
+                "scientific_name": "C4"
+            },
+            {
+                "frequency": 311.03136562500003,
+                "image": "E_flat_med.png",
+                "note": "E\u266d",
+                "scientific_name": "E\u266d4"
+            }
+        ]
+    },
+    {
+        "chord": "B\u266d SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 233.0819,
+                "image": "B_flat_low.png",
+                "note": "B\u266d",
+                "scientific_name": "B\u266d3"
+            },
+            {
+                "frequency": 290.3300859649123,
+                "image": "D_nat_med.png",
+                "note": "D\u266e",
+                "scientific_name": "D4"
+            },
+            {
+                "frequency": 348.54376712962966,
+                "image": "F_nat_med.png",
+                "note": "F\u266e",
+                "scientific_name": "F4"
+            },
+            {
+                "frequency": 413.72037249999994,
+                "image": "A_flat_med.png",
+                "note": "A\u266d",
+                "scientific_name": "A\u266d4"
+            }
+        ]
+    },
+    {
+        "chord": "E\u266d MAJ_SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 155.5635,
+                "image": "E_flat_low.png",
+                "note": "E\u266d",
+                "scientific_name": "E\u266d3"
+            },
+            {
+                "frequency": 189.38165217391307,
+                "image": "G_nat_low.png",
+                "note": "G\u266e",
+                "scientific_name": "G3"
+            },
+            {
+                "frequency": 235.28979375,
+                "image": "B_flat_low.png",
+                "note": "B\u266d",
+                "scientific_name": "B\u266d3"
+            },
+            {
+                "frequency": 294.7518947368421,
+                "image": "D_nat_med.png",
+                "note": "D\u266e",
+                "scientific_name": "D4"
+            }
+        ]
+    },
+    {
+        "chord": "E\u266d MAJ_SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 155.5635,
+                "image": "E_flat_low.png",
+                "note": "E\u266d",
+                "scientific_name": "E\u266d3"
+            },
+            {
+                "frequency": 189.38165217391307,
+                "image": "G_nat_low.png",
+                "note": "G\u266e",
+                "scientific_name": "G3"
+            },
+            {
+                "frequency": 235.28979375,
+                "image": "B_flat_low.png",
+                "note": "B\u266d",
+                "scientific_name": "B\u266d3"
+            },
+            {
+                "frequency": 294.7518947368421,
+                "image": "D_nat_med.png",
+                "note": "D\u266e",
+                "scientific_name": "D4"
+            }
+        ]
+    },
+    {
+        "chord": "C\u266f MINOR_SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 277.1826,
+                "image": "C_sharp_low.png",
+                "note": "C\u266f",
+                "scientific_name": "C\u266f4"
+            },
+            {
+                "frequency": 328.2425526315789,
+                "image": "E_nat_med.png",
+                "note": "E\u266e",
+                "scientific_name": "E4"
+            },
+            {
+                "frequency": 419.2386825,
+                "image": "G_sharp_med.png",
+                "note": "G\u266f",
+                "scientific_name": "G\u266f4"
+            },
+            {
+                "frequency": 491.99911499999996,
+                "image": "B_nat_med.png",
+                "note": "B\u266e",
+                "scientific_name": "B4"
+            }
+        ]
+    },
+    {
+        "chord": "F\u266f SEVEN",
+        "inversion": 0,
+        "notes": [
+            {
+                "frequency": 184.9972,
+                "image": "F_sharp_low.png",
+                "note": "F\u266f",
+                "scientific_name": "F\u266f3"
+            },
+            {
+                "frequency": 225.21398260869566,
+                "image": "A_sharp_low.png",
+                "note": "A\u266f",
+                "scientific_name": "A\u266f3"
+            },
+            {
+                "frequency": 279.808265,
+                "image": "C_sharp_low.png",
+                "note": "C\u266f",
+                "scientific_name": "C\u266f4"
+            },
+            {
+                "frequency": 329.5262625,
+                "image": "E_nat_med.png",
+                "note": "E\u266e",
+                "scientific_name": "E4"
+            }
+        ]
+    }
+]
