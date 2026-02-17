@@ -1,54 +1,75 @@
+const DURATION = 9;
 fetch("first_notes.json")
     .then((r) => r.json())
     .then((data) => {
-        data.forEach((datum) => {
-            console.log(datum.image);
-            console.log(datum.frequency);
-        });
-    });
+        console.log(data[0].full_chord);
+        const divs = {
+            container: document.getElementById("container"),
+            currentNote: document.getElementById("currentNote"),
+            currentChord: document.getElementById("currentChord"),
+            frequency: document.getElementById("frequency"),
+            image: document.getElementById("image"),
+            remaining: document.getElementById("remaining"),
+            next: document.getElementById("next"),
+            nextNote: document.getElementById("nextNote"),
+        };
+        let currentIndex = 0;
+        let countdownInterval;
 
-const data = [
-    { name: "first", duration: 5, value: "Hello" },
-    { name: "second", duration: 3, value: "World" },
-    { name: "third", duration: 4, value: "This is sequential" },
-];
+        function displayNext() {
+            if (currentIndex < data.length) {
+                const item = data[currentIndex];
+                let timeRemaining = DURATION;
 
-const displayElement = document.getElementById("display");
-let currentIndex = 0;
-let countdownInterval;
+                updateDisplay(
+                    item.full_chord,
+                    item.frequency,
+                    item.image,
+                    data[currentIndex + 1].image,
+                    timeRemaining,
+                );
 
-function displayNext() {
-    if (currentIndex < data.length) {
-        const item = data[currentIndex];
-        let timeRemaining = item.duration;
+                countdownInterval = setInterval(() => {
+                    timeRemaining--;
+                    if (timeRemaining >= 0) {
+                        updateDisplay(
+                            item.full_chord,
+                            item.frequency,
+                            item.image,
+                            data[currentIndex + 1].image,
+                            timeRemaining,
+                        );
+                    }
+                }, 1000);
 
-        updateDisplay(item.value, timeRemaining);
-
-        countdownInterval = setInterval(() => {
-            timeRemaining--;
-            if (timeRemaining >= 0) {
-                updateDisplay(item.value, timeRemaining);
+                setTimeout(() => {
+                    clearInterval(countdownInterval);
+                    currentIndex++;
+                    displayNext();
+                }, DURATION * 1000);
+            } else {
+                displayElement.innerHTML = "Done";
             }
-        }, 1000);
+        }
 
-        setTimeout(() => {
-            clearInterval(countdownInterval);
-            currentIndex++;
-            displayNext();
-        }, item.duration * 1000);
-    } else {
-        displayElement.innerHTML = "Done";
-    }
-}
+        function updateDisplay(
+            currentChord,
+            frequency,
+            image,
+            nextImage,
+            timeRemaining,
+        ) {
+            const currentNote = image.replace(/\.png/, "");
+            const nextNote = nextImage.replace(/\.png/, "");
 
-function updateDisplay(value, timeRemaining) {
-    displayElement.innerHTML = `
-        <div class="value">${value}</div>
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        <div class="countdown">${timeRemaining}s</div>
-    `;
-}
+            divs.currentChord.textContent = currentChord;
+            divs.currentNote.textContent = currentNote;
+            divs.frequency.textContent = frequency;
+            divs.image.src = `note_images/${image}`;
+            divs.remaining.textContent = timeRemaining;
+            divs.next.src = `note_images/${nextImage}`;
+            divs.nextNote.textContent = nextNote;
+        }
 
-displayNext();
+        displayNext();
+    });
