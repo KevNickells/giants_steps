@@ -1,22 +1,8 @@
 [
     {
         "chord": "B♮ MAJ_SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 300.6246782608696,
-                "image": "D_sharp_med.png",
-                "note": "D♯",
-                "scientific_name": "D♯4",
-                "interval name": "vicesimotertial neutral third "
-            },
-            {
-                "frequency": 373.49932125,
-                "image": "F_sharp_med.png",
-                "note": "F♯",
-                "scientific_name": "F♯4",
-                "interval name": " wide biyatismic fifth "
-            },
             {
                 "frequency": 439.864903125,
                 "image": "A_sharp_med.png",
@@ -29,27 +15,27 @@
                 "image": "B_nat_low.png",
                 "note": "B♮",
                 "scientific_name": "B4"
+            },
+            {
+                "frequency": 601.2493565217392,
+                "image": "D_sharp_med.png",
+                "note": "D♯",
+                "scientific_name": "D♯5",
+                "interval name": "vicesimotertial neutral third "
+            },
+            {
+                "frequency": 746.9986425,
+                "image": "F_sharp_med.png",
+                "note": "F♯",
+                "scientific_name": "F♯5",
+                "interval name": " wide biyatismic fifth "
             }
         ]
     },
     {
         "chord": "D♮ SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 182.89649824561405,
-                "image": "F_sharp_low.png",
-                "note": "F♯",
-                "scientific_name": "F♯3",
-                "interval name": "witchcraft major third "
-            },
-            {
-                "frequency": 219.5688203703704,
-                "image": "A_nat_low.png",
-                "note": "A♮",
-                "scientific_name": "A3",
-                "interval name": " undevicesimal meantone fifth "
-            },
             {
                 "frequency": 279.6807619047619,
                 "image": "C_nat_low.png",
@@ -62,27 +48,27 @@
                 "image": "D_nat_low",
                 "note": "D♮",
                 "scientific_name": "D4"
+            },
+            {
+                "frequency": 365.7929964912281,
+                "image": "F_sharp_low.png",
+                "note": "F♯",
+                "scientific_name": "F♯4",
+                "interval name": "witchcraft major third "
+            },
+            {
+                "frequency": 439.1376407407408,
+                "image": "A_nat_low.png",
+                "note": "A♮",
+                "scientific_name": "A4",
+                "interval name": " undevicesimal meantone fifth "
             }
         ]
     },
     {
         "chord": "G♮ MAJ_SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 238.60589565217393,
-                "image": "B_nat_low.png",
-                "note": "B♮",
-                "scientific_name": "B3",
-                "interval name": "vicesimotertial neutral third "
-            },
-            {
-                "frequency": 297.91650400000003,
-                "image": "D_nat_med.png",
-                "note": "D♮",
-                "scientific_name": "D4",
-                "interval name": " undevicesimal acute fifth "
-            },
             {
                 "frequency": 342.99597500000004,
                 "image": "F_sharp_med.png",
@@ -95,27 +81,27 @@
                 "image": "G_nat_low.png",
                 "note": "G♮",
                 "scientific_name": "G4"
+            },
+            {
+                "frequency": 477.21179130434786,
+                "image": "B_nat_low.png",
+                "note": "B♮",
+                "scientific_name": "B4",
+                "interval name": "vicesimotertial neutral third "
+            },
+            {
+                "frequency": 595.8330080000001,
+                "image": "D_nat_med.png",
+                "note": "D♮",
+                "scientific_name": "D5",
+                "interval name": " undevicesimal acute fifth "
             }
         ]
     },
     {
         "chord": "B♭ SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 290.3300859649123,
-                "image": "D_nat_med.png",
-                "note": "D♮",
-                "scientific_name": "D4",
-                "interval name": "witchcraft major third "
-            },
-            {
-                "frequency": 352.53637375,
-                "image": "F_nat_med.png",
-                "note": "F♮",
-                "scientific_name": "F4",
-                "interval name": " wide biyatismic fifth "
-            },
             {
                 "frequency": 441.62886315789467,
                 "image": "A_flat_med.png",
@@ -128,27 +114,27 @@
                 "image": "B_flat_low.png",
                 "note": "B♭",
                 "scientific_name": "B♭4"
+            },
+            {
+                "frequency": 580.6601719298246,
+                "image": "D_nat_med.png",
+                "note": "D♮",
+                "scientific_name": "D5",
+                "interval name": "witchcraft major third "
+            },
+            {
+                "frequency": 705.0727475,
+                "image": "F_nat_med.png",
+                "note": "F♮",
+                "scientific_name": "F5",
+                "interval name": " wide biyatismic fifth "
             }
         ]
     },
     {
         "chord": "E♭ MAJ_SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 193.77207894736844,
-                "image": "G_nat_low.png",
-                "note": "G♮",
-                "scientific_name": "G3",
-                "interval name": "witchcraft major third "
-            },
-            {
-                "frequency": 235.28979375,
-                "image": "B_flat_low.png",
-                "note": "B♭",
-                "scientific_name": "B♭3",
-                "interval name": " wide biyatismic fifth "
-            },
             {
                 "frequency": 272.236125,
                 "image": "D_nat_med.png",
@@ -161,27 +147,27 @@
                 "image": "E_flat_low.png",
                 "note": "E♭",
                 "scientific_name": "E♭4"
+            },
+            {
+                "frequency": 387.5441578947369,
+                "image": "G_nat_low.png",
+                "note": "G♮",
+                "scientific_name": "G4",
+                "interval name": "witchcraft major third "
+            },
+            {
+                "frequency": 470.5795875,
+                "image": "B_flat_low.png",
+                "note": "B♭",
+                "scientific_name": "B♭4",
+                "interval name": " wide biyatismic fifth "
             }
         ]
     },
     {
         "chord": "E♭ MAJ_SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 189.38165217391307,
-                "image": "G_nat_low.png",
-                "note": "G♮",
-                "scientific_name": "G3",
-                "interval name": "vicesimotertial neutral third "
-            },
-            {
-                "frequency": 236.45652,
-                "image": "B_flat_low.png",
-                "note": "B♭",
-                "scientific_name": "B♭3",
-                "interval name": " undevicesimal acute fifth "
-            },
             {
                 "frequency": 296.31142857142856,
                 "image": "D_nat_med.png",
@@ -194,27 +180,27 @@
                 "image": "E_flat_low.png",
                 "note": "E♭",
                 "scientific_name": "E♭4"
+            },
+            {
+                "frequency": 378.76330434782614,
+                "image": "G_nat_low.png",
+                "note": "G♮",
+                "scientific_name": "G4",
+                "interval name": "vicesimotertial neutral third "
+            },
+            {
+                "frequency": 472.91304,
+                "image": "B_flat_low.png",
+                "note": "B♭",
+                "scientific_name": "B♭4",
+                "interval name": " undevicesimal acute fifth "
             }
         ]
     },
     {
         "chord": "A♮ MINOR_SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 267.82608695652175,
-                "image": "C_nat_low.png",
-                "note": "C♮",
-                "scientific_name": "C4",
-                "interval name": "vicesimotertial neutral third "
-            },
-            {
-                "frequency": 334.4,
-                "image": "E_nat_med.png",
-                "note": "E♮",
-                "scientific_name": "E4",
-                "interval name": " undevicesimal acute fifth "
-            },
             {
                 "frequency": 419.04761904761904,
                 "image": "G_nat_med.png",
@@ -227,27 +213,27 @@
                 "image": "A_nat_low.png",
                 "note": "A♮",
                 "scientific_name": "A4"
+            },
+            {
+                "frequency": 535.6521739130435,
+                "image": "C_nat_low.png",
+                "note": "C♮",
+                "scientific_name": "C5",
+                "interval name": "vicesimotertial neutral third "
+            },
+            {
+                "frequency": 668.8,
+                "image": "E_nat_med.png",
+                "note": "E♮",
+                "scientific_name": "E5",
+                "interval name": " undevicesimal acute fifth "
             }
         ]
     },
     {
         "chord": "D♮ SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 178.44215277777778,
-                "image": "F_sharp_low.png",
-                "note": "F♯",
-                "scientific_name": "F♯3",
-                "interval name": "keemic minor third "
-            },
-            {
-                "frequency": 220.2486,
-                "image": "A_nat_low.png",
-                "note": "A♮",
-                "scientific_name": "A3",
-                "interval name": " just perfect fifth "
-            },
             {
                 "frequency": 261.5452125,
                 "image": "C_nat_low.png",
@@ -260,27 +246,27 @@
                 "image": "D_nat_low",
                 "note": "D♮",
                 "scientific_name": "D4"
+            },
+            {
+                "frequency": 356.88430555555556,
+                "image": "F_sharp_low.png",
+                "note": "F♯",
+                "scientific_name": "F♯4",
+                "interval name": "keemic minor third "
+            },
+            {
+                "frequency": 440.4972,
+                "image": "A_nat_low.png",
+                "note": "A♮",
+                "scientific_name": "A4",
+                "interval name": " just perfect fifth "
             }
         ]
     },
     {
         "chord": "G♮ MAJ_SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 246.52835703125,
-                "image": "B_nat_low.png",
-                "note": "B♮",
-                "scientific_name": "B3",
-                "interval name": "just/Pythagorean major third meantone "
-            },
-            {
-                "frequency": 297.91650400000003,
-                "image": "D_nat_med.png",
-                "note": "D♮",
-                "scientific_name": "D4",
-                "interval name": " undevicesimal acute fifth "
-            },
             {
                 "frequency": 347.8959175,
                 "image": "F_sharp_med.png",
@@ -293,27 +279,27 @@
                 "image": "G_nat_low.png",
                 "note": "G♮",
                 "scientific_name": "G4"
+            },
+            {
+                "frequency": 493.0567140625,
+                "image": "B_nat_low.png",
+                "note": "B♮",
+                "scientific_name": "B4",
+                "interval name": "just/Pythagorean major third meantone "
+            },
+            {
+                "frequency": 595.8330080000001,
+                "image": "D_nat_med.png",
+                "note": "D♮",
+                "scientific_name": "D5",
+                "interval name": " undevicesimal acute fifth "
             }
         ]
     },
     {
         "chord": "B♭ SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 293.17332734375,
-                "image": "D_nat_med.png",
-                "note": "D♮",
-                "scientific_name": "D4",
-                "interval name": "just/Pythagorean major third meantone "
-            },
-            {
-                "frequency": 352.53637375,
-                "image": "F_nat_med.png",
-                "note": "F♮",
-                "scientific_name": "F4",
-                "interval name": " wide biyatismic fifth "
-            },
             {
                 "frequency": 441.62886315789467,
                 "image": "A_flat_med.png",
@@ -326,27 +312,27 @@
                 "image": "B_flat_low.png",
                 "note": "B♭",
                 "scientific_name": "B♭4"
+            },
+            {
+                "frequency": 586.3466546875,
+                "image": "D_nat_med.png",
+                "note": "D♮",
+                "scientific_name": "D5",
+                "interval name": "just/Pythagorean major third meantone "
+            },
+            {
+                "frequency": 705.0727475,
+                "image": "F_nat_med.png",
+                "note": "F♮",
+                "scientific_name": "F5",
+                "interval name": " wide biyatismic fifth "
             }
         ]
     },
     {
         "chord": "E♭ MAJ_SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 195.66971484375,
-                "image": "G_nat_low.png",
-                "note": "G♮",
-                "scientific_name": "G3",
-                "interval name": "just/Pythagorean major third meantone "
-            },
-            {
-                "frequency": 236.45652,
-                "image": "B_flat_low.png",
-                "note": "B♭",
-                "scientific_name": "B♭3",
-                "interval name": " undevicesimal acute fifth "
-            },
             {
                 "frequency": 276.1252125,
                 "image": "D_nat_med.png",
@@ -359,27 +345,27 @@
                 "image": "E_flat_low.png",
                 "note": "E♭",
                 "scientific_name": "E♭4"
+            },
+            {
+                "frequency": 391.3394296875,
+                "image": "G_nat_low.png",
+                "note": "G♮",
+                "scientific_name": "G4",
+                "interval name": "just/Pythagorean major third meantone "
+            },
+            {
+                "frequency": 472.91304,
+                "image": "B_flat_low.png",
+                "note": "B♭",
+                "scientific_name": "B♭4",
+                "interval name": " undevicesimal acute fifth "
             }
         ]
     },
     {
         "chord": "F♯ SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 230.43510877192983,
-                "image": "A_sharp_low.png",
-                "note": "A♯",
-                "scientific_name": "A♯3",
-                "interval name": "witchcraft major third "
-            },
-            {
-                "frequency": 277.4958,
-                "image": "C_sharp_low.png",
-                "note": "C♯",
-                "scientific_name": "C♯4",
-                "interval name": " just perfect fifth "
-            },
             {
                 "frequency": 339.1615333333333,
                 "image": "E_nat_med.png",
@@ -392,27 +378,27 @@
                 "image": "F_sharp_low.png",
                 "note": "F♯",
                 "scientific_name": "F♯4"
+            },
+            {
+                "frequency": 460.87021754385967,
+                "image": "A_sharp_low.png",
+                "note": "A♯",
+                "scientific_name": "A♯4",
+                "interval name": "witchcraft major third "
+            },
+            {
+                "frequency": 554.9916,
+                "image": "C_sharp_low.png",
+                "note": "C♯",
+                "scientific_name": "C♯5",
+                "interval name": " just perfect fifth "
             }
         ]
     },
     {
         "chord": "B♮ MAJ_SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 310.60635703125,
-                "image": "D_sharp_med.png",
-                "note": "D♯",
-                "scientific_name": "D♯4",
-                "interval name": "just/Pythagorean major third meantone "
-            },
-            {
-                "frequency": 370.41255,
-                "image": "F_sharp_med.png",
-                "note": "F♯",
-                "scientific_name": "F♯4",
-                "interval name": " just perfect fifth "
-            },
             {
                 "frequency": 432.147975,
                 "image": "A_sharp_med.png",
@@ -425,27 +411,27 @@
                 "image": "B_nat_low.png",
                 "note": "B♮",
                 "scientific_name": "B4"
+            },
+            {
+                "frequency": 621.2127140625,
+                "image": "D_sharp_med.png",
+                "note": "D♯",
+                "scientific_name": "D♯5",
+                "interval name": "just/Pythagorean major third meantone "
+            },
+            {
+                "frequency": 740.8251,
+                "image": "F_sharp_med.png",
+                "note": "F♯",
+                "scientific_name": "F♯5",
+                "interval name": " just perfect fifth "
             }
         ]
     },
     {
         "chord": "B♮ MAJ_SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 307.59404736842106,
-                "image": "D_sharp_med.png",
-                "note": "D♯",
-                "scientific_name": "D♯4",
-                "interval name": "witchcraft major third "
-            },
-            {
-                "frequency": 369.994770260631,
-                "image": "F_sharp_med.png",
-                "note": "F♯",
-                "scientific_name": "F♯4",
-                "interval name": " Kirnberger's fifth "
-            },
             {
                 "frequency": 470.3651428571428,
                 "image": "A_sharp_med.png",
@@ -458,27 +444,27 @@
                 "image": "B_nat_low.png",
                 "note": "B♮",
                 "scientific_name": "B4"
+            },
+            {
+                "frequency": 615.1880947368421,
+                "image": "D_sharp_med.png",
+                "note": "D♯",
+                "scientific_name": "D♯5",
+                "interval name": "witchcraft major third "
+            },
+            {
+                "frequency": 739.989540521262,
+                "image": "F_sharp_med.png",
+                "note": "F♯",
+                "scientific_name": "F♯5",
+                "interval name": " Kirnberger's fifth "
             }
         ]
     },
     {
         "chord": "F♮ MINOR_SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 217.50177368421055,
-                "image": "A_flat_low.png",
-                "note": "A♭",
-                "scientific_name": "A♭3",
-                "interval name": "witchcraft major third "
-            },
-            {
-                "frequency": 261.6257351989026,
-                "image": "C_nat_low.png",
-                "note": "C♮",
-                "scientific_name": "C4",
-                "interval name": " Kirnberger's fifth "
-            },
             {
                 "frequency": 332.59828571428574,
                 "image": "E_flat_med.png",
@@ -491,27 +477,27 @@
                 "image": "F_nat_low.png",
                 "note": "F♮",
                 "scientific_name": "F4"
+            },
+            {
+                "frequency": 435.0035473684211,
+                "image": "A_flat_low.png",
+                "note": "A♭",
+                "scientific_name": "A♭4",
+                "interval name": "witchcraft major third "
+            },
+            {
+                "frequency": 523.2514703978052,
+                "image": "C_nat_low.png",
+                "note": "C♮",
+                "scientific_name": "C5",
+                "interval name": " Kirnberger's fifth "
             }
         ]
     },
     {
         "chord": "B♭ SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 279.69827999999995,
-                "image": "D_nat_med.png",
-                "note": "D♮",
-                "scientific_name": "D4",
-                "interval name": "just minor third "
-            },
-            {
-                "frequency": 349.62284999999997,
-                "image": "F_nat_med.png",
-                "note": "F♮",
-                "scientific_name": "F4",
-                "interval name": " just perfect fifth "
-            },
             {
                 "frequency": 407.893325,
                 "image": "A_flat_med.png",
@@ -524,27 +510,27 @@
                 "image": "B_flat_low.png",
                 "note": "B♭",
                 "scientific_name": "B♭4"
+            },
+            {
+                "frequency": 559.3965599999999,
+                "image": "D_nat_med.png",
+                "note": "D♮",
+                "scientific_name": "D5",
+                "interval name": "just minor third "
+            },
+            {
+                "frequency": 699.2456999999999,
+                "image": "F_nat_med.png",
+                "note": "F♮",
+                "scientific_name": "F5",
+                "interval name": " just perfect fifth "
             }
         ]
     },
     {
         "chord": "E♭ MAJ_SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 195.66971484375,
-                "image": "G_nat_low.png",
-                "note": "G♮",
-                "scientific_name": "G3",
-                "interval name": "just/Pythagorean major third meantone "
-            },
-            {
-                "frequency": 232.62504861111114,
-                "image": "B_flat_low.png",
-                "note": "B♭",
-                "scientific_name": "B♭3",
-                "interval name": " undevicesimal meantone fifth "
-            },
             {
                 "frequency": 272.236125,
                 "image": "D_nat_med.png",
@@ -557,27 +543,27 @@
                 "image": "E_flat_low.png",
                 "note": "E♭",
                 "scientific_name": "E♭4"
+            },
+            {
+                "frequency": 391.3394296875,
+                "image": "G_nat_low.png",
+                "note": "G♮",
+                "scientific_name": "G4",
+                "interval name": "just/Pythagorean major third meantone "
+            },
+            {
+                "frequency": 465.2500972222223,
+                "image": "B_flat_low.png",
+                "note": "B♭",
+                "scientific_name": "B♭4",
+                "interval name": " undevicesimal meantone fifth "
             }
         ]
     },
     {
         "chord": "E♭ MAJ_SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 193.77207894736844,
-                "image": "G_nat_low.png",
-                "note": "G♮",
-                "scientific_name": "G3",
-                "interval name": "witchcraft major third "
-            },
-            {
-                "frequency": 235.28979375,
-                "image": "B_flat_low.png",
-                "note": "B♭",
-                "scientific_name": "B♭3",
-                "interval name": " wide biyatismic fifth "
-            },
             {
                 "frequency": 294.7518947368421,
                 "image": "D_nat_med.png",
@@ -590,27 +576,27 @@
                 "image": "E_flat_low.png",
                 "note": "E♭",
                 "scientific_name": "E♭4"
+            },
+            {
+                "frequency": 387.5441578947369,
+                "image": "G_nat_low.png",
+                "note": "G♮",
+                "scientific_name": "G4",
+                "interval name": "witchcraft major third "
+            },
+            {
+                "frequency": 470.5795875,
+                "image": "B_flat_low.png",
+                "note": "B♭",
+                "scientific_name": "B♭4",
+                "interval name": " wide biyatismic fifth "
             }
         ]
     },
     {
         "chord": "A♮ MINOR_SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 274.03508771929825,
-                "image": "C_nat_low.png",
-                "note": "C♮",
-                "scientific_name": "C4",
-                "interval name": "witchcraft major third "
-            },
-            {
-                "frequency": 332.75,
-                "image": "E_nat_med.png",
-                "note": "E♮",
-                "scientific_name": "E4",
-                "interval name": " wide biyatismic fifth "
-            },
             {
                 "frequency": 416.84210526315786,
                 "image": "G_nat_med.png",
@@ -623,27 +609,27 @@
                 "image": "A_nat_low.png",
                 "note": "A♮",
                 "scientific_name": "A4"
+            },
+            {
+                "frequency": 548.0701754385965,
+                "image": "C_nat_low.png",
+                "note": "C♮",
+                "scientific_name": "C5",
+                "interval name": "witchcraft major third "
+            },
+            {
+                "frequency": 665.5,
+                "image": "E_nat_med.png",
+                "note": "E♮",
+                "scientific_name": "E5",
+                "interval name": " wide biyatismic fifth "
             }
         ]
     },
     {
         "chord": "D♮ MINOR_SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 173.88047368421053,
-                "image": "F_nat_low.png",
-                "note": "F♮",
-                "scientific_name": "F3",
-                "interval name": "Eratosthenes' minor third "
-            },
-            {
-                "frequency": 223.185248,
-                "image": "A_nat_low.png",
-                "note": "A♮",
-                "scientific_name": "A3",
-                "interval name": " undevicesimal acute fifth "
-            },
             {
                 "frequency": 261.5452125,
                 "image": "C_nat_low.png",
@@ -656,27 +642,27 @@
                 "image": "D_nat_low.png",
                 "note": "D♮",
                 "scientific_name": "D4"
+            },
+            {
+                "frequency": 347.76094736842106,
+                "image": "F_nat_low.png",
+                "note": "F♮",
+                "scientific_name": "F4",
+                "interval name": "Eratosthenes' minor third "
+            },
+            {
+                "frequency": 446.370496,
+                "image": "A_nat_low.png",
+                "note": "A♮",
+                "scientific_name": "A4",
+                "interval name": " undevicesimal acute fifth "
             }
         ]
     },
     {
         "chord": "G♮ MAJ_SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 232.1025394736842,
-                "image": "B_nat_low.png",
-                "note": "B♮",
-                "scientific_name": "B3",
-                "interval name": "Eratosthenes' minor third "
-            },
-            {
-                "frequency": 288.2319117647059,
-                "image": "D_nat_med.png",
-                "note": "D♮",
-                "scientific_name": "D4",
-                "interval name": " vengeance subfifth "
-            },
             {
                 "frequency": 342.99597500000004,
                 "image": "F_sharp_med.png",
@@ -689,27 +675,27 @@
                 "image": "G_nat_low.png",
                 "note": "G♮",
                 "scientific_name": "G4"
+            },
+            {
+                "frequency": 464.2050789473684,
+                "image": "B_nat_low.png",
+                "note": "B♮",
+                "scientific_name": "B4",
+                "interval name": "Eratosthenes' minor third "
+            },
+            {
+                "frequency": 576.4638235294118,
+                "image": "D_nat_med.png",
+                "note": "D♮",
+                "scientific_name": "D5",
+                "interval name": " vengeance subfifth "
             }
         ]
     },
     {
         "chord": "G♮ MAJ_SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 246.52835703125,
-                "image": "B_nat_low.png",
-                "note": "B♮",
-                "scientific_name": "B3",
-                "interval name": "just/Pythagorean major third meantone "
-            },
-            {
-                "frequency": 288.2319117647059,
-                "image": "D_nat_med.png",
-                "note": "D♮",
-                "scientific_name": "D4",
-                "interval name": " vengeance subfifth "
-            },
             {
                 "frequency": 371.36406315789475,
                 "image": "F_sharp_med.png",
@@ -722,27 +708,27 @@
                 "image": "G_nat_low.png",
                 "note": "G♮",
                 "scientific_name": "G4"
+            },
+            {
+                "frequency": 493.0567140625,
+                "image": "B_nat_low.png",
+                "note": "B♮",
+                "scientific_name": "B4",
+                "interval name": "just/Pythagorean major third meantone "
+            },
+            {
+                "frequency": 576.4638235294118,
+                "image": "D_nat_med.png",
+                "note": "D♮",
+                "scientific_name": "D5",
+                "interval name": " vengeance subfifth "
             }
         ]
     },
     {
         "chord": "C♯ MINOR_SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 348.64373906249995,
-                "image": "E_nat_med.png",
-                "note": "E♮",
-                "scientific_name": "E4",
-                "interval name": "just/Pythagorean major third meantone "
-            },
-            {
-                "frequency": 415.30495824417005,
-                "image": "G_sharp_med.png",
-                "note": "G♯",
-                "scientific_name": "G♯4",
-                "interval name": " Kirnberger's fifth "
-            },
             {
                 "frequency": 527.9668571428571,
                 "image": "B_nat_med.png",
@@ -755,27 +741,27 @@
                 "image": "C_sharp_low.png",
                 "note": "C♯",
                 "scientific_name": "C♯5"
+            },
+            {
+                "frequency": 697.2874781249999,
+                "image": "E_nat_med.png",
+                "note": "E♮",
+                "scientific_name": "E5",
+                "interval name": "just/Pythagorean major third meantone "
+            },
+            {
+                "frequency": 830.6099164883401,
+                "image": "G_sharp_med.png",
+                "note": "G♯",
+                "scientific_name": "G♯5",
+                "interval name": " Kirnberger's fifth "
             }
         ]
     },
     {
         "chord": "F♯ SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 224.82298611111108,
-                "image": "A_sharp_low.png",
-                "note": "A♯",
-                "scientific_name": "A♯3",
-                "interval name": "keemic minor third "
-            },
-            {
-                "frequency": 277.18281891175127,
-                "image": "C_sharp_low.png",
-                "note": "C♯",
-                "scientific_name": "C♯4",
-                "interval name": " Kirnberger's fifth "
-            },
             {
                 "frequency": 328.37003,
                 "image": "E_nat_med.png",
@@ -788,27 +774,27 @@
                 "image": "F_sharp_low.png",
                 "note": "F♯",
                 "scientific_name": "F♯4"
+            },
+            {
+                "frequency": 449.64597222222216,
+                "image": "A_sharp_low.png",
+                "note": "A♯",
+                "scientific_name": "A♯4",
+                "interval name": "keemic minor third "
+            },
+            {
+                "frequency": 554.3656378235025,
+                "image": "C_sharp_low.png",
+                "note": "C♯",
+                "scientific_name": "C♯5",
+                "interval name": " Kirnberger's fifth "
             }
         ]
     },
     {
         "chord": "B♮ MAJ_SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 310.60635703125,
-                "image": "D_sharp_med.png",
-                "note": "D♯",
-                "scientific_name": "D♯4",
-                "interval name": "just/Pythagorean major third meantone "
-            },
-            {
-                "frequency": 375.351384,
-                "image": "F_sharp_med.png",
-                "note": "F♯",
-                "scientific_name": "F♯4",
-                "interval name": " undevicesimal acute fifth "
-            },
             {
                 "frequency": 438.32151749999997,
                 "image": "A_sharp_med.png",
@@ -821,27 +807,27 @@
                 "image": "B_nat_low.png",
                 "note": "B♮",
                 "scientific_name": "B4"
+            },
+            {
+                "frequency": 621.2127140625,
+                "image": "D_sharp_med.png",
+                "note": "D♯",
+                "scientific_name": "D♯5",
+                "interval name": "just/Pythagorean major third meantone "
+            },
+            {
+                "frequency": 750.702768,
+                "image": "F_sharp_med.png",
+                "note": "F♯",
+                "scientific_name": "F♯5",
+                "interval name": " undevicesimal acute fifth "
             }
         ]
     },
     {
         "chord": "B♮ MAJ_SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 313.5767619047619,
-                "image": "D_sharp_med.png",
-                "note": "D♯",
-                "scientific_name": "D♯4",
-                "interval name": "5/7-kleismic major third "
-            },
-            {
-                "frequency": 375.351384,
-                "image": "F_sharp_med.png",
-                "note": "F♯",
-                "scientific_name": "F♯4",
-                "interval name": " undevicesimal acute fifth "
-            },
             {
                 "frequency": 470.3651428571428,
                 "image": "A_sharp_med.png",
@@ -854,27 +840,27 @@
                 "image": "B_nat_low.png",
                 "note": "B♮",
                 "scientific_name": "B4"
+            },
+            {
+                "frequency": 627.1535238095238,
+                "image": "D_sharp_med.png",
+                "note": "D♯",
+                "scientific_name": "D♯5",
+                "interval name": "5/7-kleismic major third "
+            },
+            {
+                "frequency": 750.702768,
+                "image": "F_sharp_med.png",
+                "note": "F♯",
+                "scientific_name": "F♯5",
+                "interval name": " undevicesimal acute fifth "
             }
         ]
     },
     {
         "chord": "F♮ MINOR_SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 221.73219047619048,
-                "image": "A_flat_low.png",
-                "note": "A♭",
-                "scientific_name": "A♭3",
-                "interval name": "5/7-kleismic major third "
-            },
-            {
-                "frequency": 265.413432,
-                "image": "C_nat_low.png",
-                "note": "C♮",
-                "scientific_name": "C4",
-                "interval name": " undevicesimal acute fifth "
-            },
             {
                 "frequency": 332.59828571428574,
                 "image": "E_flat_med.png",
@@ -887,27 +873,27 @@
                 "image": "F_nat_low.png",
                 "note": "F♮",
                 "scientific_name": "F4"
+            },
+            {
+                "frequency": 443.46438095238096,
+                "image": "A_flat_low.png",
+                "note": "A♭",
+                "scientific_name": "A♭4",
+                "interval name": "5/7-kleismic major third "
+            },
+            {
+                "frequency": 530.826864,
+                "image": "C_nat_low.png",
+                "note": "C♮",
+                "scientific_name": "C5",
+                "interval name": " undevicesimal acute fifth "
             }
         ]
     },
     {
         "chord": "B♭ SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 283.2592534722222,
-                "image": "D_nat_med.png",
-                "note": "D♮",
-                "scientific_name": "D4",
-                "interval name": "keemic minor third "
-            },
-            {
-                "frequency": 349.2285184819387,
-                "image": "F_nat_med.png",
-                "note": "F♮",
-                "scientific_name": "F4",
-                "interval name": " Kirnberger's fifth "
-            },
             {
                 "frequency": 407.893325,
                 "image": "A_flat_med.png",
@@ -920,27 +906,27 @@
                 "image": "B_flat_low.png",
                 "note": "B♭",
                 "scientific_name": "B♭4"
+            },
+            {
+                "frequency": 566.5185069444444,
+                "image": "D_nat_med.png",
+                "note": "D♮",
+                "scientific_name": "D5",
+                "interval name": "keemic minor third "
+            },
+            {
+                "frequency": 698.4570369638774,
+                "image": "F_nat_med.png",
+                "note": "F♮",
+                "scientific_name": "F5",
+                "interval name": " Kirnberger's fifth "
             }
         ]
     },
     {
         "chord": "E♭ MAJ_SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 195.66971484375,
-                "image": "G_nat_low.png",
-                "note": "G♮",
-                "scientific_name": "G3",
-                "interval name": "just/Pythagorean major third meantone "
-            },
-            {
-                "frequency": 232.62504861111114,
-                "image": "B_flat_low.png",
-                "note": "B♭",
-                "scientific_name": "B♭3",
-                "interval name": " undevicesimal meantone fifth "
-            },
             {
                 "frequency": 277.097484375,
                 "image": "D_nat_med.png",
@@ -953,27 +939,27 @@
                 "image": "E_flat_low.png",
                 "note": "E♭",
                 "scientific_name": "E♭4"
+            },
+            {
+                "frequency": 391.3394296875,
+                "image": "G_nat_low.png",
+                "note": "G♮",
+                "scientific_name": "G4",
+                "interval name": "just/Pythagorean major third meantone "
+            },
+            {
+                "frequency": 465.2500972222223,
+                "image": "B_flat_low.png",
+                "note": "B♭",
+                "scientific_name": "B♭4",
+                "interval name": " undevicesimal meantone fifth "
             }
         ]
     },
     {
         "chord": "E♭ MAJ_SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 193.77207894736844,
-                "image": "G_nat_low.png",
-                "note": "G♮",
-                "scientific_name": "G3",
-                "interval name": "witchcraft major third "
-            },
-            {
-                "frequency": 236.45652,
-                "image": "B_flat_low.png",
-                "note": "B♭",
-                "scientific_name": "B♭3",
-                "interval name": " undevicesimal acute fifth "
-            },
             {
                 "frequency": 296.31142857142856,
                 "image": "D_nat_med.png",
@@ -986,27 +972,27 @@
                 "image": "E_flat_low.png",
                 "note": "E♭",
                 "scientific_name": "E♭4"
+            },
+            {
+                "frequency": 387.5441578947369,
+                "image": "G_nat_low.png",
+                "note": "G♮",
+                "scientific_name": "G4",
+                "interval name": "witchcraft major third "
+            },
+            {
+                "frequency": 472.91304,
+                "image": "B_flat_low.png",
+                "note": "B♭",
+                "scientific_name": "B♭4",
+                "interval name": " undevicesimal acute fifth "
             }
         ]
     },
     {
         "chord": "C♯ MINOR_SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 345.26253684210525,
-                "image": "E_nat_med.png",
-                "note": "E♮",
-                "scientific_name": "E4",
-                "interval name": "witchcraft major third "
-            },
-            {
-                "frequency": 421.317552,
-                "image": "G_sharp_med.png",
-                "note": "G♯",
-                "scientific_name": "G♯4",
-                "interval name": " undevicesimal acute fifth "
-            },
             {
                 "frequency": 527.9668571428571,
                 "image": "B_nat_med.png",
@@ -1019,27 +1005,27 @@
                 "image": "C_sharp_low.png",
                 "note": "C♯",
                 "scientific_name": "C♯5"
+            },
+            {
+                "frequency": 690.5250736842105,
+                "image": "E_nat_med.png",
+                "note": "E♮",
+                "scientific_name": "E5",
+                "interval name": "witchcraft major third "
+            },
+            {
+                "frequency": 842.635104,
+                "image": "G_sharp_med.png",
+                "note": "G♯",
+                "scientific_name": "G♯5",
+                "interval name": " undevicesimal acute fifth "
             }
         ]
     },
     {
         "chord": "F♯ SEVEN",
-        "inversion": 1,
+        "inversion": 3,
         "notes": [
-            {
-                "frequency": 219.07563157894734,
-                "image": "A_sharp_low.png",
-                "note": "A♯",
-                "scientific_name": "A♯3",
-                "interval name": "Eratosthenes' minor third "
-            },
-            {
-                "frequency": 272.05470588235295,
-                "image": "C_sharp_low.png",
-                "note": "C♯",
-                "scientific_name": "C♯4",
-                "interval name": " vengeance subfifth "
-            },
             {
                 "frequency": 323.7451,
                 "image": "E_nat_med.png",
@@ -1052,6 +1038,20 @@
                 "image": "F_sharp_low.png",
                 "note": "F♯",
                 "scientific_name": "F♯4"
+            },
+            {
+                "frequency": 438.1512631578947,
+                "image": "A_sharp_low.png",
+                "note": "A♯",
+                "scientific_name": "A♯4",
+                "interval name": "Eratosthenes' minor third "
+            },
+            {
+                "frequency": 544.1094117647059,
+                "image": "C_sharp_low.png",
+                "note": "C♯",
+                "scientific_name": "C♯5",
+                "interval name": " vengeance subfifth "
             }
         ]
     }
