@@ -17,68 +17,57 @@ all_ratios = (
     + preferred_major_sevenths
 )
 
-
-with open("inv_1.json", "r") as f:
-    inversion_1 = json.load(f)
+with open("inv_2.json", "r") as f:
+    inversion_2 = json.load(f)
 
 with open("with_inversions.json", "r") as f:
     with_inversions = json.load(f)
 
-for index, chord in enumerate(inversion_1):
-    notes = chord["notes"]
-    root = notes[0]
-    intervals = with_inversions[index + (len(inversion_1) - 1)]["intervals"]
 
+next_thing = []
+
+
+def get_ratios(intervals, root_frequency):
     third, fifth, seventh = intervals.split("|")
     third_ratio = next(ratio for ratio in all_ratios if ratio["name"] == third.strip())
     fifth_ratio = next(ratio for ratio in all_ratios if ratio["name"] == fifth.strip())
     seventh_ratio = next(
         ratio for ratio in all_ratios if ratio["name"] == seventh.strip()
     )
-    if not third_ratio:
-        print("panic")
-    if not fifth_ratio:
-        print("panic")
-    if not seventh_ratio:
-        print("panic")
-#
-# for index, detail in enumerate(with_inversions):
-#    intervals = detail["intervals"]
-#
-#    third, fifth, seventh = intervals.split("|")
-#
-#    third_ratio = next(ratio for ratio in all_ratios if ratio["name"] == third.strip())
-#    fifth_ratio = next(ratio for ratio in all_ratios if ratio["name"] == fifth.strip())
-#    seventh_ratio = next(
-#        ratio for ratio in all_ratios if ratio["name"] == seventh.strip()
-#    )
+    third_frequency = root_frequency * third_ratio["ratio"]
+    fifth_frequency = root_frequency * fifth_ratio["ratio"]
+    seventh_frequency = root_frequency * seventh_ratio["ratio"]
+
+    return third_frequency, fifth_frequency, seventh_frequency
 
 
+for index, chord in enumerate(inversion_2):
+    notes = chord["notes"]
+    root_frequency = notes[3]["frequency"] / 2
+    intervals = with_inversions[index + (len(inversion_2) - 1)]["intervals"]
+
+    third, fifth, seventh = get_ratios(intervals, root_frequency)
+
+    notes[0]["frequency"] = seventh
+    notes[1]["frequency"] = root_frequency * 2
+    notes[2]["frequency"] = third * 2
+    notes[3]["frequency"] = fifth * 2
+
+    # chord["notes"] = [notes[2], notes[3], notes[0], notes[1]]
+
+    chord["inversion"] = 3
+
+    next_thing.append(chord)
+
+"""
+Still need to go over this
+I think in actual fact it works like
+repeat inv 1 each time so the root freq stays the same; everything except the seven will be doubled
+"""
 # pprint(inversion_1[0])
 
-
-# with open("inv_1.json", "w") as f:
-#    json.dump(inversion_1, f, indent=2)
-"""
-{'chord': 'B♮ MAJ_SEVEN',
- 'inversion': 0,
- 'notes': [{'frequency': 246.9417,
-            'image': 'B_nat_low.png',
-            'note': 'B♮',
-            'scientific_name': 'B3'},
-           {'frequency': 300.6246782608696,
-            'image': 'D_sharp_med.png',
-            'note': 'D♯',
-            'scientific_name': 'D♯4'},
-           {'frequency': 370.41255,
-            'image': 'F_sharp_med.png',
-            'note': 'F♯',
-            'scientific_name': 'F♯4'},
-           {'frequency': 470.3651428571428,
-            'image': 'A_sharp_med.png',
-            'note': 'A♯',
-            'scientific_name': 'A♯4'}]}
-            """
+with open("inv_4.json", "w") as f:
+    json.dump(next_thing, f, indent=2)
 
 nothing = {}
 pprint(nothing)
