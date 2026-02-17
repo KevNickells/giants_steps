@@ -1,4 +1,12 @@
-// Example data array
+fetch("first_notes.json")
+    .then((r) => r.json())
+    .then((data) => {
+        data.forEach((datum) => {
+            console.log(datum.image);
+            console.log(datum.frequency);
+        });
+    });
+
 const data = [
     { name: "first", duration: 5, value: "Hello" },
     { name: "second", duration: 3, value: "World" },
