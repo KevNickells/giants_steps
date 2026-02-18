@@ -45,7 +45,7 @@ def audio_stream():
         freq = get_frequency_autocorr(data, RATE)
         if freq > 50:
             socketio.emit("frequency", {"frequency": freq})
-        time.sleep(0.05)  # avoid flooding
+        time.sleep(0.05)
 
 
 @socketio.on("connect")
