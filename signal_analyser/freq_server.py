@@ -43,7 +43,7 @@ def audio_stream():
     while True:
         data = stream.read(CHUNK)
         freq = get_frequency_autocorr(data, RATE)
-        if freq > 50:
+        if freq > 50 and freq < 850:
             socketio.emit("frequency", {"frequency": freq})
         time.sleep(0.05)
 

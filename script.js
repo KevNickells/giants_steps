@@ -2,25 +2,17 @@ const DURATION = 9;
 fetch("first_notes.json")
     .then((r) => r.json())
     .then((data) => {
+        console.log(data[0].full_chord);
         const divs = {
             container: document.getElementById("container"),
             currentNote: document.getElementById("currentNote"),
             currentChord: document.getElementById("currentChord"),
-            objectFrequency: document.getElementById("objectFrequency"),
-            currentFrequency: document.getElementById("currentFrequency"),
+            frequency: document.getElementById("frequency"),
             image: document.getElementById("image"),
             remaining: document.getElementById("remaining"),
             next: document.getElementById("next"),
             nextNote: document.getElementById("nextNote"),
         };
-
-        const socket = io("http://localhost:5000");
-
-        socket.on("frequency", function (frequencyData) {
-            divs.currentFrequency.textContent =
-                frequencyData.frequency.toFixed(1);
-        });
-
         let currentIndex = 0;
         let countdownInterval;
 
@@ -72,7 +64,7 @@ fetch("first_notes.json")
 
             divs.currentChord.textContent = currentChord;
             divs.currentNote.textContent = currentNote;
-            divs.objectFrequency.textContent = frequency;
+            divs.frequency.textContent = frequency;
             divs.image.src = `note_images/${image}`;
             divs.remaining.textContent = timeRemaining;
             divs.next.src = `note_images/${nextImage}`;
