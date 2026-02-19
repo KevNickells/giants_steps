@@ -2,7 +2,12 @@ const DURATION = 9;
 fetch("first_notes.json")
     .then((r) => r.json())
     .then((data) => {
-        console.log(data[0].full_chord);
+        const socket = io("http://localhost:5000");
+
+        socket.on("frequency", function (data) {
+            console.log(data.frequency.toFixed(1));
+        });
+
         const divs = {
             container: document.getElementById("container"),
             currentNote: document.getElementById("currentNote"),
