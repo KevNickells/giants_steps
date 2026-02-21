@@ -2,7 +2,7 @@ import numpy as np
 import pyaudio
 
 RATE = 44100
-CHUNK = 10000
+CHUNK = 4096
 FORMAT = pyaudio.paInt16
 
 
@@ -44,7 +44,11 @@ print("Listening for guitar input... (Ctrl+C to quit)")
 
 try:
     while True:
-        data = stream.read(CHUNK)
+        try:
+            data = stream.read(CHUNK, exception_on_overflow=False)
+        except IOError:
+            print("Input overflowed, skipping this chunk")
+            continue
         freq = get_frequency_autocorr(data, RATE)
 
         if freq > 50:
