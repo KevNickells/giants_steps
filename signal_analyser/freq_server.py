@@ -60,13 +60,8 @@ def audio_stream():
         freq = pitch_o(samples)[0]
         confidence = pitch_o.get_confidence()
 
-        if confidence > 0.8 and 50 < freq < 1400:
-            print(f"Frequency: {freq:.2f} Hz | Confidence: {confidence:.2f}")
+        if 50 < freq < 1400:
             socketio.emit("frequency", {"frequency": round(float(freq), 2)})
-        else:
-            print(
-                f"No confident pitch detected (freq: {freq:.2f}, confidence: {confidence:.2f})"
-            )
 
         time.sleep(0.005)
 

@@ -1,5 +1,5 @@
 const DURATION = 9;
-fetch("first_notes.json")
+fetch("_fourth_notes.json")
     .then((r) => r.json())
     .then((data) => {
         const divs = {
@@ -17,6 +17,7 @@ fetch("first_notes.json")
         const socket = io("http://localhost:5000");
 
         socket.on("frequency", function (frequencyData) {
+            console.log(frequencyData);
             divs.currentFrequency.textContent =
                 frequencyData.frequency.toFixed(1);
         });
@@ -29,11 +30,16 @@ fetch("first_notes.json")
                 const item = data[currentIndex];
                 let timeRemaining = DURATION;
 
+                const nextImage = data[currentIndex + 1]
+                    ? data[currentIndex + 1].image
+                    : "";
+
                 updateDisplay(
+                    currentIndex,
                     item.full_chord,
                     item.frequency,
                     item.image,
-                    data[currentIndex + 1].image,
+                    nextImage,
                     timeRemaining,
                 );
 
@@ -41,10 +47,11 @@ fetch("first_notes.json")
                     timeRemaining--;
                     if (timeRemaining >= 0) {
                         updateDisplay(
+                            currentIndex,
                             item.full_chord,
                             item.frequency,
                             item.image,
-                            data[currentIndex + 1].image,
+                            nextImage,
                             timeRemaining,
                         );
                     }
@@ -61,6 +68,7 @@ fetch("first_notes.json")
         }
 
         function updateDisplay(
+            currentIndex,
             currentChord,
             frequency,
             image,
@@ -69,6 +77,8 @@ fetch("first_notes.json")
         ) {
             const currentNote = image.replace(/\.png/, "");
             const nextNote = nextImage.replace(/\.png/, "");
+
+            console.log(currentIndex);
 
             divs.currentChord.textContent = currentChord;
             divs.currentNote.textContent = currentNote;

@@ -1,16 +1,71 @@
-#display {
+#container {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: gainsboro;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em;
 }
 
-#value {
+#currentChord {
+    position: absolute;
+    top: 2em;
+    left: 2em;
+    padding: 0.5em;
+    border: 1px solid white;
+}
+
+#image {
+    position: absolute;
+    top: 37%;
+    left: 30%;
+}
+
+#currentNote {
+    position: absolute;
+    top: 37%;
+    left: 30%;
+}
+
+#objectFrequency {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    background: white;
+    color: grey;
+    padding: 0.25em;
+}
+#currentFrequency {
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    font-size: 1.5em;
+    padding: 0.5em;
+    background: grey;
     color: white;
+}
+
+#remaining {
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    background: lightsteelblue;
+    color: white;
+    padding: 0.5em;
+}
+
+#next {
+    position: absolute;
+    top: 60%;
+    left: 80%;
+}
+
+#nextNote {
+    position: absolute;
+    top: 60%;
+    left: 80%;
 }

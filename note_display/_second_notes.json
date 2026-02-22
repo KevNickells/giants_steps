@@ -1,0 +1,206 @@
+[
+    {
+        "full_chord": "wait",
+        "frequency": 150.3123391304348,
+        "image": "D♯3.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "wait",
+        "frequency": 150.3123391304348,
+        "image": "D♯3.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "B♮ MAJ_SEVEN",
+        "frequency": 150.3123391304348,
+        "image": "D♯3.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "D♮ SEVEN",
+        "frequency": 89.37624347826088,
+        "image": "F♯2.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "G♮ MAJ_SEVEN",
+        "frequency": 122.06874298245616,
+        "image": "B2.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "B♭ SEVEN",
+        "frequency": 145.16504298245616,
+        "image": "D3.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "E♭ MAJ_SEVEN",
+        "frequency": 94.69082608695653,
+        "image": "G2.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "E♭ MAJ_SEVEN",
+        "frequency": 94.69082608695653,
+        "image": "G2.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "A♮ MINOR_SEVEN",
+        "frequency": 130.26315789473682,
+        "image": "C3.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "D♮ SEVEN",
+        "frequency": 89.37624347826088,
+        "image": "F♯2.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "G♮ MAJ_SEVEN",
+        "frequency": 122.06874298245616,
+        "image": "B2.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "B♭ SEVEN",
+        "frequency": 145.16504298245616,
+        "image": "D3.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "E♭ MAJ_SEVEN",
+        "frequency": 94.69082608695653,
+        "image": "G2.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "F♯ SEVEN",
+        "frequency": 112.60699130434783,
+        "image": "A♯2.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "B♮ MAJ_SEVEN",
+        "frequency": 150.3123391304348,
+        "image": "D♯3.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "B♮ MAJ_SEVEN",
+        "frequency": 150.3123391304348,
+        "image": "D♯3.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "F♮ MINOR_SEVEN",
+        "frequency": 103.38992763157894,
+        "image": "A♭2.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "B♭ SEVEN",
+        "frequency": 145.16504298245616,
+        "image": "D3.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "E♭ MAJ_SEVEN",
+        "frequency": 94.69082608695653,
+        "image": "G2.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "E♭ MAJ_SEVEN",
+        "frequency": 94.69082608695653,
+        "image": "G2.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "A♮ MINOR_SEVEN",
+        "frequency": 130.26315789473682,
+        "image": "C3.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "D♮ MINOR_SEVEN",
+        "frequency": 86.94023684210526,
+        "image": "F2.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "G♮ MAJ_SEVEN",
+        "frequency": 122.06874298245616,
+        "image": "B2.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "G♮ MAJ_SEVEN",
+        "frequency": 122.06874298245616,
+        "image": "B2.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "C♯ MINOR_SEVEN",
+        "frequency": 164.12127631578946,
+        "image": "E3.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "F♯ SEVEN",
+        "frequency": 112.60699130434783,
+        "image": "A♯2.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "B♮ MAJ_SEVEN",
+        "frequency": 150.3123391304348,
+        "image": "D♯3.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "B♮ MAJ_SEVEN",
+        "frequency": 150.3123391304348,
+        "image": "D♯3.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "F♮ MINOR_SEVEN",
+        "frequency": 103.38992763157894,
+        "image": "A♭2.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "B♭ SEVEN",
+        "frequency": 145.16504298245616,
+        "image": "D3.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "E♭ MAJ_SEVEN",
+        "frequency": 94.69082608695653,
+        "image": "G2.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "E♭ MAJ_SEVEN",
+        "frequency": 94.69082608695653,
+        "image": "G2.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "C♯ MINOR_SEVEN",
+        "frequency": 164.12127631578946,
+        "image": "E3.png",
+        "interval": "third"
+    },
+    {
+        "full_chord": "F♯ SEVEN",
+        "frequency": 112.60699130434783,
+        "image": "A♯2.png",
+        "interval": "third"
+    }
+]

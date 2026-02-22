@@ -13,6 +13,7 @@
           numpy
           flask
           flask-socketio
+          aubio
       ]);
     in {
       devShells.${system}.default = pkgs.mkShell {
